@@ -1,0 +1,1123 @@
+--- Extracted from DOCX ---
+ANGAWATCH ECO-COMMUNITY
+A First-Principles, Solar-and-Biogas Powered Community for 2,000 Families
+Yatta Plateau, Machakos County, Kenya · 1.17°S, 37.45°E
+Power the Community 2026 · Energy Mentors International
+Submission Deadline: April 15, 2026 by 23:59 GMT (2:59am EAT Apr 16) · energymentors.org/participate
+SECTION 01 EXECUTIVE SUMMARY
+Angawatch — from the Swahili-Maa fusion of anga (sky/atmosphere) and watch (guardian) — is Kenya’s entry for Power the Community 2026. It is a ground-up community for 2,000 families on the Yatta Plateau, Machakos County, 60km from Nairobi. Angawatch answers the competition’s founding question directly: we do not retrofit solar onto existing houses. We build houses around solar.
+What Angawatch Is — And What It Deliberately Is Not
+Angawatch is designed for economic optimisation and housing affordability — not off-grid environmental purity. This distinction is deliberate and honest. A nurse earning KES 40,000/month cannot afford the capital cost of a system engineered to function in complete grid isolation. What she can afford is a home where her electricity bill drops from KES 11,500 to KES 930 per month, where her mortgage is KES 33,015, and where her children go to school 400 metres from her front door. Angawatch is a Grid-Interactive Microgrid with Islanding Capability — it connects to the KPLC grid, exports surplus solar for income, imports emergency power during the long rains, and can island-operate during grid outages. This architecture is cheaper, more resilient, and more bankable than a true off-grid system of equivalent size.
+Why Biogas Goes to Schools and Clinics — Not Homes
+The community biogas plant produces 773 m³/day of usable gas. This is not enough to cook for 2,000 families — and any document that claims otherwise is mathematically incorrect. The correct figure for 2,000 households would require approximately 3,200 m³/day, more than four times what our system produces. The honest engineering decision: direct all institutional biogas to the Community Health Centre, two schools, and the community market kitchen. These three facilities currently cook on LPG or charcoal. Replacing their cooking fuel with biogas eliminates PM2.5 exposure for 400 children in school kitchens daily and reduces institutional cooking costs by KES 890,000/year. This is a higher-impact use of limited biogas than spreading it thinly across 2,000 homes where LPG SACCO bulk-procurement already delivers a 15–20% cost reduction. Individual homes transition from SACCO LPG to solar induction cooking in Phase 3 (Year 10+) as solar surplus grows. Maximum impact with the resource available — not maximum coverage.
+The 80/20 Principle — Three Decisions Deliver 80% of All Benefit
+In the spirit of the competition’s engineering philosophy — most improvement with least input — three decisions account for 80% of Angawatch’s resident benefit:
+DECISION 1 — Biogas system + community LPG SACCO replacing charcoal. The biogas plant (KES 65M) supplies clean gas to the CHC, schools, and community market, eliminating PM2.5 from institutional cooking entirely. Individual households shift from retail LPG (KES 1,560/month) to community SACCO bulk-procured LPG (KES 1,260–1,330/month), saving KES 230–300/month immediately. Phase 3 (Year 10+) transitions homes to solar induction cooking on surplus solar. The biogas system generates 254 MWh/year electricity (with 40-cow commercial dairy). BCR ~2.8 — still the best investment in the project.
+DECISION 2 — CSEB construction from Yatta volcanic laterite. Eliminates mechanical cooling entirely (zero kWh for AC), reduces build cost 35% vs concrete block, employs community labour during construction, and provides lifelong passive thermal comfort. Zero operating cost.
+DECISION 3 — M-Pesa SmartMeter community tariff at KES 9/kWh. Requires KES 2.5M software development. At 150 kWh/month planned household consumption, saves each family KES 2,400/month versus KPLC’s KES 25/kWh (KES 1,350 vs KES 3,750 for same 150 kWh). A Nairobi-equivalent household consuming 460 kWh/month saves KES 7,360/month — the community tariff rate advantage is 64% regardless of consumption level. Citizens buy their own units, control their own consumption, receive net metering credits directly to their mobile wallet — energy governance controlled by residents, not a central utility.
+Key Metrics
+What Makes Angawatch Original
+YattaFarm Solar-Pumped Canal Irrigation — 15,000m³ retention pond at the highest elevation of YattaFarm. A 10kW solar high-lift pump at the canal boundary pumps water uphill into the pond. The full pond then acts as a massive gravity header-tank, distributing water downhill to the entire drip irrigation network by gravity. First community in Kenya to combine a pumped-fill upslope reservoir with solar-powered gravity distribution to a cooperative farm.
+M-Pesa SmartMeter Energy Payments — Residents buy electricity tokens via USSD/WhatsApp using the same M-Pesa infrastructure 56 million Kenyans already use. Unique Kenyan innovation no other competition team can replicate.
+Biochar from Digestate — Solid fraction of biogas digestate pyrolised into biochar for sale to Machakos flower farms. Carbon-negative, zero-waste, additional revenue.
+Battery Swap Station for Bodas — Ampersand/Roam-model swappable 1.85 kWh packs for 50 Roam Air electric motorcycles. 2-minute swap replaces 8-hour charge wait. Already operational model in Kenya.
+CSEB from Yatta Basaltic Laterite — Yatta Formation volcanic laterite requires only 5% cement stabiliser vs standard 8-10%, reducing embodied carbon and cost.
+SECTION 02 SITE SELECTION — YATTA PLATEAU, MACHAKOS COUNTY
+Angawatch is sited at 1.17°S, 37.45°E on the Yatta Plateau escarpment, near Matuu town, Yatta Sub-County — 60km southeast of Nairobi along the A109 highway and 25km from Athi River SGR station.
+Site Parameters
+Land Use — 100–102 Hectares (Revised for Mixed Typology)
+SECTION 03 CRITICAL NEEDS — STATEMENT SUPPORTED BY REFERENCES
+Every design decision in Angawatch traces to a specific, referenced problem. The following six needs are documented from government, WHO, and field data sources. References appear in Section 22.
+Need 1 — Household Air Pollution from Solid Fuel Cooking (and why LPG alone is not enough)
+The World Health Organisation (2022) reports that household air pollution from cooking on solid fuels — charcoal, firewood, animal dung — is responsible for 3.2 million deaths per year globally, including over 237,000 deaths of children under five. Around 2.4 billion people cook this way. In Machakos County, over 70% of rural households cook on charcoal or firewood (KNBS 2019 Census). Indoor PM2.5 concentrations during charcoal cooking reach 300–1,000 µg/m³ — up to 67× the WHO 24-hour safe limit of 15 µg/m³. Angawatch’s three-phase approach: Phase 1 — all residents switch from charcoal to LPG via community bulk SACCO procurement (immediate PM2.5 reduction). Phase 2 — biogas supplied to CHC, schools, and community market (institutional cooking goes near-zero PM2.5). Phase 3 — solar induction cooking for homes (Year 10+ as solar surplus grows). LPG with proper ventilation is a dramatic improvement over charcoal — PM2.5 drops from 300–1,000 µg/m³ to 10–30 µg/m³, far below charcoal but higher than biogas. This phased approach is honest and achievable.
+Need 2 — Energy Poverty
+KPLC connection rates in Yatta sub-county: 45–60%, far below Nairobi’s 95%+. Where KPLC reaches homes, domestic tariffs of KES 25–28/kWh consume a disproportionate share of income. The Yatta region experiences 15–25 power outages per year, with each outage averaging 4–8 hours (KPLC Outage Report 2024). Angawatch’s community solar provides power at KES 9/kWh — 64% cheaper — with 99.6% annual uptime.
+Need 3 — Cooking Cost and Transition Strategy
+Current situation: 70%+ of Yatta households cook on charcoal or firewood. The nurse-teacher family that has already switched to LPG pays KES 1,560/month (1.2 × 6kg cylinders). Those still on charcoal pay KES 2,500–4,000/month but suffer severe indoor air pollution. Angawatch’s phased cooking strategy: Phase 1 (Years 1–5) — Community LPG SACCO buys cylinders in bulk from TOTAL Energies Kenya at 15–20% discount. Resident cost: KES 1,260–1,330/month. Saving vs retail LPG: KES 230–300/month. Saving vs charcoal: KES 1,200–2,700/month. Phase 2 — Biogas from the community plant supplies the CHC, schools, and community market kitchen. Phase 3 (Year 10+) — Solar induction cooking for homes as solar surplus grows. From charcoal to LPG to solar: a realistic, funded, 10-year cooking transition.
+Need 4 — Transport Poverty
+Current matatu fares: Matuu to Machakos KES 120–180 one way. Return: KES 240–360/day × 22 working days = KES 5,280–7,920/month. Angawatch electric community e-matatu: KES 80–100/trip × 2 × 22 days = KES 3,520–4,400/month. Saving: ~KES 4,840/month. Boda operators currently spend KES 6,000–8,000/month on petrol. Roam Air electric boda: KES 50/day charging = KES 1,500/month. Saving: KES 5,500–6,500/month.
+Need 5 — Healthcare Access
+Machakos County doctor-to-patient ratio: 1:8,000 (Machakos County CIDP 2023–2027). WHO recommended minimum: 1:1,000. Angawatch’s 50-bed CHC staffed primarily by resident nurse families brings healthcare within walking distance. Telemedicine link to Machakos Level 5 Hospital via broadband connectivity.
+Need 6 — Education Infrastructure
+Yatta sub-county school pupil-to-classroom ratio: 50+ (national average). Angawatch Primary and Secondary schools achieve 30 pupils per class. With approximately 300 resident teacher families, teachers live within walking distance of their workplace — eliminating the teacher housing shortage that afflicts rural Kenyan schools.
+SECTION 04 COMMUNITY ARCHETYPES — WHO ANGAWATCH IS BUILT FOR
+To guide our engineering parameters, financial modelling, and unit mix decisions, we developed three Core User Archetypes. These are Human-Centered Design composite personas — not specific individuals quoted verbatim, but representative profiles constructed from KNBS 2019 Census data, Kenya TSC salary scales (2023), NCK nurse grade salary schedules, and brief on-the-ground surveys with residents of Matuu and Yatta townships in early 2026. Every design decision — housing size, transport cost, cooking fuel, energy budget — is calibrated against at least one archetype.
+Archetype 1: The Rural Nurse — Composite profile representing public health and education households earning KES 95,000–134,000 combined
+This archetype represents the dual-income professional family — the primary beneficiary and most common household type at Angawatch, making up approximately 60% of the 3BR resident population.
+What residents in this income bracket actually say when asked about energy costs: ‘Tokens zinaisha haraka sana — na wakati wa load shedding, chakula inaharibika.’ (Tokens run out too fast — and when there’s load shedding, the food goes bad.) This reflects the KNBS finding that 68% of peri-urban Machakos households cite electricity cost and reliability as their top household expense concern after rent.
+What they say about cooking: ‘Smoke from the jiko makes the children cough, but gas is too expensive to buy all at once — you cannot buy half a cylinder.’ This captures the real barrier: not the monthly cost but the upfront refill cost of KES 1,300–1,500 in a single transaction. The SACCO bulk procurement model solves this by spreading the cost.
+Archetype 2: The Boda Boda Operator — Composite profile representing transport and informal trade workers earning KES 30,000–48,000/month
+This archetype represents the self-employed informal sector worker — the 1BR cooperative rental resident. Approximately 7.5% of the Angawatch population. The honest design tension: this income bracket is at the lower edge of affordability even for the 1BR cooperative rental.
+What residents in this income bracket actually say: ‘Boda ni kazi ngumu — petrol inapanda kila wiki, lakini hakuna alternative.’ (Boda is hard work — petrol rises every week, but there is no alternative.) This reflects EPRA data showing petrol prices in Machakos County rose 34% between January 2022 and December 2023.
+What they say about housing aspiration: ‘Nataka mahali salama — si lazima kubwa, lakini salama na stima inayofanya kazi.’ (I want somewhere safe — not necessarily big, but safe and with electricity that works.) The 1BR cooperative rental at KES 10,000–12,000/month directly addresses this.
+Archetype 3: The Deputy Principal — Composite profile representing senior civil servants and upper-tier professionals earning KES 120,000–200,000 combined
+This archetype represents the 4BR resident — approximately 1% of the population. A small but important cohort: if Angawatch cannot attract senior professionals, the schools and CHC cannot function at the standard the community requires.
+What residents at this income level say about Yatta: ‘The land is good and it is not far, but who will teach my children if all the good teachers are in Nairobi?’ This is the circular problem Angawatch breaks: senior professionals will not move to areas that lack quality schools and medical facilities. The integrated 30-pupil-per-class school and 50-bed CHC are the answer.
+What they say about energy: ‘I work night shifts — I need the lights and the fridge to work. I cannot budget for a generator every time KPLC fails.’ The 99.6% uptime argument is more important for this archetype than the cost savings.
+SECTION 05 HOUSING — WHY NURSES AND TEACHERS CHOOSE ANGAWATCH
+The most important question the competition judges will ask is: would real nurses and teachers actually want to live here? The answer must be yes for reasons that go beyond cost savings — people do not move their families 60km from Nairobi for a spreadsheet. These are the genuine pull factors.
+5.1 Pull Factors — Why Angawatch, Not Just ‘****Somewhere Cheaper****’
+5.2 Rent vs Own — The Dual Tenure Model
+Not every resident will be ready or able to take on a 25-year mortgage from Day 1. Angawatch operates a dual tenure model: the community cooperative owns a block of units that are rented to residents who are in the mortgage qualification process, on short-term contracts, or simply prefer renting. This also provides early cash flow for the cooperative during the construction phase.
+The rental option means Angawatch is accessible to a junior nurse (KES 40,000 sole income) who cannot qualify for a mortgage today but wants to establish roots in the community. Rental income from cooperative-owned units is already included in the KES 178.4M/year community revenue figure.
+5.3 Population Verification — Aligned with Competition Brief
+Population arithmetic: 300 + 4,520 + 3,150 + 120 = 8,090. This is the cleanest possible answer to the competition‘s ’family of 4, plus or minus’ brief: 1,830 units designed exactly for families of 4; 170 units for the plus/minus cases.
+5.4 Honest Income Range
+ALIGNED WITH COMPETITION BRIEF: The competition specifies a baseline demographic of a 4-person family (2 parents, 2 children). The Angawatch unit mix was reverse-engineered from this constraint. The 2-Bedroom apartment is the quintessential Kenyan Starter Family Home: parents in the master bedroom, two children sharing the second bedroom — a 4-person household in a 2BR. The 3-Bedroom maisonette is for the same family when children are older and need separate rooms. Together, 1,130 × 2BR + 700 × 3BR = 1,830 units = 91.5% of the entire community. These are the ‘Core Family Units.’ The remaining 8.5%: 150 × 1BR for young professionals and childless couples (the ‘minus’ demographic), and 20 × 4BR for larger multi-generational families (the ‘plus’ demographic). This mix literally quotes the competition brief’s own ‘plus or minus’ language back to the judges.
+KMRC Affordability — VAT-Inclusive Construction Cost KES 46,500/m² (All units sold except 150 × 1BR cooperative rentals)
+EMI Formula: P × [r(1+r)^n] / [(1+r)^n − 1] where r = 0.7492%/month, n = 300 months. Factor = 0.008384.
+Construction cost KES 46,500/m² (VAT-inclusive blended): KES 43,000/m² base + 16% VAT on non-exempt materials. Solar, CSEB, batteries are VAT-exempt (Finance Act 2023). Non-exempt materials (cement, steel, cable, fittings) attract 16% VAT. Blended rate ~8% increase over ex-VAT base. Still 25–28% below equivalent concrete block construction at VAT-inclusive rates.
+The 3BR at 37.1% of KES 110K gross exceeds KMRC 30% guideline. AHP subsidy is not optional — it is required for any mid-level household buying 3BR. The AHP subsidy can reduce effective EMI by KES 5,000–10,000/month via interest subsidy and capital grant. Without AHP, the 3BR is only accessible at KES 136,000+ combined gross income. The 2BR at KES 33,015 (30% of KES 110K) is the genuinely accessible ownership unit for the typical mid-level nurse-teacher family.
+Unit Mix — 2BR and 3BR Dominant
+Hybrid Tenure Model — Apartments Rent, Maisonettes Own
+Angawatch employs a Hybrid Tenure Model that matches the financial reality of its two target demographics. The architecture already splits into two typologies — this section formalises the corresponding financial model for each.
+WHY ONLY 150 1BR UNITS ARE RENTED: Build-to-rent for all 1,280 apartments would require the cooperative to borrow ~KES 4.48B at 7–9% DFI rates while achieving only a 5.4% gross rental yield — a financial death spiral. The correct model: 1,130 × 2BR sold via KMRC Sectional Title Mortgages; 720 maisonettes sold via KMRC mortgages. Only the 150 × 1BR studios are retained as cooperative rental (KES 19.8M/year). KMRC provides mortgages to end-user homebuyers — not to cooperative landlords. All 1,850 sold units generate KES 7,974M that retires the DFI construction bond (4,449+3,409+116 = 7,974M).
+Ekeja Cluster Model — Apartment Organisation
+Angawatch organises its 1,280 apartment units into 20 Ekeja clusters of approximately 64 units each, arranged around a shared central courtyard containing a laundry court, children’s play area, reed-bed greywater garden, and community seating. Each cluster has its own CATL EnerOne BESS sub-unit and microgrid capable of islanding independently.
+Construction Features — Every Unit
+CSEB walls: Yatta basaltic laterite + 5% cement binder, pressed on-site by Angawatch Block Enterprise. Lower stabiliser ratio than standard 8-10% due to natural volcanic mineral binders in Yatta Formation rock.
+Yatta laterite-lime render: 15mm external render using on-site laterite + 15% hydrated lime + 5% CSEB fines. Breathable, moisture-regulating, 60% solar reflectance. Not cement plaster — not concrete block aesthetics.
+LPG connection stub in kitchen: 2-burner hob connection point. Phase 1: community SACCO-procured LPG cylinders at bulk discount rate (KES 1,260–1,330/month). Phase 3: converted to solar induction cooker as surplus solar grows. Biogas supplies CHC, schools, community market — NOT individual apartments (insufficient yield from human waste alone).
+M-Pesa SmartMeter (Kaifa MA105): Token-based prepayment. Residents buy units via USSD *384# or WhatsApp. Tokens SMS-delivered in <15 seconds. Net metering credits returned to M-Pesa wallet.
+Solar water heater (flat-plate 2m² per unit): Eliminates electric geyser load. Delivers 100–120 litres of hot water daily at Yatta’s 5.18 kWh/m²/day irradiance.
+Standard adjustable aluminium louvred windows with externally mounted insect screens and internal lever operation: NOT double-glazed (wrong climate — Yatta is warm, not cold). Louvres allow precise control of ventilation — open during cool SE trade wind breezes, closed during dust storms. External screens keep insects out without blocking lever access. Essential for malaria-endemic Machakos County.
+Ventilated roof cavity: 150mm air gap between concrete slab and corrugated steel roof sheet. Ridge vents at roof apex allow convective escape of hot air. Keeps slab temperature 8–12°C below roof surface temperature.
+No mechanical air conditioning: CSEB thermal mass + ventilated cavity + louvred windows maintain 20–27°C interior at 1,450–1,550m elevation. Heating demand = ZERO (minimum ambient 12°C in July — above WHO comfort minimum of 18°C for sleeping rooms, comfortable in Kenyan cultural context).
+Broadband fibre (FTTB): Safaricom or Jamii Telecom (Faiba) fibre to building riser. Cat6 horizontal run to each apartment. Essential for teachers (lesson prep, KNEC marking), nurses (NHIF portal, telemedicine), and Mohamed’s online spare parts ordering.
+Communal laundry courtyard per Ekeja cluster: Concrete line-posts, covered drying section, floor drainage. 4 × semi-commercial 8kg front-load washing machines per cluster (1 per 25 units). No tumble dryers — sun-drying is standard Kenyan practice.
+SECTION 06 FLOOR PLANS &** ELECTRICAL LOAD SCHEDULES — NYUMBA YA ANGAWATCH**
+All four unit types have been drawn and verified in Floorplanner.com. The actual drawn dimensions are recorded below alongside the design specification. Where minor variances exist (1BR: 46m² drawn vs 42m² spec; 2BR: 78m² vs 75m²; 3BR: 101m² vs 95m²; 4BR: 117m² vs 115m²) these reflect wall thickness inclusion in the drawing tool and are within normal architectural tolerance. Each unit type is accompanied by a full electrical load schedule — the basis for the energy audit in Section 8.
+DUAL TYPOLOGY — How Units Sit in Their Buildings
+1BR and 2BR units (1,280 total) occupy 5-storey Ekeja apartment blocks. Ground floor: 2 commercial units. Floors 2–5: 4 apartments per floor around a central stairwell and lift core. 3BR and 4BR units (720 total) are single-storey bungalow maisonettes with private front gardens (4m deep), private entrances at ground level, and rear drying yards. The typology split matches the tenure model: apartments are cooperative rental, maisonettes are KMRC mortgage sales.
+UNIT 1 — 1-Bedroom Studio
+As-Drawn Dimensions: 7.30m × 6.30m | Floor Plan Area: 46m² | Spec: 42m²
+1BR Electrical Load Schedule — 2 Residents
+Peak simultaneous load (kettle + iron + TV + fan + lights): 1,800+1,000+50+50+36 = 2,936W ≈ 3.0kW. Circuit breaker: 16A.
+UNIT 2 — 2-Bedroom Apartment
+As-Drawn Dimensions: 10.30m × 7.60m | Floor Plan Area: 78m² | Spec: 75m²
+FLOOR PLAN CORRECTIONS REQUIRED: (1) Kitchen drawn at 2.60m × 2.07m = 5.4m² — needs to be minimum 3.0m wide for LPG hob, oven point and worktop. Redraw kitchen to 3.0m × 3.0m. (2) Living room at 2.59m × 3.34m = 8.7m² is too small for a family of 4. A family sofa arrangement needs minimum 4.0m × 3.5m. Extend living room by borrowing from hallway width — reduce hallway to strict 1.2m corridor. (3) The large master bedroom at 5.42m × 3.02m = 16.4m² is actually oversized for a 2BR — reduce to 4.0m × 3.5m and give the saved space to the living room.
+2BR Electrical Load Schedule — 4 Residents (Parents + 2 Children)
+Peak simultaneous load (kettle + iron + fans × 2 + TV + lights): 1,800+1,000+100+65+63 = 3,028W ≈ 3.0kW. Circuit breaker: 20A (4.8kW capacity).
+UNIT 3 — 3-Bedroom Maisonette
+As-Drawn Dimensions: 9.80m × 10.30m | Floor Plan Area: 101m² | Spec: 95m²
+FLOOR PLAN CORRECTIONS REQUIRED: (1) Three bedrooms drawn at similar sizes — differentiate: master should be largest (15m²), bedroom 2 medium (12m²), bedroom 3 smallest (10m²). (2) En-suite bathroom missing from master bedroom — the 3BR spec explicitly requires a 5m² en-suite attached to master. Add a 2.5m × 2.0m en-suite partition accessed from master bedroom only. (3) Overall 101m² is 6m² over spec — trimming the hallway width and slightly reducing bedroom 1 will bring this to ~95m².
+3BR Electrical Load Schedule — 4–5 Residents (Established Family)
+Peak simultaneous load (kettle + iron + fans × 2 + TV + lights): 1,800+1,000+100+75+90 = 3,065W ≈ 3.1kW. Circuit breaker: 20A. This unit has the most intensive load profile due to dual professional household (teacher + nurse) with multiple study-age children.
+UNIT 4 — 4-Bedroom Bungalow
+As-Drawn Dimensions: 11.39m × 10.30m | Floor Plan Area: 117m² | Spec: 115m²
+FLOOR PLAN ASSESSMENT: The 4BR plan is the strongest of the four. The living room at 6.97m × 3.98m = 27.7m² is excellent — generous enough for a full family arrangement. The kitchen at 4.42m × 3.0m = 13.3m² is well sized. Two bathrooms are correct (en-suite to master + family bathroom). The smallest bedroom at 2.67m × 3.67m = 9.8m² is tight but workable for the youngest child with a Murphy bed. The narrow bathroom strip at 0.98m wide needs to be expanded to minimum 1.5m — a person cannot turn around in 0.98m. The 2.3m² overage on spec is minor and acceptable.
+4BR Electrical Load Schedule — 6 Residents (Large/Multi-generational Family)
+Peak simultaneous load (2 × iron + kettle + fans × 3 + TV 50 + lights): 2,000+1,800+150+90+126 = 4,166W ≈ 4.2kW. Circuit breaker: 25A (6.0kW capacity). This is the highest peak load in the community — the 25A breaker provides adequate headroom.
+Load Schedule Summary — All Unit Types
+IMPORTANT NOTE: The load schedule totals here (2,879 MWh/year) are more detailed than the earlier energy audit (2,724 MWh/year) because additional loads have been incorporated: security lights, USB charging hubs, children study lamps, medical equipment, printers, and stereo systems — items present in real Kenyan professional households but omitted in the initial audit. The Section 8 energy demand total of 4,355 MWh/year includes community facilities (CHC, schools, farm, EV fleet, pumps) and is not affected by this residential refinement. The residential component within Section 8 should be read as 2,726 MWh (audit baseline — corrected); the load schedules here provide the per-unit breakdown.
+SECTION 07 PASSIVE DESIGN &** BUILDING ENGINEERING**
+All energy efficiency in the housing units is achieved through passive design — no active mechanical systems. At Yatta Plateau’s elevation and latitude, first-principles analysis shows that passive measures alone are sufficient to maintain comfort across all seasons.
+1. Thermal Mass — CSEB Walls
+300mm CSEB walls (Yatta basaltic laterite + 5% cement) provide a thermal mass of approximately 450 kJ/m²·K. Yatta’s diurnal temperature swing is 12–14°C (peak 29–32°C afternoon, trough 16–18°C dawn). The CSEB wall absorbs heat during the hot afternoon and releases it slowly overnight, maintaining interior temperatures within 20–26°C throughout the 24-hour cycle. This eliminates all mechanical cooling — the walls are the air conditioner.
+2. Ventilated Roof Cavity — NOT Insulation
+Wall insulation is NOT specified and would be harmful. Standard insulation (rockwool, foam board) traps heat inside the building at night, preventing the natural cooling that Yatta’s cold nights provide. Instead, a 150mm ventilated air cavity sits between the concrete slab and the corrugated iron roof sheet. Hot air from the roof surface rises through the gap and exits via ridge vents, keeping the slab 8–12°C cooler than the roof surface. This eliminates roof-to-ceiling radiant heat gain during the hottest hours. Heating demand = ZERO. Yatta’s minimum temperature (12°C, July nights) is within the range Kenyan residents find comfortable under bedding — no heating system is installed or budgeted.
+3. Yatta Laterite-Lime Render — Local Material Innovation
+External wall surfaces use Yatta laterite-lime render: 15mm of on-site Yatta Formation basaltic laterite mixed with 15% hydrated lime and 5% CSEB fines. This is not standard cement plaster. It is breathable (vapour-permeable), allowing the CSEB wall to regulate moisture without condensation. The off-white natural pigment achieves 60% solar reflectance vs 30% for dark cement plaster. Applied by community self-help groups trained during construction — lowers labour cost and transfers skills. Local name: ‘Rangi ya Ardhi’ (Earth Colour).
+4. Cross-Ventilation — Louvred Windows
+Standard adjustable aluminium louvred windows — NOT casement (casement = side-hinged swinging frame, incompatible with louvres) and NOT double-glazed (cold climate technology, would trap daytime heat). Each apartment has east-facing and west-facing louvred windows: horizontal aluminium slat louvres operated by an internal hand lever. The lever turns the slat angle from fully closed to fully open, providing 3–5 air changes per hour. Externally mounted insect screens (fine mesh, no frame intrusion into lever mechanism) protect against malaria-bearing mosquitoes. Stack ventilation through the open stairwell draws air passively upward through the building.
+5. Solar Water Heating — Eliminating Electric Geysers
+Every unit has a 2m² flat-plate solar thermal collector on the roof feeding a 150L insulated tank. At 5.18 kWh/m²/day irradiance and 65% thermal efficiency, each system delivers 95–120 litres of hot water per day (sufficient for 4–5 people showering). Electric instant water heaters (Ariston-type commonly used in Kenyan middle-income housing) draw 3–5 kW — their complete elimination saves 1.5 kWh/day per household = approximately 1,095 MWh/year community-wide (2,000 units × 1.5 kWh × 365). This saving is already embedded in the residential appliance audit tables which show 0 kWh for water heating — the solar thermal system is the reason.
+6. Underground Cabling — Not Overhead
+All internal distribution cables are underground XLPE armoured cable. Overhead line alternatives were considered and rejected: (1) Machakos County experiences severe afternoon thunderstorms March–May — overhead lines suffer disproportionate fault rates during these events. (2) A 90-hectare planned community with 20 Ekeja clusters and regular tree planting would require continuous wayleave clearing for overhead lines. (3) Underground cabling is more aesthetically appropriate for a premium community and eliminates visual clutter over green spaces and courtyards.
+Summary — Passive Design Performance Targets
+SECTION 08 TOTAL COMMUNITY ENERGY DEMAND — SECTOR-BY-SECTOR
+Complete annual electrical energy demand calculation for all 2,000 units and all community facilities. Cooking is supplied by community SACCO LPG (not electricity). Solar water heating eliminates electric geyser loads. No AC units — passive thermal mass design maintains comfort.
+System Sizing Methodology — Software vs First-Principles
+Angawatch uses a two-track methodology to validate its energy system design, avoiding both pure software black-box dependence and pure hand-calculation risk.
+TRACK 1 — Primary Solar PV Generation: Validated using SMA Sunny Design 6.11.2, the industry-standard tool from the world’s largest solar inverter manufacturer. Site coordinates -1.07°S, 37.43°E. Nairobi meteorological station (71km). Validated yield: 5,479.85 MWh/year at 1,630 kWh/kWp specific yield, PR 0.82. String design safety confirmed: max DC voltage 973V safely below 1,000V inverter limit. This is not a hand calculation — it is third-party software validation with a dated project report (April 7, 2026) attached as Appendix A.
+TRACK 2 — BESS Sizing, Dispatch Logic, and Biogas Integration: Calculated via transparent, first-principles engineering documented in full in Section 11. CATL LFP degradation modelled at 6,000-cycle rated life. Overnight demand calculated from the sector-by-sector audit in this section. Biogas dispatch calculated from measured feedstock inputs (verified dairy cow count, digester efficiency factors from IEA Bioenergy). This approach was chosen over HOMER Pro or similar simulation tools because: (1) transparent assumptions can be audited line-by-line by any engineer; (2) CATL-specific degradation curves are embedded in the manufacturer datasheet, not a generic simulation library; (3) the biogas-BESS-grid three-way dispatch logic in our system does not match any standard simulation tool’s preset architecture.
+JUDGES NOTE: The Sunny Design report validates the solar yield component (94% of total generation) with instrument-grade precision. The BESS and biogas calculations use conservative engineering assumptions documented in Sections 10 and 11. Any reviewer can audit every number from first principles.
+8.1 Residential Demand — By Unit Type (Split Tables)
+1-Bedroom Units — 150 units — 2 residents average
+Peak simultaneous load: kettle + iron + fan + TV + lights = 1,800 + 1,000 + 50 + 50 + 36 = 2,936W ≈ 3.0 kW. Circuit breaker: 16A (3.84 kW capacity).
+2-Bedroom Units — 1,130 units — 3–4 residents average
+Peak load: 1,800 + 1,000 + 100 + 65 + 63 = 3,028W ≈ 3.0 kW. Circuit breaker: 20A per apartment.
+3-Bedroom Units — 700 units (600 ownership + 100 cooperative rental) — 4–5 residents average
+The teacher laptop running 5 hours/day adds 325 Wh/day vs the 2BR unit. This is specific to the teacher-in-residence: KNEC exam marking, O-level lesson plans, student reports. The laptop is essential professional equipment, not optional.
+4-Bedroom Units — 20 units — 5–6 residents average
+Residential Energy Summary — All Unit Types
+RESIDENTIAL TOTAL: 2,726 MWh/year. Final corrected figure: (1) 2BR increased to 1,130 units; (2) 4BR reduced to 20 units (from 50 — only ~50–70 households at Angawatch can afford this tier, and most prefer 3BR); (3) 3BR: 700 units (600 ownership + 100 cooperative rental). Average per-unit consumption: 96 kWh/month.
+8.2 Community Health Centre — 50-Bed Facility
+8.3 Schools — Primary + Secondary
+8.4 Jua Kali Industrial Zone — 50 Bays
+50 workshop bays: metal fabrication, carpentry, auto mechanics, tailoring, electronics repair. Diversity factor 0.60 (not all bays at full load simultaneously). MANDATORY extraction fans for health and safety.
+8.5 YattaFarm Cold Storage — 2 × 20-Tonne Rooms
+8.6 EV Fleet and Boda Swap Station
+8.7 Common Services
+8.8 TOTAL COMMUNITY DEMAND SUMMARY
+8.9 Two-Season Daily Energy Profile
+DRY SEASON DAY — July (Best Solar, Biogas Normal)
+WET SEASON DAY — April (Lowest Solar, Biogas Critical)
+KENYAN SEASONAL METEOROLOGY: Kenya experiences a bimodal rainfall pattern — the Long Rains (March–May, peaking in April) and the Short Rains (October–December) — which significantly reduces solar irradiance during these months. April is the design stress month: cloud cover can cut daily irradiance from 5.14 kWh/m²/day down to 2.5–3.5 kWh/m²/day for extended periods. Instead of economically ruining the project by oversizing the battery bank by 300% to survive these cloudy weeks, Angawatch realistically utilises a grid-interactive safety net (importing ~22 MWh/year from KPLC during the long rains) and extends the biogas genset operation from 8 hours/day to 14 hours/day during April. Biogas feedstock in April is actually HIGHER than normal because the rains increase organic material production from YattaFarm — the system is naturally more resilient exactly when it is most stressed. No load shedding occurs in any scenario modelled.
+SECTION 09 SOLAR PV SYSTEM — COMPLETE TECHNICAL DESIGN
+Solar PV is the primary generation source at Angawatch. It is not retrofitted onto existing houses — it is the reason the buildings are oriented and structured the way they are. The roof pitch, orientation, structural loading, cable conduit routing, and inverter room placement are all determined by the solar requirement from Day 1 of design.
+9.1 Energy Alternatives Evaluated
+9.2 Panel Specification — Jinko Solar JKM425N-54HL4R-BDB Tiger Neo N-Type (Sunny Design Validated)
+SUNNY DESIGN VALIDATION: The original panel specified was the JKM415M-54HL4-B (415W, 2021 model). Sunny Design’s panel database includes the upgraded 2024 model: JKM425N-54HL4R-BDB Tiger Neo N-Type Bifacial 425W. This is a newer, better version of the same panel family — N-Type cell technology, higher efficiency, bifacial gain. Using this upgraded panel reduces count from 7,904 to 7,680 for the same 3,360 kWp installed capacity. Sunny Design independently calculated annual yield of 5,479.85 MWh — validating the design within 0.6% of hand calculations.
+9.3 Series String Design — Temperature Safety Calculations
+Before wiring panels in series, string voltage must be checked against inverter DC input limit at coldest operating temperature. Cold panels have HIGHER voltage than STC rated.
+VOC at min temp = VOC_STC × (1 + |TempCoeff_VOC| × (T_min − T_STC))
+VOC_max = 37.2 × (1 + 0.0028 × (12°C − 25°C)) = 37.2 × 1.0364 = 38.55V per panel
+VMPP at max temp = VMPP_STC × (1 + TempCoeff_Pmax × (T_cell_max − T_STC))
+VMPP_min = 30.9 × (1 + (-0.0035) × (70°C − 25°C)) = 30.9 × 0.8425 = 26.03V per panel
+9.4 Parallel Configuration and Inverter Specification
+9.5 Physical Panel Layout — Where the Panels Go
+SECTION 10 COMMUNITY BIOGAS SYSTEM — COOKING PRIMARY, ELECTRICITY SECONDARY
+CORRECTED FRAMING: Earlier versions of this document claimed biogas would supply cooking gas to all 2,000 households. This was based on a 4× overestimate of methane yield from human waste and sawdust. The honest calculation gives 773 m³/day of usable biogas (with a 40-cow commercial dairy lease) — enough to supply institutional cooking (CHC, schools, community market) and run the Cummins genset for 254 MWh/year of electricity. Individual homes use community SACCO bulk-procured LPG in Phase 1, transitioning to solar induction in Phase 3. The biogas system’s BCR of ~2.8 is still the best in the project, based on institutional cooking savings + electricity generation.
+10.1 Corrected Feedstock Mass Balance — Honest Per-Source Yields
+The previous version used a blanket yield of 0.45 m³/kg VS for all feedstocks. This was incorrect. Human waste has already had most of its energy extracted by the digestive system — its real methane yield is 0.25 m³/kg VS. Sawdust is lignocellulosic and resists anaerobic digestion at 0.20 m³/kg VS. The corrected calculation shows why a supplementary feedstock source (privately leased zero-grazing dairy) is necessary to reach viable gas volumes without relying on a cooperative-owned pig unit.
+10.2 Commercial Dairy Lease — The Smart Way to Get Manure Without Doing the Work
+CONTEXT: Machakos County is one of Kenya’s most active livestock farming areas. The Yatta Plateau is renowned for indigenous goat farming, and there has been a massive recent surge in zero-grazing dairy goats (Toggenburg and Alpine breeds) prized for high milk yield on minimal water and space. Dairy cows (Friesian and Ayrshire) also thrive at Yatta’s 1,450m elevation wherever reliable water exists. With the Yatta Canal and the community’s 15,000m³ retention pond, Angawatch has exactly the water security that makes a premium dairy operation attractive to an agri-entrepreneur.
+THE MODEL: Angawatch does not own the animals. The cooperative takes 1 acre at the YattaFarm boundary and offers it to a private dairy farmer under a Commercial Lease Agreement. This is one of the most strategically elegant decisions in the project: the cooperative gets free daily manure delivered to the biogas plant; the farmer gets secure land, guaranteed water, and a location adjacent to a captive market of 8,000 potential dairy customers. Zero work for the cooperative. Strong local economic empowerment. No cultural or religious governance conflict.
+10.3 Gas Allocation — Honest Volumes
+BIOGAS ELECTRICITY REVISED UPWARD: With 40-cow commercial dairy adding 154 m³/day, total biogas is 773 m³/day. After 80 m³/day institutional cooking and 154 m³/day reserve (20%), 539 m³/day reaches the genset. Annual electricity: 539/461 × 217 = 254 MWh/year. Revised totals: solar 5,480 (Sunny Design validated) + biogas 254 = 5,734 MWh/year. Demand 4,355 MWh. Export surplus: 1,379 MWh/year = KES 16.5M/year.
+10.3 Digester and Equipment Specification
+10.4 Biochar from Digestate — Carbon-Negative Innovation
+The solid fraction of biogas digestate (approximately 1.5–2 tonnes/day after gas extraction) is pyrolised on-site in a simple low-cost kiln at 400–600°C to produce biochar. ALL biochar is applied to the YattaFarm’s own soil — it is not sold externally. The agronomic logic: biochar permanently improves the sandy Yatta basaltic laterite soils by increasing water-retention capacity (reducing irrigation demand by 15–20%), sequestering carbon for 100+ years, and reducing the already-zero chemical fertiliser need further. Selling biochar externally was previously modelled as a KES 5.5M revenue line but has been correctly removed: a closed-loop eco-farm cannot mine its own soil’s carbon for a marginal cash payment while simultaneously claiming soil-health benefits. The on-site biochar application strengthens the YattaFarm’s KES 22M/year food crop and KES 3.4M chrysanthemum yields — the indirect benefit far exceeds the KES 5.5M it would raise if sold.
+10.5 Biogas Safety — Is It Feasible at This Scale?
+The biogas pipeline connects to: CHC (sterilisation, kitchen, staff room), Primary School (lunch kitchen), Secondary School (lunch kitchen + chemistry labs), Community market kitchen, and Cummins C220N5 genset for electricity. Individual homes are NOT on the biogas pipeline — this was corrected after honest feedstock analysis. SNV Kenya has proven 50-home community biogas in Western Kenya. 2,000 homes would require 10× more gas than honest waste streams can produce.
+10.6 Phase 3 — Solar Induction Cooking for Homes (Year 10+)
+From Year 10 onwards, as the community’s solar surplus grows and panel degradation is offset by BESS optimisation, individual homes transition from LPG to solar induction cooking. This eliminates the last fossil fuel dependency and reduces household Scope 1 emissions to zero.
+SECTION 11 BATTERY ENERGY STORAGE SYSTEM — LFP CATL ENERONE
+11.1 Chemistry — Why LFP Not NMC
+11.1b Why Induction Cooking Is NOT in the Evening Battery Budget
+A critical design clarification before reading the BESS sizing: the overnight battery allowance of 1.8 kWh per household is sized for BASE LOADS ONLY — lighting, electronics, refrigeration, fans, and television. It does not include cooking loads. This is deliberate and essential.
+The arithmetic of evening cooking: 2,000 households × 1,800W induction hob × 1 hour cooking = 3,600 kWh drawn in a single evening hour. At 7pm, with zero solar generation, this must come entirely from BESS. Providing this from battery storage would require 3,600 kWh additional BESS capacity — roughly 18 additional CATL EnerOne units at KES 100M more. The project cost would increase by KES 100M to solve a problem that SACCO LPG already solves at zero capital cost.
+The correct architecture: LPG handles thermal loads (cooking, water heating backup). Solar handles electrical loads (lighting, devices, refrigeration). BESS bridges the overnight electrical gap. This three-way separation — LPG for thermal, solar for electrical, BESS for overnight — is the defining cost-reduction insight of the Angawatch energy design. Any system that tries to use batteries for cooking is over-engineered and over-priced for a housing affordability project.
+Phase 3 solar induction cooking (Year 10+): When the community has 5+ years of carbon credit income and the BESS has been optimised, individual household induction cooking can be absorbed by the growing solar surplus during the 10am–2pm peak window. A family’s 1.2 kWh/day induction cooking load (scheduled by the M-Pesa SmartMeter IoT system to solar peak hours) replaces the LPG cylinder entirely. But this transition only makes economic sense when solar surplus is confirmed growing — not in Year 1 when every kWh of surplus has revenue value as a grid export.
+BESS BASE LOAD DESIGN: The 1.8 kWh/household overnight allowance covers: LED lights (0.18 kWh), ceiling fan (0.20 kWh), refrigerator (0.43 kWh), TV (0.15 kWh), phone charging (0.04 kWh), WiFi router (0.24 kWh), and miscellaneous electronics (0.55 kWh). Total: 1.79 kWh ≈ 1.8 kWh. LPG covers: all cooking (2-burner hob, 1.2 kWh equivalent thermal per day). Solar thermal covers: all hot water. This three-way split is the honest design.
+11.2 Overnight Demand and BESS Sizing
+BESS capacity needed (at 90% DoD) = 3,027 ÷ 0.90 = 3,363 kWh minimum
+Add 20% safety margin: 3,363 × 1.20 = 4,035 kWh → use 18 × 200 kWh = 3,600 kWh
+SIZING VERDICT: 18 × 200 kWh = 3,600 kWh installed provides 3,240 kWh usable at 90% DoD. This covers the 3,027 kWh net BESS requirement with 7% headroom. The full 20% safety margin target (which would require 4,035 kWh installed) is intentionally not achieved from batteries alone — it is met in practice by the biogas genset, which contributes 1,440 kWh nightly (180 kW × 8 hr) and can extend its run on high-demand nights. This three-way design — solar charges BESS, BESS covers base loads, genset fills peaks — avoids purchasing 12 additional CATL units (KES 67M) that would sit underutilised on 330+ days per year. The 3,600 kWh BESS is correctly sized for this architecture.
+11.3 CATL EnerOne Specification — 18 Units
+SECTION 12 HYBRID GRID STRATEGY — CITIZEN-CONTROLLED ENERGY
+12.1 Energy Priority Hierarchy
+Energy dispatch at Angawatch follows a strict citizen-benefit priority order: (1) Fill BESS from solar surplus during peak hours. (2) Power all community loads including industrial. (3) Charge EV fleet. (4) Export surplus to KPLC grid. No energy is exported until community needs are fully met. Residents control their own energy access — not a central government utility or algorithm.
+12.2 Annual Grid Balance
+12.3 M-Pesa SmartMeter — Kenyan Energy Innovation
+The Kaifa MA105 prepayment meter (same hardware used by KPLC for residential prepay) is installed in all 2,000 apartments. The community billing system replicates KPLC’s M-Pawa token architecture using Safaricom’s Daraja API — but at KES 9/kWh (community rate) instead of KES 25/kWh (KPLC rate).
+Software development cost: KES 2.5M. At 150 kWh/month per household (planned Angawatch consumption), each family pays KES 1,350/month vs KES 3,750 at KPLC for identical consumption — a saving of KES 2,400/month per family. Community-wide saving: KES 2,400 × 2,000 = KES 4.8M/month = KES 57.6M/year. Return on KES 2.5M software investment: 2,304% per year — still extraordinary. For comparison, a Nairobi satellite household consuming 460 kWh/month pays KES 11,500 at KPLC; at the community rate the same consumption costs KES 4,140 — a saving of KES 7,360/month. Angawatch households are designed to need only 150 kWh/month, achieving this comfort level at 64% lower cost than any KPLC-connected home.
+SECTION 13 WATER CONSERVATION, SEWAGE TREATMENT &** STORMWATER**
+Water is the second most critical resource after energy. Angawatch’s integrated water strategy covers supply (canal gravity, rainwater, borehole backup), treatment, greywater recycling, sewage treatment, and stormwater retention — a closed-loop system targeting 60% reduction in treated water demand versus an unplanned settlement.
+13.1 Rainwater Harvesting — Corrected to 60,000m² Catchment
+PREVIOUS VERSION ERROR: The catchment area was stated as 26,000m² — the same figure used for solar panel area. These are different surfaces. The correct impermeable roof catchment for rainwater harvesting: 1,280 apartment rooftops (~19,200m²) + 720 maisonette rooftops (~46,800m²) + schools, CHC, market (~6,000m²) + solar EV carport canopies (~5,000m²) = 77,000m² actual. Using 60,000m² as a conservative working figure: 60,000 × 0.65m × 0.85 = 33,150m³/year — 155% more than previously calculated.
+13.2 Greywater Recycling
+13.3 YattaFarm Irrigation — Solar-Pumped from 15,000m³ Gravity-Fed Water Pan
+IRRIGATION SYSTEM DESIGN: The Yatta Plateau slopes uphill from the canal — the site sits above the canal, not below it. This means water cannot flow from the canal to the farm by gravity. Instead, a 10kW solar high-lift pump at the canal boundary pumps water uphill during the wet seasons to fill the 15,000m³ retention pond at the farm’s highest elevation. Once full, the pond acts as a massive gravity header-tank: all drip irrigation lines run downhill from the pond to lower farm zones, driven entirely by gravity. The engineering logic: pump fills upward once per season, gravity distributes continuously for free. This is the correct physical model for an upslope site. The ‘gravity fill’ narrative used in earlier versions of this document was physically impossible given the site topography and has been corrected.
+CANAL CAPACITY CONFIRMED: The Yatta Canal post-rehabilitation carries 3 m³/second = 259,200 m³/day. It is officially designed to irrigate 18,000 hectares of arable land in Yatta constituency. YattaFarm’s 20 hectares requires 1,000 m³/day = 0.4% of canal flow. Water availability is not a constraint.
+The 15,000 m³ Water Pan — Dry-Season Security
+A 15,000 m³ geomembrane-lined earthen water pan (100m × 50m × 3m deep, occupying 0.5 ha of YattaFarm) is the cornerstone of irrigation security. At 1,000 m³/day peak demand, 15,000 m³ provides a 15-day complete drought buffer. The pond occupies 2.5% of the 20-hectare farm — a minimal sacrifice for guaranteed water security.
+WRA permit covers: (1) Canal off-take sluice for seasonal pond filling (30,000 m³/year). (2) Groundwater abstraction permit for boreholes (potable supply — separate permit). Annual abstraction of 30,000 m³ from a canal carrying 94 million m³/year is environmentally trivial and will receive straightforward WRA approval.
+13.4 Sewage Treatment Chain — Source Separation Model
+CRITICAL ENGINEERING CLARIFICATION: Blackwater (toilet waste) and greywater (sinks/showers) are kept COMPLETELY SEPARATE from the point of generation. Blackwater goes directly to the centralised biogas plant — it never returns to the residential cluster area. Only greywater is handled within the Ekeja cluster courtyard reed beds, because greywater is low-strength, low-pathogen wastewater that is safe and appropriate for proximity to residential areas.
+STREAM 1 — Blackwater Treatment (toilet waste) — Centralised, Remote
+Step B1 — Source separation at WC: Blackwater collected in dedicated HDPE gravity sewers (separate from greywater drain). No shared pipework between streams.
+Step B2 — Biogas digesters (primary treatment): Raw blackwater → 6 × 100m³ Deenbandhu fixed-dome digesters. 25-day retention. Anaerobic digestion destroys 90%+ of pathogens. Produces biogas (fuel + electricity) + digestate.
+Step B3 — Digestate liquid effluent: Liquid fraction (~1,080m³/day after digestion) is piped by gravity to the REMOTE constructed wetland at the YattaFarm boundary — minimum 200m from the nearest residential block. Never returns to cluster courtyard area.
+Step B4 — Remote constructed wetland (YattaFarm boundary): Large-scale Phragmites australis (common reed) beds. 48-hour hydraulic retention. 85% BOD reduction. Located downwind and downslope from housing. Maintenance access by farm staff, not residents.
+Step B5 — Slow sand filter + irrigation pond: Wetland effluent → 500mm sand filter → 5,000m³ irrigation pond → YattaFarm drip irrigation for non-food-contact crops only (chrysanthemums, fuel crops). NEVER for vegetable or food crop irrigation.
+STREAM 2 — Greywater Treatment (sinks/showers) — Within Ekeja Courtyard
+Step G1 — Courtyard reed bed per Ekeja cluster: Sink and shower greywater from each cluster (low-strength, low-pathogen) feeds a small constructed reed bed in the courtyard garden area. 24-hour retention. 70% BOD reduction.
+Step G2 — Greywater recycled for toilet flushing: Reed bed outflow → communal storage cistern → toilet cisterns in the cluster. Replaces potable water for WC flushing entirely. Net saving: 96 litres/day per household.
+Step G3 — WHY GREYWATER IN THE COURTYARD IS SAFE: Greywater has no faecal contamination, low pathogen load, and reed bed treatment makes it safe for proximity to residential areas. This is standard practice in East African eco-developments. Blackwater is NEVER routed through residential courtyard systems.
+STREAM 3 — Potable Water: 50 LPCD Boreholes + Rainwater Top-Up
+BASELINE: 3 × deep boreholes supply 400m³/day = 400,000 litres ÷ 8,090 residents = 49.4 litres per capita per day (effectively 50 LPCD) (LPCD). WHO minimum for basic services: 50 LPCD. For a middle-class community with full plumbing, this is tight — two teenagers showering for 10 minutes each would consume the household’s daily share. The solution: centralised rainwater harvesting on top of borehole supply.
+Step P1 — Sources: (a) 3 × deep boreholes (Grundfos SP17-7, 5.5 kW each), pumped 8am–6pm solar. (b) Centralised rainwater: all apartment roofs + carport canopies guttered to centralised UV-filtered storage.
+Step P2 — Defluoridation: Bone char filters at centralised water treatment plant before distribution (volcanic fluoride endemic in Yatta basaltic aquifer). Bone char produced from YattaFarm animal bones — closes another material loop.
+Step P3 — Distribution: Elevated 200,000L storage tank gravity-feeds community potable supply. UV disinfection at tank outlet.
+SUMMARY: Blackwater → remote biogas → remote wetland → farm. Greywater → courtyard reed bed → toilet flushing. No digestate or raw sewage ever enters the residential cluster area. This is the gold standard of source separation sanitation.
+13.5 Stormwater Management
+On 90 hectares receiving 700–900mm/year concentrated in two seasons, stormwater management is a real engineering requirement. A 50mm rainfall event on 90ha generates: 90 × 10,000m² × 0.05m × 0.70 runoff = 31,500m³ in a single storm event.
+Permeable paving on all pedestrian paths and Ekeja courtyards: water infiltrates, recharges groundwater, reduces surface runoff volume by 40%
+Bioswale drainage channels between building clusters: grass-lined channels slow flow, filter suspended solids, direct water to retention pond
+Community retention pond (0.5ha, 1.5m deep = 7,500m³): stores peak storm runoff. Overflow to YattaFarm irrigation channels.
+Retention pond doubles as irrigation buffer for YattaFarm during dry periods: gravity-fed drip irrigation from elevated pond position
+Green roof buffer on CHC and school flat roofs: 75mm substrate with indigenous succulent groundcover absorbs first 15mm of rainfall
+13.6 Water Demand Reduction Summary
+SECTION 14 COMMUNITY INFRASTRUCTURE &** AMENITIES**
+Angawatch is a complete community — not just housing. Every amenity reduces external resident spend or generates cooperative revenue. The community is designed to be a desirable place to live, not just an affordable one.
+14.1 Community Health Centre — 50-Bed Level 3 Facility (1,500m²)
+14.2 Schools
+Secondary school includes Solar Energy practical module — community systems used as live study subject for Form 3 Physics and Chemistry students.
+14.3 Place of Worship
+Machakos County is 85%+ Christian (predominantly Catholic, ACK Anglican, and various Pentecostal). Not providing a worship space in a community of this size would be culturally inappropriate and practically unrealistic — residents would form informal worship groups regardless. Angawatch provides:
+Interdenominational Worship Centre: 800-seat multi-faith hall on 0.4ha within the Community Hub zone. Open to all denominations by rotational booking schedule. Construction: CSEB, corrugated iron roof with solar. Capital cost: KES 45M.
+Outdoor gathering space adjacent to worship centre: 2,000-person capacity for large congregation events, community meetings, and cultural ceremonies.
+Mosque provision: Prayer room (80-person capacity) within the worship centre for Muslim residents — Machakos has a 5–10% Muslim population.
+14.3b Community Governance — How Angawatch Is Managed
+Angawatch is owned and managed by the Angawatch Community Cooperative Society, registered under Kenya’s Cooperative Societies Act (Cap 490). Every resident family is a member. The cooperative holds title to all common property: energy infrastructure, YattaFarm, the market, CHC, schools, and community roads.
+14.4 Recreation and Sports
+Children will live here from birth through secondary school (the competition brief specifies this). A community with no recreation infrastructure will fail to retain families. Angawatch provides:
+Full-size football pitch: 100m × 68m natural grass within green space zone. LED floodlighting (4 × 1,000W mast lights) for evening use — powered from community solar.
+Children’s playground per Ekeja cluster: 20 clusters × one playground = 20 playgrounds. Age 2–12 equipment: swings, climbing frames, slides. CSEB sand enclosure borders.
+Basketball/netball courts: 2 hard courts shared between secondary school and community. Dual use avoids duplication.
+Community running track: 400m gravel path around the green space perimeter. Zero energy cost. Community fitness programme.
+14.5 Broadband and Digital Infrastructure
+14.6 Solid Waste Management
+2,000 families generate approximately 3–4 kg of solid waste per household per day = 6–8 tonnes/day community-wide. Composition:
+Waste sorting stations: one per Ekeja cluster. Covered structure. 4 bins: organic (green), recyclable (blue), e-waste (orange), residual (black). CSEB construction.
+No waste-to-energy incineration: Machakos County air quality is clean baseline — maintaining it is a design objective. Incineration would introduce PM2.5 from the one direction biogas eliminates it from.
+14.7 YattaFarm — Canal-Irrigated Food Cooperative
+14.8 E-Mobility Infrastructure — Roam Motors Fleet
+EV operational schedule: First bus departure 5:15am (night BESS charge complete). Mid-day opportunity charge 8:15–9:00am (DC 50kW fast chargers from peak solar). Overnight BESS charging 9:00pm–6:30am. April stress month: mid-day charging window shorter (cloudy) — buses may do 3 return trips instead of 4 on worst April days.
+14.9 Jua Kali Industrial Zone
+SECTION 15 REGULATORY FRAMEWORK — APPLICABLE LAWS AND CODES
+Angawatch must comply with the following Kenyan and international regulatory instruments. All compliance milestones are incorporated into the Phase 1 pre-construction activities in Section 19.
+15.1 Housing and Construction
+15.2 Energy
+15.3 Environment
+15.4 Water
+15.5 Transport and Telecommunications
+SECTION 16 FINANCIAL MODEL — CORRECTED AND COMPLETE
+16.1 Total Project Cost — Revised
+16.1b Tax Framework — What the Document Has Not Previously Stated
+Every Kenyan financial analysis must account for applicable taxes. The following taxes materially affect both household affordability and community cooperative revenue. Their omission in previous versions was a significant gap.
+16.1c Revised Household Affordability — Gross vs Net Income
+IMPORTANT CORRECTION: All previous affordability tables used gross income. The corrected analysis separates gross income (used for KMRC mortgage qualification) from net income (used for actual household budgeting).
+WHY 4BR IS ONLY 20 UNITS: At KES 48,615/month EMI (VAT-adjusted), the 4BR requires KES 162,000+ combined gross. After PAYE + NHIF + NSSF + AHL, net income at this level is ~KES 118,000/month. The EMI of KES 48,615 is 41% of net — still very tight. The realistic senior pool at Angawatch is 50–70 households, but most will choose the lower-risk 3BR over the 4BR stretch. 20 units is the honest demand estimate. Unsold units become cooperative premium rentals at KES 42,000–45,000/month.
+KMRC‘s affordability guideline (30% of gross income) is the formal lending standard — assessed on GROSS income before all deductions. In reality, a household earning KES 110,000 gross takes home only KES 84,230 net (after PAYE + NHIF + NSSF + AHL at 1.5%). The 3BR at KES 40,803 EMI is 37.1% of gross (borderline) and 48.4% of net (genuinely tight). NOTE ON RATE: All EMIs include KMRC’s mandatory Mortgage Reducing Insurance Scheme (MRIS) premium of ~1.5% p.a., giving an effective rate of ~10.45% p.a. versus the 8.99% headline rate. MRIS is a standard KMRC requirement on all loans. AHP subsidy is not optional — it must reduce effective EMI to under 35% of net income for this unit to be viable for mid-level earners. The 2BR at KES 33,015 (39.2% of net KES 84,230) is still tight but more manageable.
+16.1d Cash Required at Purchase — 3BR Unit
+16.2 Household Affordability — 3BR Primary Target Family
+Corrected total monthly saving: KES 34,943 on housing + electricity + cooking (SACCO LPG) + transport + water + net metering. With community school fee savings: ~KES 40,943/month. The cooking saving is now KES 265/month (SACCO LPG vs retail LPG) not KES 810 — the biogas-to-homes claim was removed as infeasible.
+16.3 Community Revenue — Year 5+ (Revised)
+16.4 Financing Structure — Two-Phase Capital Stack
+IMPORTANT REAL ESTATE FINANCE CLARIFICATION: This section separates CONSTRUCTION FINANCE (how the buildings are funded during the 4-year build) from EXIT/TAKE-OUT FINANCE (how the construction debt is repaid once units are sold). These are two distinct phases. KMRC mortgages are NOT construction finance — they are the take-out mechanism. The developer builds using DFI and equity capital, sells completed units to families who take KMRC mortgages, and uses those sales proceeds to repay the DFI construction bond. Listing KMRC and DFI in the same column as co-equal sources would be a capital-stack double-count — they represent the same money at two different moments in time.
+PHASE 1 — Construction Capital Stack (how we build it): KES 12,212M
+PHASE 2 — Exit / Take-Out Finance (how we repay construction debt)
+16.5 20-Year Cash Flow Projection — Corrected
+CORRECTION FROM PREVIOUS VERSION: Earlier cash flow showed only KES 4.1B CAPEX against a KES 12.2B project cost — a KES 8B gap that would immediately disqualify the proposal from DFI review. The corrected model shows: (1) full CAPEX of KES 12,212M distributed across build years, (2) unit sales proceeds (~KES 7,974M from 1,130 × 2BR + 700 × 3BR + 20 × 4BR — corrected from 7,973M) as a separate income stream that offsets construction debt, and (3) cash operating revenue at KES 182.1M/year (biochar retained on-site — not sold; digestate as OPEX saving). Net surplus: KES 79.0M/year.
+TOTAL BUILD CAPEX: KES 12,212M (Years 1–4) + KES 80M BESS partial maintenance (Year 10) + KES 100M BESS full replacement (Year 17) + KES 380M solar refresh (Year 25) = KES 12,772M lifecycle capital. UNIT SALES (Years 3–5): KES 7,974M total from 1,130 × 2BR (KES 4,449M) + 700 × 3BR (KES 3,409M) + 20 × 4BR (KES 116M). Corrected from 7,973M — addition check: 4,449+3,409+116 = 7,974M exactly. Project equity IRR: ~12–15% (including Year 17 KES 100M BESS full replacement). Social IRR (health + education): ~22–28%. The cumulative deficit narrows as operating revenue grows and the 3BR cooperative rentals generate recurring income.
+SECTION 17 BENCHMARKS — ANGAWATCH VS. YATTA SUB-COUNTY AND MACHAKOS COUNTY
+All benchmarks follow the GPC 1.1 methodology (Global Protocol for Community-Scale Greenhouse Gas Inventories v1.1, ICLEI/WRI/C40, 2021). Baseline figures from Machakos County CIDP 2023–2027, KNBS 2019 Census, and KPLC published data. Comparison population: Machakos County (urban+rural) and Yatta sub-county specifically.
+17.1 Housing Affordability
+17.2 Interior Air Quality — Critical WHO Benchmarks
+17.3 Energy Availability and Reliability
+17.4 Carbon Intensity
+SECTION 18 PHASED IMPLEMENTATION — 4 YEARS TO FIRST OCCUPANCY
+SECTION 19 RISK MITIGATION — EYES-OPEN DESIGN
+SECTION 20 FEASIBILITY ASSESSMENT — EVERY COMPONENT VERIFIED
+SECTION 21 NATIONAL REPLICATION — ANGAWATCH AS A 47-COUNTY TEMPLATE
+Angawatch’s core template — solar PV + institutional biogas + community LPG SACCO + BESS + M-Pesa SmartMeter — is directly replicable across all 47 Kenyan counties. The template does not depend on a river, canal, or specific geology. Solar irradiance is sufficient across all counties. Organic waste from any community of 2,000 families supports institutional biogas. LPG SACCO models are already operating in Kenya. The template scales up or down based on community size.
+National scale impact: 47 counties × 2,000 families each = 94,000 families = 470,000 Kenyans lifted out of energy poverty. Annual PM2.5 reduction: 13.14 tonnes × 47 = 617.6 tonnes — equivalent to removing 123,000 diesel vehicles from Kenyan roads. Carbon saving: 22,910 tonnes × 47 = 1.08 million tonnes CO₂/year.
+SECTION 22 SPRINT PLAN — MARCH 31 TO APRIL 14, 2026
+SECTION 23 REFERENCES
+Energy &** Technical**
+PVGIS v5.2 — EU JRC (re.jrc.ec.europa.eu/pvgis) — 1.17°S, 37.45°E irradiance data, 12-month verified CSV
+Jinko Solar JKM425N-54HL4R-BDB Tiger Neo N-Type Datasheet — jinkosolar.com — Panel specifications STC and temperature coefficients (2024 model replacing original JKM415M-54HL4-B specification)
+SMA Sunny Design 6.11.2 — sunnydesignweb.com — Independent PV yield validation report for Angawatch, April 7 2026. Project: Angawatch, Location: Kenya/Kalawa, Validated yield: 5,479.85 MWh/year at 1.07°S 37.43°E (Nairobi met station 71km). Report attached as Appendix A.
+Huawei SUN2000-100KTL-M1 Datasheet — huawei.com/en/solar — Inverter MPPT specifications
+CATL EnerOne Containerised BESS Specification — catl.com — LFP chemistry, cycle life, pricing
+KPLC Tariff Schedule 2025 — kplc.co.ke — KES 25/kWh domestic tariff
+EPRA Electricity Supply Industry Report 2024 — epra.go.ke
+EPRA Net Metering Regulations 2022 — epra.go.ke
+IRENA Renewable Power Generation Costs 2023 — irena.org
+ICE Database v3.0 — Inventory of Carbon & Energy, University of Bath — Embodied carbon CSEB
+IEA Africa Energy Outlook 2023 — iea.org
+Vehicles and Transport
+Roam Motors Kenya — roamelectric.com — Roam Rapid (68 kWh, 14-seat) and Roam Air (1.85 kWh swappable) specifications Q1 2026
+Ampersand Battery Swap Stations Rwanda — ampersand.solar — Swappable battery model for boda bodas
+Housing, Construction &** Materials**
+Kenya National Building Code 2023 — Ministry of Lands and Physical Planning
+CRATerre / BASIN — Compressed Stabilised Earth Block Manual 2nd Ed. — cseb.net
+KMRC Mortgage Rates Q1 2026 — kmrc.co.ke — 8.99% long-term rate
+Kenya Affordable Housing Programme Design Guidelines 2025 — housing.go.ke
+Community Needs and Health
+World Health Organisation — Household Air Pollution Fact Sheet, November 2022 — who.int. ‘3.2 million deaths per year. 2.4 billion people cook on solid fuels.’
+WHO Air Quality Guidelines 2021 — PM2.5 safe limits (15 µg/m³ annual, 45 µg/m³ 24-hr)
+KNBS — Kenya National Housing Survey 2019 / Kenya Population Census 2019 — knbs.or.ke
+Machakos County Integrated Development Plan 2023–2027 — machakos.go.ke
+Water and Environment
+WRA Water Resource Allocation Rules 2024 — wra.go.ke
+Verra Verified Carbon Standard VM0044 — verra.org
+GPC 1.1 — Global Protocol for Community-Scale GHG Inventories v1.1 — ghgprotocol.org
+GHG Protocol Scope 1 & 2 Accounting Standards — ghgprotocol.org
+NEMA Environmental Impact Assessment Guidelines 2024 — nema.go.ke
+Finance, Policy and Competition
+AfDB Green Climate Fund Project Preparation Guidelines 2024 — afdb.org
+IFC Performance Standards on Environmental & Social Sustainability — ifc.org
+Kenya Finance Act 2023 — VAT exemption Schedule 2 (solar panels and accessories)
+Energy Mentors International — Power the Community 2026 Competition Brief — energymentors.org/participate
+Energy Mentors International — Framing Your Efforts Guidance Document — energymentors.org
+SNV Netherlands Development Organisation — Biogas Africa Programme Reports 2022–2024 — snv.org
+
+--- Extracted from PPTX ---
+
+Slide 1:
+Power the Community 2026
+Kenya's first cognitive community
+By Ryan Nguitui  and Gitahi Githinji
+
+Kenya
+
+Slide 2:
+Table of Contents
+ANGAWATCH
+1
+2
+Problem
+Site & Community
+3
+Energy System
+4
+Cognitive Community
+5
+Financial Proof
+6
+Impact & Close
+7
+Our Performance 
+8
+What’s Next for Us?
+April 2026
+
+Slide 3:
+KES 36,100/month
+April 2026
+Wanjiku Twota
+Her basics cost KES 36,100 before food, school, or savings
+Rent (3-room Matuu): KES 18,000 — gets nothing at end of 25 years | Electricity (KPLC prepaid): KES 7,200 — 15–25 outages per year
+Commute (boda + matatu): KES 6,600 — 2 hours daily, each way | Cooking (retail LPG): KES 1,560 — KES 1,300–1,500 per cylinder
+Housing in nearby residential area- Matuu
+
+Slide 4:
+ANGAWATCH
+April 2026
+What the people had to say
+ GRADE  7 TEACHER
+BODA BODA OPERATOR
+Salary - KES 65K gross 
+
+Salary - KES 38K net 
+DEPUTY PRINCIPAL
+Salary - KES 135K 
+"
+My husband and I make a decent combined income, but our expenses drain it quickly. Right now, we rent a 3-room place in a shared compound for KES 15,000 a month, but it doesn't even have piped hot water. Honestly, our biggest headache is the electricity. The KPLC tokens run out incredibly fast, and when there is load shedding—which happens all the time—the food in our fridge just goes bad. Between the two of us, we also spend over KES 6,000 every month just taking matatus and bodas to work. When it comes to cooking, buying a full gas cylinder at once is a heavy upfront cost. Sometimes we have to use the jiko, but the smoke makes the children cough
+"
+"
+Riding a boda boda is hard work, and petrol prices are killing my business. I spend up to KES 8,000 a month just on fuel, and the price seems to go up every week, but there is no alternative. I am currently renting a single room for KES 4,000 with a shared latrine. I don't even have my own electricity meter; I have to buy tokens from a vendor who overcharges me at KES 35 per unit. I don't need a massive house right now, I just want a safe place of my own where the electricity actually works and doesn't cost a fortune
+"
+"
+I work in Yatta Sub-County, but I currently rent a house in Machakos town for KES 45,000 a month and commute daily. The land out here in Yatta is good, but who will teach my children if all the good teachers are in Nairobi or the big towns? I refuse to move my family 60km away from good schools and hospitals. Also, my job requires me to work late into the night marking exams and doing administrative work. I need the lights to work, and I need the fridge to keep my elderly mother's medication cold. I cannot afford to budget for a noisy diesel generator every single time the KPLC grid fails
+"
+Most answers were translated from Kiswahili
+What is your biggest monthly expense after rent, and how does it affect your family? How reliable is your electricity, and what happens when the power goes out? What challenges do you face with your daily commute or your transport business? If you could change one thing about your current living situation or housing, what would it be?  How do you manage the costs of cooking fuel for your home?
+Some of the questions we asked
+
+Slide 5:
++KSH 6M
+Current  housing costs 25% more  and energy, 
+100% than Angawatch  —  Common Mwananchi
+struggles to pay that
+ for the 2,000 families
+April 2026
+
+Slide 6:
+ANGAWATCH
+April 2026
+We don't retrofit solar onto houses — we build houses around solar
+CSEB from Yatta volcanic laterite → 35% cheaper construction
+Passive cooling eliminates air conditioning → zero cooling load
+CSEB from Yatta volcanic laterite → 35% cheaper construction
+Passive cooling eliminates air conditioning → zero cooling load
+Roof orientation optimised for solar before architectural drawings
+
+Slide 7:
+ANGAWATCH
+April 2026
+Three decisions deliver 80% of all resident benefit
+Decision 1: Biogas + LPG SACCO → PM2.5 eliminated from institutions, KES 1,200–2,700 cooking saving | Decision 2: CSEB construction → 35% cost saving, zero cooling load forever
+DECISION 1
+DECISION 2
+Biogas + LPG SACCO → PM2.5 eliminated from institutions, KES 1,200–2,700 cooking saving
+CSEB construction → 35% cost saving, zero cooling load forever
+DECISION 3
+M-Pesa SmartMeter at KES 9/kWh → 64% electricity saving, KES 2,400/month/household
+
+Slide 8:
+ANGAWATCH
+Angawatch: honest about what it is
+IS: A grid-interactive microgrid with islanding capability | IS: An affordability-first community for KES 84,230-net families 
+IS NOT: An off-grid vanity project for wealthy eco-tourists
+IS NOT
+IS NOT: A retrofit — every wire laid before the first brick
+
+Slide 9:
+ANGAWATCH
+Yatta Plateau: 102 hectares chosen with precision
+1.17°S, 37.45°E · near Matuu, Yatta Sub-County, Machakos County
+102ha
+60
+1.17°S, 37.45°E · near Matuu, Yatta Sub-County, Machakos County
+102 ha (252 acres) at 1,450–1,550m ASL
+60km from Nairobi via A109 highway; SGR Athi River 25km
+36.0M
+grid connection KES 36M
+60km
+
+Slide 10:
+ANGAWATCH
+Six site advantages, no compromises
+Solar irradiance: 5.18 kWh/m²/day (PVGIS v5.2) — best within 80km of Nairobi | Elevation 1,450–1,550m ASL — passive cooling, year-round 17–27°C, zero AC needed
+Yatta Canal: 2km away — gravity irrigation (not power generation) | Basaltic laterite soil: CSEB-grade, 5% cement binder only, construction cost −35% | 33kV substation Matuu: 4km — cheapest possible KPLC grid connection | A109 highway: direct link to Nairobi and Machakos town
+5.18 kWh/m²/day
+
+Slide 11:
+ANGAWATCH
+Eight zones, every hectare
+Purposeful
+April 15, 2026
+Yatta Plateau, Machakos County
+2,000 families 8,090 residents
+
+Slide 12:
+ANGAWATCH
+2,000 units — this exact mix for one exact reason
+150 × 1BR (42m²): cooperative rental KES 10,000–12,000/month — Hassan's entry
+10.0K
+33.0K
+40.8K
+cooperative rental KES 10,000–12,000/month — Hassan's entry
+KMRC mortgage KES 33,015/month — sweet spot for KES 110K households
+KMRC mortgage KES 40,803/month — Wanjiku's family home
+48.6K
+KES 48,615/month — Deputy Principal cohort
+1,130 × 2B
+
+Slide 13:
+ANGAWATCH
+April 2026
+A KMRC mortgage builds wealth — renting builds nothing
+25 years
+2BR at KES
+KMRC 8.99% p.a., 25-year term — longest available affordable finance in Kenya | 2BR at KES 33,015/month builds full title deed after 300 payments
+Renting KES 18,000/month for 25 years = KES 5.4M paid, nothing owned | Yatta Plateau land appreciates as infrastructure improves
+Equity curve over 25 years — cumulative equity vs rental payments; crossover point marked
+
+Slide 14:
+ANGAWATCH
+Angawatch saves each family KES 37,993 per month
+Total Angawatch (3BR): KES 48,107/month (housing + energy + cooking + water + transport + school)
+48.1K
+86.1K
+38.0K
+KES 48,107/month (housing + energy + cooking + water + transport + school)
+KES 86,100/month
+KES 37,993 — KES 455,916 per year
+2.0M
+saving compounds to over KES 2M cumulative
+KES 37,993
+
+Slide 15:
+ANGAWATCH
+April 2026
+Twenty clusters, one community — Ekeja architecture
+20 clusters
+Each cluster: shared
+20 Ekeja clusters × 64–100 units = 2,000 homes | Each cluster: shared courtyard, borehole, laundry court, food forest
+Social design: neighbours know neighbours — crime prevention by design | Courtyard = energy hub + EV carport + communal solar canopy
+Cluster plan diagram — one Ekeja showing 64 units, courtyard, shared infrastructure [INSERT IMAGE: Ekeja cluster aerial plan]
+
+Slide 16:
+35% cheaper
+Yatta laterite makes better blocks than concrete — for less
+KS 02-1070 compliant
+Yatta volcanic laterite: only 5% cement binder (vs 8–10% standard CSEB)
+KS 02-1070 compliant — full Kenyan standard certification
+Build cost: KES 46,500/m² VAT-inclusive vs ~KES 60,000/m² concrete block | Community labour during construction: jobs created, skills transferred
+Photo of CSEB blocks being made + thermal performance comparison table [INSERT IMAGE: CSEB block production]
+
+Slide 17:
+ANGAWATCH
+April 2026
+From approval to full community in four years
+2028
+Mid-2028: First occupancy
+2026–27: Planning, approvals, land allocation, DFI financial close | Mid-2028: First occupancy — Phase 1 (500 units, energy systems online)
+2029: Phase 2 complete (1,500 units, YattaFarm operational) | 2030: Full community — all 2,000 units, all systems active
+Horizontal timeline with four phases and key milestones marked
+
+Slide 18:
+ANGAWATCH
+5,734 MWh generated, 4,355 consumed, 1,379 exported
+Solar: 5,479.85 MWh/year (Sunny Design validated)
+5.5K
+254
+4.4K
+5,479.85 MWh/year (Sunny Design validated)
+254 MWh/year (40-cow dairy + community waste)
+4,355 MWh/year across 10 sectors
+12
+1,379 MWh × KES 12 = KES 16.5M/year income
+1,379 MWh 
+
+Slide 19:
+ANGAWATCH
+April 2026
+7,680 Jinko Tiger Neo bifacial panels — 3,360 kWp effective
+3,360 kWp
+Nameplate: 3,264 kWp;
+7,680 × Jinko JKM425N-54HL4R-BDB Tiger Neo N-Type 425W panels | Nameplate: 3,264 kWp; effective 3,360 kWp with 3% bifacial rear gain
+Performance Ratio: 0.82 (Sunny Design standard, April 2026) | Array tilt and azimuth optimised for 1.17°S equatorial sun path
+Panel specification infographic with array layout diagram [INSERT IMAGE: Solar array layout on Angawatch roofplan]
+
+Slide 20:
+ANGAWATCH
+5,479.85 MWh
+SMA Sunny Design validates 5,479.85 MWh/year
+SMA Sunny Design professional simulation — April 7, 2026
+Input: Nairobi meteorological station 71km, PVGIS v5.2 data | PR 0.82 standard, 3,360 kWp effective DC, bifacial correction applied | Previous hand calculation: 5,515 MWh — 0.6% difference. Design confirmed.
+April 2026
+
+Slide 21:
+ANGAWATCH
+April 2026
+3,600 kWh CATL LFP — 99.6% community uptime guaranteed
+99.6% uptime
+Usable: 3,240 kWh
+18 × CATL EnerOne 200kWh LFP battery modules = 3,600 kWh installed | Usable: 3,240 kWh (90% DoD) > 3,027 kWh required (7% headroom)
+Genset backup (Cummins C220N5) adds additional resilience layer | Year 17 full replacement (LFP 80% capacity retention at year 10, full at 17)
+BESS rack diagram with sizing proof table — 3,240 vs 3,027 kWh
+
+Slide 22:
+ANGAWATCH
+April 2026
+773 m³/day biogas — from dairy farm and community waste
+254 MWh/year
+Community organic waste
+40-cow commercial dairy: largest single biogas input source | Community organic waste contributes additional feedstock
+Total: 773 m³/day usable gas | 539 m³/day to Cummins genset = 254 MWh/year electricity
+Biogas flow diagram: dairy + waste → digester → gas → genset/cooking split
+
+Slide 23:
+ANGAWATCH
+April 2026
+Biogas to schools and clinics — not homes. Here is why.
+Cooking for 2,000 families needs 3,200 m³/day
+Spreading thin biogas to 2,000 homes achieves nothing meaningful
+Cooking for 2,000 families needs 3,200 m³/day — we produce 773 m³/day
+Spreading thin biogas to 2,000 homes achieves nothing meaningful
+CHC + 2 schools + market kitchen: biogas eliminates PM2.5 for 400 children
+
+Slide 24:
+ANGAWATCH
+LPG cooking + solar electricity + BESS storage = KES 100M saved
+Phase 1
+Phase 2
+Phase 3 (Year 10+)
+Full induction from Day 1 would add KES 100M+ to CAPEX
+Three-phase timeline with PM2.5 levels and capital cost at each phase
+SACCO bulk LPG for all homes (immediate charcoal replacement)
+Biogas to CHC, schools, market — PM2.5 eliminated at institutions
+Solar induction for homes as solar surplus grows
+unaffordable
+
+Slide 25:
+ANGAWATCH
+KES 9/kWh
+KES 9/kWh via *384# — the Kenyan innovation no one else has
+USSD code *384# on any Safaricom line — no smartphone required
+Purchase tokens in any amount, any time — no minimum unit purchase | Net metering credits automatically returned to M-Pesa wallet | KES 2.5M software development cost — BCR 2,304 (KES 5.76B lifetime saving)
+April 2026
+
+Slide 26:
+ANGAWATCH
+July dispatch: solar dominates from 8am, exports at noon
+5am–8am: Cummins genset covers pre-dawn demand
+5
+8
+10
+Cummins genset covers pre-dawn demand
+Solar ramp-up, genset shuts down at 9am
+2,600 kW solar peak — BESS charging + 800 kW export to KPLC
+2
+Solar declining, BESS discharging — no genset needed
+2,600 kW p
+
+Slide 27:
+ANGAWATCH
+300 MWh (April)
+April: solar drops 46%, genset runs 14 hours — we planned for this
+April solar: 300 MWh (vs July 510 MWh — 41% of peak month)
+Long rains: cloud cover reduces irradiance to 2.8–3.2 kWh/m²/day | Genset runs 14 hours/day in April (vs 8 hours in dry season) | KPLC import: ~22 MWh total per year — all in April/May period
+April 2026
+
+Slide 28:
+ANGAWATCH
+April 2026
+Why connecting to KPLC is the correct engineering decision
+KES 36M
+Grid provides: emergency
+Grid connection cost: KES 36M (4km to Matuu 33kV substation) | Grid provides: emergency backup April/May + export revenue channel
+Without grid: need 4× BESS at +KES 1.5B — economically insane | Thwake Dam (50km, 20MW, 2026 operational) stabilises regional grid
+Grid-interactive vs off-grid cost comparison diagram
+
+Slide 29:
+ANGAWATCH
+KES 16.5M/year
+1,379 MWh exported × KES 12/kWh = KES 16.5M per year
+Export tariff: KES 12/kWh (KPLC net metering approved rate)
+Annual export: 1,379 MWh (surplus after full community demand) | Annual income: KES 16.5M — largest single revenue stream | Credits distributed to residents via M-Pesa net metering wallet
+April 2026
+
+Slide 30:
+ANGAWATCH
+4,355 MWh — every sector accounted for
+Residential: 2,726 MWh (63%) — the dominant load
+63%
+12%
+11%
+2,726 MWh (63%) — the dominant load
+509 MWh (12%)
+469 MWh (11%)
+8%
+366 MWh (8%)
+4,355 MWh
+
+Slide 31:
+ANGAWATCH
+April 2026
+3,240 kWh usable beats 3,027 kWh required — 7% headroom
+7% headroom
+Installed: 3,600 kWh
+Night demand (9pm–6am): 3,027 kWh required (residential + security + borehole) | Installed: 3,600 kWh × 90% DoD = 3,240 kWh usable
+Headroom: 213 kWh (7%) before genset kicks in | Genset (Cummins C220N5 180kW) provides additional layer — not primary
+BESS sizing proof table — required vs usable vs installed, with headroom highlighted
+
+Slide 32:
+ANGAWATCH
+April 2026
+Cummins C220N5 — reliable baseload backup for 25 years
+180 kW
+Dry season (July):
+Cummins C220N5 natural gas genset: 180kW rated output | Dry season (July): 8hr/night baseload — pre-dawn demand coverage
+April stress month: 14hr/day operation — covers cloud cover period | Fuel: biogas from community plant (free), no diesel dependency
+Genset duty cycle diagram — daily runtime by month across the year
+
+Slide 33:
+ANGAWATCH
+April 2026
+2m² flat-plate per unit eliminates 1,095 MWh/year of electrical demand
+1,095 MWh/year
+Replaces electric immersion
+Each unit: 2m² thermosiphon flat-plate solar water heater | Replaces electric immersion heater (2kW × 3hr/day = 6 kWh/day/unit)
+Community-wide saving: 6 kWh × 2,000 × 365 / 3 (70% solar fraction) = 1,095 MWh/year | Thermal solar is 3× more efficient per m² than PV for hot water duty
+Flat-plate collector diagram with unit-level energy flow calculation
+
+Slide 34:
+ANGAWATCH
+April 2026
+Five e-matatus, 50 electric bodas, 2-minute battery swap
+2 minutes
+50 × Roam
+5 × Roam Rapid e-matatus: community transport KES 80–100/trip | 50 × Roam Air electric bodas: KES 50/day charging vs KES 200+/day petrol
+Battery swap station: 1.85 kWh packs swapped in 2 minutes (Ampersand model) | EV charging demand: 269 MWh/year — fully accounted in energy balance
+Battery swap station diagram with time comparison vs traditional charging
+
+Slide 35:
+ANGAWATCH
+Five numbers that close the energy case
+5,734 MWh generated (solar + biogas) vs 4,355 MWh consumed
+5.7K
+9
+99.6
+5,734 MWh generated (solar + biogas) vs 4,355 MWh consumed
+KES 9/kWh community tariff vs KES 25/kWh KPLC (64% saving)
+99.6% annual uptime (BESS + genset + KPLC backup)
+16.5M
+KES 16.5M/year net metering income from export surplus
+99.6%
+
+Slide 36:
+ANGAWATCH
+Section D
+Power the Community 2026
+April 15, 2026
+Gitahi Githinji
+gitahi.githinji@strathmore.edu
+The Cognitive Community — Kenya's first
+
+Slide 37:
+ANGAWATCH
+291 killed
+Kenya 2024: 291 killed, Machakos County directly affected
+April–May 2024: worst flood season in Kenya in 30 years
+291 fatalities nationwide; 165,000 people displaced | Machakos County: Yatta River, Athi River tributaries flooding | Climate risk is not hypothetical — it happened last year
+April 2026
+
+Slide 38:
+ANGAWATCH
+1,450m ASL
+Yatta Plateau is not flood-prone — this is precautionary excellence
+Yatta Plateau: 1,450–1,550m ASL — well above any floodplain
+Machakos River system floods the lowlands — we are upland | Our IoT system monitors the upland drainage basin, not the river | Precaution, not panic: we protect against the 1-in-50-year stormwater event
+April 2026
+
+Slide 39:
+ANGAWATCH
+We already built it — working hardware, not a concept
+Platform: ESP32 microcontrollers + LSTM neural network | Built at Red Bull Basement programme, 2025 | Status: functional prototype — generates real alerts from real sensor data
+Working
+Swahili SMS delivery tested and confirmed operational
+
+Slide 40:
+ANGAWATCH
+April 2026
+14 sensors, one mesh — canal to community boundary
+14 nodes
+Node 4–6: Retention
+Node 1–3: Yatta Canal upstream — flow rate + water level gauges | Node 4–6: Retention ponds — fill level + overflow sensors
+Node 7–9: Bioswale network — flow direction + accumulation | Node 10–14: YattaFarm soil moisture + community boundary rainfall
+Site map with 14 sensor nodes plotted, drainage flow arrows
+
+Slide 41:
+ANGAWATCH
+85–95%
+LSTM neural network: 85–95% accuracy, 1–6 hour warning
+Long Short-Term Memory (LSTM) recurrent neural network
+Trained on 14 years Machakos County rainfall and flow data | Accuracy: 85–95% (validated via k-fold cross-validation on held-out data) | Lead time: 1 hour minimum, 6 hours maximum depending on upstream signal
+April 2026
+
+Slide 42:
+ANGAWATCH
+April 2026
+Sluice gates open automatically — 2-second response, no human needed
+2 seconds
+LSTM triggers gate
+Actuated sluice gates at all retention pond outlets | LSTM triggers gate opening automatically at WARNING threshold
+2-second electrical actuation — faster than any human can decide | Human override available — but not required and not the primary path
+Sluice gate actuation diagram with response time comparison — automated vs human
+
+Slide 43:
+ANGAWATCH
+WATCH · WARNING · EMERGENCY — Swahili SMS to 2,000 families
+YELLOW WATCH
+ORANGE WARNING
+RED EMERGENCY
+Three phone screens showing alert messages in escalating colour — yellow, orange, red
+"Angalizo: mvua nyingi inatarajiwa. Hakikisha mifereji wazi." (Advisory: heavy rain expected. Ensure drains clear.)
+"Onyo: mafuriko yanawezekana. Piga hatua za tahadhari sasa." (Warning: flooding possible. Take precautions now.)
+"Hatari ya dharura! Hamia eneo salama mara moja." (Emergency! Move to safe area immediately.)
+
+Slide 44:
+ANGAWATCH
+Works when grid AND cellular fail — edge inference, BESS-backed sirens
+Edge inference
+BESS-backed
+Acoustic sirens
+Mesh networking
+System resilience diagram — layers of redundancy (cloud fail → edge → mesh → siren)
+LSTM runs locally on each node's Raspberry Pi 4 — no cloud needed
+sensor nodes powered from community BESS, not KPLC
+BESS-powered physical alert for zero-cellular scenarios
+nodes communicate peer-to-peer if cellular towers fail
+
+Slide 45:
+ANGAWATCH
+21.3M litres/year
+Same sensor mesh → precision irrigation → 21.3M litres saved per year
+Soil moisture sensors repurposed from flood detection to irrigation control
+Precision drip: irrigate only when soil moisture drops below threshold | Water saving vs schedule-based irrigation: 21.3M litres/year = KES 380K value | YattaFarm yield increase: 15–20% from optimal soil moisture maintenance
+April 2026
+
+Slide 46:
+ANGAWATCH
+Sensor data as a product — KES 425K/year from four buyers
+Pula Advisors
+ACRE Africa
+Machakos County Government
+KALRO (Kenya Agri Research)
+Four buyer logos + data flow diagram + annual revenue breakdown
+parametric crop insurance pricing data
+smallholder weather index insurance data
+early warning and planning data
+soil moisture and rainfall research data
+
+Slide 47:
+ANGAWATCH
+One screen: flood + energy + farm — real-time community intelligence
+Dual 4K display at the Eco-Hub community building | Left screen: live flood sensor telemetry + LSTM prediction confidence | Right screen: energy production + BESS state + grid export + farm soil
+Dual 4K
+Accessible to community cooperative committee — not just engineers
+
+Slide 48:
+ANGAWATCH
+KES 1.16M protects 8,090 people — BCR 61.5
+Total IoT system cost: KES 1.16M (hardware + installation + first year comms)
+1.2M
+8.1K
+143
+KES 1.16M (hardware + installation + first year comms)
+8,090 residents
+KES 143
+62
+61.5 (benefits include avoided losses, telemetry revenue, insurance savings)
+BCR 61.5
+
+Slide 49:
+ANGAWATCH
+We don't just survive the climate. We master it.
+14 nodes watch every raindrop before it becomes a flood | LSTM predicts; actuators respond; residents sleep safely
+The same sensors feed a farm, earn revenue, price insurance | Kenya's first community that learns from its own environment
+Master
+
+Slide 50:
+ANGAWATCH
+KES 12,213M
+Power the Community 2026
+April 15, 2026
+Gitahi Githinji
+gitahi.githinji@strathmore.edu
+KES 12,213M — what it buys across 21 components
+
+Slide 51:
+ANGAWATCH
+Six sources, one bankable capital stack
+DFI (AfDB/IFC/AIIB): KES 8,037M (65.8%) — construction bond, repaid by unit sales
+8.0B
+1.7B
+1.0B
+KES 8,037M (65.8%) — construction bond, repaid by unit sales
+KES 1,680M (13.8%) — non-negotiable for 3BR
+KES 1,000M (8.2%) — 10-year county infrastructure bond
+1.5B
+KES 1,495M (12.2%) — resident contributions + carbon forward
+KES 8,037M
+
+Slide 52:
+ANGAWATCH
+April 2026
+DFI = construction finance. KMRC = take-out. Not the same shilling.
+DFI KES 8,037M
+KMRC mortgages
+DFI KES 8,037M: construction bond, drawn during build phase 2027–2030
+KMRC mortgages: 1,850 households × ~KES 3.5M avg = KES 6.5B over 25 years
+KMRC proceeds retire the DFI bond as units are sold — standard developer finance
+
+Slide 53:
+ANGAWATCH
+48.4%
+48.4% DTI — AHP subsidy is the correct policy response
+3BR EMI: KES 40,803/month ÷ net income KES 84,230 = 48.4%
+KMRC guideline: 40% maximum without AHP assistance | AHP subsidy reduces EMI by KES 5,000–8,000 → brings to 42–45% | 700 units × ~KES 1.5M AHP = KES 1,050M — within AHP programme parameters
+April 2026
+
+Slide 54:
+ANGAWATCH
+39.2%
+2BR at KES 33,015 — the sweet spot that needs no subsidy
+2BR EMI: KES 33,015/month ÷ net income KES 84,230 = 39.2%
+Below KMRC 40% guideline — no AHP subsidy required | 1,130 × 2BR units: the largest tier, designed for KES 110K households | The product that proves the financial model without assumptions
+April 2026
+
+Slide 55:
+ANGAWATCH
+April 2026
+3.4 years of saving at KES 15K/month to enter Angawatch
+3.4 years
+10% KMRC deposit:
+2BR total cost: KES 3,937,500 (VAT-inclusive) | 10% KMRC deposit: KES 393,750
+Legal fees + KMRC application + stamp duty: KES 215,218 | Total cash at purchase: KES 608,968 — saving KES 15,000/month for 3.4 years
+Savings timeline graph — monthly savings accumulation to deposit target
+
+Slide 56:
+ANGAWATCH
+KES 182.5M per year — 9 streams, one community
+Enterprise (Jua Kali + commercial strip): KES 92M — dominant stream
+92.0M
+25.4M
+19.8M
+KES 92M — dominant stream
+KES 25.4M
+KES 19.8M
+12
+KES 16.5M
+KES 182.5M
+
+Slide 57:
+ANGAWATCH
+KES 79.3M net surplus — residents own the outcome
+Revenue KES 182.5M − OPEX KES 68M − tax KES 35.2M = KES 79.3M net
+182M
+31.7M
+23.8M
+Revenue KES 182.5M − OPEX KES 68M − tax KES 35.2M = KES 79.3M net
+Resident dividend (KES 31.7M ÷ 2,000 families = KES 1,320/family/month)
+Maintenance and BESS replacement reserve (KES 23.8M)
+20%
+Community expansion fund | 10%: County development levy
+KES 79.3M/
+
+Slide 58:
+ANGAWATCH
+Year 25
+Honest deficit curve — Year 17 BESS replacement — approach to breakeven
+Years 1–3: Deepest deficit (construction phase, no revenue)
+Year 5: All revenue streams active, deficit narrowing | Year 17: BESS replacement — cash dip of KES 200M (fully costed) | Year 25: Cumulative breakeven — community fully self-funding
+April 2026
+
+Slide 59:
+ANGAWATCH
+April 2026
+12–15% equity IRR; 22–28% social IRR — including Year 17 BESS
+22–28% social IRR
+Social IRR: 22–28%
+Equity IRR: 12–15% over 25 years (includes Year 17 BESS replacement, full costs) | Social IRR: 22–28% (includes resident health, time savings, wealth creation)
+Comparable DFI benchmark: AfDB minimum 12% equity IRR for infrastructure — we meet it | Carbon credits (22,910 t CO₂/year) not included in financial IRR — additional upside
+IRR waterfall comparison — financial vs social IRR, with benchmark lines
+
+Slide 60:
+ANGAWATCH
+April 2026
+22,910 tonnes CO₂/year saved — Verra VCS registered
+22,910 t CO₂/year
+Equivalent: removing 4,580
+Sources: solar displacing KPLC (grid-factor), biogas replacing charcoal, EV fleet | Equivalent: removing 4,580 cars from Kenyan roads every year
+Verra VCS registration: enables internationally verified credit sales | Forward sale: KES 163M upfront (included in capital stack as carbon tranche)
+Carbon calculation breakdown + car equivalence graphic
+
+Slide 61:
+ANGAWATCH
+April 2026
+Year 5: all systems active, surplus turns positive
+Year 5
+Grid export: 1,379
+All 2,000 units occupied, all revenue streams fully operational | Grid export: 1,379 MWh × KES 12 = KES 16.5M (full year)
+Net metering income credited to residents via M-Pesa | Net surplus: KES 79.3M — dividend distribution begins
+Year 5 dashboard — all revenue streams with KES values, deficit trend turning positive
+
+Slide 62:
+ANGAWATCH
+M-Pesa 2,304% return · IoT BCR 61.5 · Biogas BCR 2.8
+M-Pesa SmartMeter software: KES 2.5M investment → KES 5.76B lifetime saving (BCR 2,304)
+2.5M
+1.2M
+65.0M
+KES 2.5M investment → KES 5.76B lifetime saving (BCR 2,304)
+KES 1.16M → BCR 61.5 (safety, telemetry, insurance savings)
+KES 65M → BCR 2.8 (health, cooking, electricity generation)
+all positive
+2,304%
+
+Slide 63:
+ANGAWATCH
+Tight affordability, AHP essential — but achievable and verified
+Affordability: 3BR is tight at 48.4% DTI — AHP is required, not optional | Timeline: aggressive but achievable — SGR built on budget in Kenya
+Numbers: every figure third-party verified (Sunny Design, KMRC calculator, KNBS data) | Risk: real — but mitigated by phased construction, diverse revenue, and BESS reserve
+Achievable
+
+Slide 64:
+ANGAWATCH
+Angawatch vs Yatta sub-county: five metrics, five wins
+Energy cost: KES 9/kWh vs KES 25/kWh (64% cheaper)
+9
+99.6
+40.8K
+KES 9/kWh vs KES 25/kWh (64% cheaper)
+99.6% vs ~75% (Yatta KPLC average)
+KES 40,803 owns vs KES 18,000 rents (builds wealth)
+2
+near-zero vs 300–1,000 µg/m³ (charcoal cooking eliminated)
+5/5
+
+Slide 65:
+ANGAWATCH
+4,580 cars
+22,910 tonnes CO₂/year — removing 4,580 cars from Kenya's roads
+Solar displacing KPLC coal/gas: 18,200 tonnes CO₂/year
+Biogas replacing charcoal at institutions: 2,200 tonnes CO₂/year | EV fleet replacing petrol vehicles: 2,510 tonnes CO₂/year | Total: 22,910 tonnes CO₂/year = 4,580 passenger cars removed annually
+April 2026
+
+Slide 66:
+ANGAWATCH
+400 children
+400 children breathe clean air daily — PM2.5 eliminated from institutions
+5 institutional kitchens (CHC + 2 schools + market + community hall): PM2.5 eliminated
+School kitchens: biogas replaces charcoal — PM2.5 drops from 650 to 8 µg/m³ | Home kitchens Phase 1: LPG drops PM2.5 from 650 to 20 µg/m³ (immediate) | Community PM2.5 eliminated vs charcoal baseline: ~13.0 tonnes/year
+April 2026
+
+Slide 67:
+ANGAWATCH
+April 2026
+Cap 490 cooperative — residents vote on tariff, own the energy system
+Co-op
+Energy tariff: voted
+Registered Cooperative Society under Cap 490 — Kenyan cooperative law | Energy tariff: voted by residents annually — any change requires 51% majority
+Community energy assets: cooperative-owned (not private utility) | Board: 9 elected residents + 2 county nominees + 1 DFI observer (non-voting)
+Cooperative governance structure diagram — board, committees, general assembly
+
+Slide 68:
+ANGAWATCH
+April 2026
+One model, 47 counties — the Angawatch template is transferable
+47 counties
+Site selection tool:
+Core design: CSEB + M-Pesa SmartMeter + biogas + BESS — county-agnostic | Site selection tool: six-variable scorecard works anywhere in Kenya
+Cooperative legal structure: Cap 490 applies in all 47 counties | IoT mesh: same ESP32 + LSTM architecture — retrain on local rainfall data
+Kenya county map with Machakos highlighted + four replication example counties
+
+Slide 69:
+ANGAWATCH
+What changes county by county — what stays the same
+Semi-arid counties (Turkana, Marsabit)
+Highlands (Nyeri, Kirinyaga)
+Lake Basin (Kisumu, Homabay)
+Coast (Mombasa, Kilifi)
+Four-quadrant Kenya map showing county type zones with key adaptation per type
+larger BESS, more boreholes, less biogas
+smaller BESS (less cloud variance), possible hydro supplement
+fish cold-chain integration, different crop mix
+desalination instead of borehole, wind supplement to solar
+
+Slide 70:
+ANGAWATCH
+47 × 2,000 = 470,000 Kenyans lifted. 1.08M tonnes CO₂/year.
+47 Angawatch communities × 2,000 families = 94,000 families / ~470,000 Kenyans
+47
+47
+94K
+47 Angawatch communities × 2,000 families = 94,000 families / ~470,000 Kenyans
+47 × 22,910 t/year = 1.08M tonnes CO₂/year
+94,000 KMRC mortgages → largest affordable housing programme in Kenya
+47
+47 × 3,360 kWp = 157.9 MWp — equivalent to one thermal power station
+470,000 Ke
+
+Slide 71:
+ANGAWATCH
+Three asks, three critical partnerships
+Ask 1
+Ask 2
+Ask 3
+Three-step pathway diagram — Ask 1 → DFI close → construction; Ask 2 → AHP → affordability; Ask 3 → land → groundbreaking
+DFI partnership (AfDB / IFC / AIIB) — KES 8,037M construction finance
+AHP qualification — non-negotiable for 3BR affordability at KES 84,230 net income
+Machakos County land allocation approval — 102ha, Matuu area
+
+Slide 72:
+ANGAWATCH
+Not a concept — a verified, prototyped, documented plan
+Red Bull Basement prototype
+SMA Sunny Design report
+24 submission sections
+STS token architecture
+Four proof pillars as icons — prototype photo, Sunny Design logo, document cover, M-Pesa token screenshot
+working ESP32 + LSTM flood system (hardware available)
+5,479.85 MWh/year validated April 7, 2026
+every claim sourced, every number calculated
+M-Pesa SmartMeter technical spec complete
+
+Slide 73:
+ANGAWATCH
+Angawatch. Built for Wanjiku.
+Powered by Kenya.
+April 15, 2026
+gitahi.githinji@strathmore.edu
+Strathmore University, Nairobi
+Yatta Plateau, Machakos County
+2,000 families 8,090 residents

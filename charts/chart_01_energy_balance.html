@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chart 01 — Energy Balance</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>body{margin:0;background:#fff;display:flex;align-items:center;justify-content:center;height:100vh;font-family:Calibri,sans-serif;}.wrap{width:900px;height:480px;}</style>
+</head>
+<body>
+<div class="wrap"><canvas id="c"></canvas></div>
+<script>
+const ctx=document.getElementById('c').getContext('2d');
+new Chart(ctx,{type:'bar',data:{
+  labels:['Generation (5,734 MWh)','Demand + Export (5,734 MWh)'],
+  datasets:[
+    {label:'Solar PV (5,480)',data:[5480,0],backgroundColor:'#BA7517'},
+    {label:'Biogas (254)',data:[254,0],backgroundColor:'#0E7490'},
+    {label:'Residential (2,726)',data:[0,2726],backgroundColor:'#0D2B4E'},
+    {label:'Jua Kali (302)',data:[0,302],backgroundColor:'#1A5C9E'},
+    {label:'Cold Storage (171)',data:[0,171],backgroundColor:'#2563EB'},
+    {label:'CHC (228)',data:[0,228],backgroundColor:'#166534'},
+    {label:'EV Charging (269)',data:[0,269],backgroundColor:'#15803D'},
+    {label:'Common Areas (204)',data:[0,204],backgroundColor:'#4ADE80'},
+    {label:'Borehole+Irrigation (97)',data:[0,97],backgroundColor:'#86EFAC'},
+    {label:'Schools (38)',data:[0,38],backgroundColor:'#BBF7D0'},
+    {label:'Losses (323)',data:[0,323],backgroundColor:'#94A3B8'},
+    {label:'Export Surplus (1,379)',data:[0,1379],backgroundColor:'#BA7517'},
+  ]},
+  options:{responsive:true,maintainAspectRatio:true,
+    plugins:{legend:{position:'right',labels:{font:{size:12},color:'#1E293B',padding:8}}},
+    scales:{
+      x:{stacked:true,ticks:{font:{size:13,weight:'bold'},color:'#1E293B'},grid:{display:false}},
+      y:{stacked:true,title:{display:true,text:'MWh/year',font:{size:13},color:'#64748B'},
+        ticks:{font:{size:12},color:'#64748B',callback:v=>v.toLocaleString()},
+        grid:{color:'#E2E8F0'},max:6200}}}});
+</script></body></html>

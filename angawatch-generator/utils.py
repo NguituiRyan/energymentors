@@ -1,0 +1,2 @@
+def generate_header(tag_text: str) -> str:
+    return f'''<div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">{tag_text}</div></div>'''

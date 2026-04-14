@@ -1,0 +1,2030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Angawatch Eco-Community — Complete Engineering Narrative</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F1F5F9;--white:#FFFFFF;--ink:#0F172A;--body:#334155;--mute:#64748B;--td:#0F766E;--tl:#CCFBF1;--tb:#14B8A6;--bl:#E2E8F0;--bm:#CBD5E1;--card:#F8FAFC}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--body);overflow-x:hidden;padding:0;scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+.deck{width:100%;max-width:1400px;margin:40px auto 120px;background:var(--white);box-shadow:0 25px 50px -12px rgba(0,0,0,.1);border-radius:32px;display:flex;flex-direction:column;overflow:hidden}
+.s{position:relative;padding:100px 0;border-bottom:1px solid var(--bl);display:flex;flex-direction:column;background:var(--white);overflow:hidden;min-height:50vh;}
+.s:last-child{border-bottom:none}
+.hdr{padding:0 80px 60px;display:flex;align-items:center;justify-content:space-between;z-index:10;position:relative}
+.logo{display:flex;align-items:center;gap:12px}
+.logo svg{width:32px;height:32px}
+.logo span{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:var(--ink)}
+.tag{font-family:'DM Mono',monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--td);font-weight:600;background:var(--tl);padding:8px 16px;border-radius:100px}
+.pad{padding:0 80px;position:relative;z-index:2}
+.t1{font-family:'Playfair Display',serif;font-size:56px;font-weight:700;line-height:1.1;letter-spacing:-.02em;margin-bottom:24px;color:var(--ink)}
+.t1 em{font-style:italic;color:var(--td);border-bottom:4px solid var(--tl)}
+.intro{font-size:18px;color:var(--body);line-height:1.7;margin-bottom:40px;max-width:900px}
+.big{font-family:'Playfair Display',serif;font-weight:900;color:var(--td);line-height:1}
+.mono{font-family:'DM Mono',monospace}
+.quote{font-family:'Playfair Display',serif;font-style:italic;font-size:22px;color:var(--ink);line-height:1.5;border-left:4px solid var(--td);background:var(--tl);padding:24px 32px;margin:24px 0;border-radius:0 16px 16px 0;box-shadow:4px 8px 24px rgba(20,184,166,.1)}
+.quote small{display:block;font-family:'DM Sans',sans-serif;font-style:normal;font-size:14px;color:var(--mute);margin-top:12px}
+@keyframes morph{0%,100%{border-radius:40% 60% 70% 30%/40% 50% 60% 50%}34%{border-radius:70% 30% 50% 50%/30% 30% 70% 70%}67%{border-radius:100% 60% 60% 100%/100% 100% 60% 60%}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-20px)}}
+@keyframes up{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes fadeSlideUp{from{opacity:0;transform:translateY(60px)}to{opacity:1;transform:translateY(0)}}
+@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+@keyframes unfold{from{transform:perspective(500px) rotateX(-90deg);opacity:0}to{transform:perspective(500px) rotateX(0deg);opacity:1}}
+@keyframes countUp{from{transform:translateY(20px);opacity:0}to{transform:translateY(0);opacity:1}}
+@keyframes slideFromLeft{from{transform:translateX(-100px);opacity:0}to{transform:translateX(0);opacity:1}}
+@keyframes slideFromRight{from{transform:translateX(100px);opacity:0}to{transform:translateX(0);opacity:1}}
+@keyframes scaleIn{from{transform:scale(0.8);opacity:0}to{transform:scale(1);opacity:1}}
+.rv{opacity:0}.rv.on{animation:fadeSlideUp .8s cubic-bezier(.16,1,.3,1) forwards}
+.draw.on path, .draw.on line, .draw.on circle, .draw.on rect {animation:draw 4s ease-out forwards;}
+.unfold.on {animation:unfold 1s cubic-bezier(.16,1,.3,1) forwards;}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.dark{background:var(--ink);color:#fff;border-radius:32px;padding:64px;position:relative;overflow:hidden}
+.dark .cross{position:absolute;width:20px;height:20px;opacity:.2}
+.dark .cross::before,.dark .cross::after{content:'';position:absolute;background:#fff}
+.dark .cross::before{top:50%;left:0;width:100%;height:1px}
+.dark .cross::after{left:50%;top:0;height:100%;width:1px}
+.kv{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.1);font-size:15px}
+.kv:last-child{border-bottom:none}
+.kv .k{color:#CBD5E1}.kv .v{font-weight:600;color:#fff;font-family:'DM Mono',monospace;font-size:14px}
+.kv .v.hi{background:var(--tb);color:#fff;padding:4px 10px;border-radius:6px}
+table.dt{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 6px rgba(0,0,0,.02)}
+table.dt th,table.dt td{padding:16px 20px;text-align:left;border-bottom:1px solid var(--bl)}
+table.dt th{background:var(--card);font-weight:700;color:var(--ink);font-family:'DM Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:.05em}
+table.dt.inv{background:#0F172A;color:#fff}
+table.dt.inv th{background:#1E293B;color:#94A3B8}
+table.dt.inv td{border-color:#1E293B}
+.bar-w{height:12px;background:var(--bl);border-radius:6px;overflow:hidden;flex:1}
+.bar-f{height:100%;border-radius:6px}
+.pill{background:#fff;border:1px solid var(--bm);border-radius:16px;padding:20px;display:flex;gap:16px;align-items:center;transition:all .3s;box-shadow:4px 4px 0 var(--bl)}
+.pill:hover{transform:translateY(-4px);border-color:var(--tb);box-shadow:6px 6px 0 var(--tl)}
+.pill .n{font-family:'Playfair Display',serif;font-size:40px;font-weight:900;color:var(--tb);line-height:.8;opacity:.5}
+.card{background:var(--card);padding:32px;border-radius:24px;border:1px solid var(--bl);transition:all .3s}
+.card:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(15,118,110,.1);border-color:var(--tl)}
+.zone{border-radius:12px;padding:16px;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;transition:all .3s;cursor:crosshair;position:relative;overflow:hidden}
+.zone:hover{transform:scale(1.02);z-index:10;box-shadow:0 20px 40px rgba(0,0,0,.15)}
+.zone::after{content:'';position:absolute;inset:0;background:linear-gradient(rgba(255,255,255,.2),transparent);pointer-events:none}
+.fp-box{background:#fff;border-radius:32px;padding:48px;border:1px solid var(--bl);box-shadow:0 20px 40px rgba(0,0,0,.03);display:flex;align-items:center;justify-content:center;min-height:420px;position:relative}
+.fp-wall{fill:none;stroke:var(--ink);stroke-width:4;stroke-linecap:square;transition:stroke 0.3s;}
+.fp-wall:hover{stroke:var(--td);}
+.fp-win{fill:none;stroke:var(--tb);stroke-width:6;stroke-dasharray:8 4}
+.fp-room{fill:rgba(20,184,166,.05);transition:fill .3s, transform .3s; transform-origin:center;}
+.fp-room:hover{fill:rgba(20,184,166,.15);transform:scale(1.01);}
+.fp-t{font-family:'DM Mono',monospace;font-size:10px;fill:var(--ink);text-anchor:middle;font-weight:600;pointer-events:none}
+.fp-d{font-size:8px;fill:var(--mute)}
+.ol-box{background:#0F172A;border-radius:32px;padding:40px;min-height:600px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.ol-line{stroke:#38BDF8;stroke-width:3;fill:none}
+.ol-node{fill:#1E293B;stroke:#38BDF8;stroke-width:2;transition:all 0.3s;}
+.ol-node:hover{fill:#38BDF8;scale:1.05;}
+.ol-t{font-family:'DM Mono',monospace;font-size:12px;fill:#94A3B8;text-anchor:middle}
+.ol-tb{font-weight:700;fill:#F8FAFC}
+.phone{width:300px;height:580px;background:#fff;border-radius:44px;box-shadow:0 25px 50px -12px rgba(0,0,0,.2),inset 0 0 0 10px #0F172A;margin:0 auto;position:relative;overflow:hidden;display:flex;flex-direction:column}
+.phone .notch{position:absolute;top:10px;left:50%;transform:translateX(-50%);width:100px;height:26px;background:#0F172A;border-radius:0 0 14px 14px;z-index:10}
+.phone .screen{padding:54px 20px 20px;flex:1;background:var(--card);display:flex;flex-direction:column;gap:12px}
+.bubble{background:var(--bl);padding:10px 14px;border-radius:14px 14px 14px 4px;font-size:13px;color:var(--ink);font-family:monospace;transition:transform 0.3s;}
+.bubble:hover{transform:scale(1.02);}
+.bubble.r{background:var(--tb);color:#fff;border-radius:14px 14px 4px 14px;align-self:flex-end}
+.token{background:#fff;border:2px dashed var(--td);padding:14px;border-radius:12px;text-align:center;margin-top:auto;transition:box-shadow 0.3s;}
+.token:hover{box-shadow: 0 10px 20px rgba(20,184,166,0.2);}
+.token .num{font-family:'DM Mono',monospace;font-size:16px;font-weight:700;color:var(--ink);letter-spacing:2px;margin-bottom:6px}
+.layer{background:#fff;border-radius:16px;padding:24px 40px;display:flex;align-items:center;gap:40px;box-shadow:0 4px 12px rgba(0,0,0,.02);border-left:8px solid var(--bm);transition:transform .3s, border-left-color .3s;}
+.layer:hover{transform:translateX(10px);border-left-color:var(--td) !important;}
+.layer h4{font-size:18px;font-weight:700;margin-bottom:6px;color:var(--ink)}
+.layer p{font-size:14px;color:var(--body);line-height:1.5}
+
+/* Additional specific utility classes for hover effects and animations */
+.glow-on-hover:hover { box-shadow: 0 0 20px var(--tl); }
+.transform-up:hover { transform: translateY(-10px); }
+.transform-scale:hover { transform: scale(1.05); }
+
+/* SVG Animation specific */
+.sankey-flow { stroke-dasharray: 2000; stroke-dashoffset: 2000; }
+.draw.on .sankey-flow { animation: drawPathAnim 3s ease-out forwards; }
+@keyframes drawPathAnim { to { stroke-dashoffset: 0; } }
+
+@media(max-width:1024px){
+  .pad{padding:0 40px}
+  .hdr{padding:0 40px 40px}
+  .g2,.g3,.g4{grid-template-columns:1fr}
+}
+@media(max-width:768px){
+  .t1{font-size:40px}
+  .quote{font-size:18px;padding:16px}
+}
+</style>
+</head>
+<body>
+<div class="deck" id="deck">
+
+<!-- ═══════════════ ACT 0: COVER (Slides 1-4) ═══════════════ -->
+<div class="s" id="s1" style="padding-top:64px;padding-bottom:0; min-height: 100vh;">
+<div style="position:absolute;inset:0;opacity:.5;pointer-events:none;background-image:radial-gradient(var(--bm) 1px,transparent 1px);background-size:40px 40px"></div>
+<div class="glow-on-hover" style="position:absolute;right:-10%;top:-15%;width:800px;height:800px;background:linear-gradient(135deg,var(--tl),rgba(20,184,166,.15));animation:morph 15s ease-in-out infinite;pointer-events:none;transition:box-shadow 0.5s;"></div>
+<div style="position:relative;z-index:2;padding:0 80px;display:flex;justify-content:space-between;align-items:flex-start">
+<div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="2"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="3" fill="#0F766E"/></svg><span>Angawatch</span></div>
+<div style="font-family:'DM Mono',monospace;font-size:13px;letter-spacing:.15em;text-transform:uppercase;color:var(--td);font-weight:600;background:rgba(255,255,255,.8);backdrop-filter:blur(4px);padding:10px 20px;border-radius:100px;border:1px solid var(--tl);transition: transform 0.3s;" class="transform-scale">Power the Community 2026<br><span style="color:var(--mute);font-size:11px;text-transform:none;letter-spacing:0">Energy Mentors International</span></div>
+</div>
+<div class="rv on" style="position:relative;z-index:2;text-align:center;max-width:900px;margin:120px auto;padding:0 40px">
+<div style="font-family:'Playfair Display',serif;font-size:clamp(64px,8vw,96px);font-weight:900;line-height:1.05;letter-spacing:-.02em;color:var(--ink);margin-bottom:24px">Angawatch<br><em style="font-style:italic;color:var(--tb);position:relative;display:inline-block">Eco-Community</em></div>
+<div style="font-size:22px;color:var(--body);line-height:1.6;max-width:700px;margin:0 auto">A first-principles, solar-and-biogas powered community for 2,000 families on the Yatta Plateau, Kenya.</div>
+</div>
+</div>
+\n
+<div class="s" id="s2" style="min-height: 80vh; display:flex; flex-direction:column; justify-content:center;">
+<div class="pad rv">
+<div class="t1" style="text-align:center;">The Scale of Ambition.</div>
+<div style="position:relative;z-index:2;background:rgba(255,255,255,.9);backdrop-filter:blur(10px);display:flex;border-top:2px dashed var(--tl);border-bottom:2px dashed var(--tl);flex-wrap:wrap; margin-top:60px;">
+<div class="transform-up" style="flex:1;min-width:180px;padding:60px 48px;border-right:2px dashed var(--tl);transition:transform 0.3s;"><div style="font-family:'Playfair Display',serif;font-size:64px;font-weight:700;color:var(--ink);line-height:1;margin-bottom:12px">8,090</div><div class="mono" style="font-size:14px;color:var(--mute);letter-spacing:.1em;text-transform:uppercase;font-weight:600">Total Residents</div></div>
+<div class="transform-up" style="flex:1;min-width:180px;padding:60px 48px;border-right:2px dashed var(--tl);transition:transform 0.3s;"><div style="font-family:'Playfair Display',serif;font-size:64px;font-weight:700;color:var(--ink);line-height:1;margin-bottom:12px">3,360<span style="color:var(--tb);font-size:32px">kWp</span></div><div class="mono" style="font-size:14px;color:var(--mute);letter-spacing:.1em;text-transform:uppercase;font-weight:600">Solar Installed</div></div>
+</div>
+</div></div>
+\n
+<div class="s" id="s3" style="min-height: 80vh; display:flex; flex-direction:column; justify-content:center;">
+<div class="pad rv">
+<div style="position:relative;z-index:2;background:rgba(255,255,255,.9);backdrop-filter:blur(10px);display:flex;border-top:2px dashed var(--tl);border-bottom:2px dashed var(--tl);flex-wrap:wrap;">
+<div class="transform-up" style="flex:1;min-width:180px;padding:60px 48px;border-right:2px dashed var(--tl);transition:transform 0.3s;"><div style="font-family:'Playfair Display',serif;font-size:64px;font-weight:700;color:var(--ink);line-height:1;margin-bottom:12px">5,734</div><div class="mono" style="font-size:14px;color:var(--mute);letter-spacing:.1em;text-transform:uppercase;font-weight:600">MWh/year Generated</div></div>
+<div class="transform-up" style="flex:1;min-width:180px;padding:60px 48px;transition:transform 0.3s;"><div style="font-family:'Playfair Display',serif;font-size:64px;font-weight:700;color:var(--ink);line-height:1;margin-bottom:12px">35k<span style="color:var(--tb);font-size:32px">KES</span></div><div class="mono" style="font-size:14px;color:var(--mute);letter-spacing:.1em;text-transform:uppercase;font-weight:600">Monthly Family Saving</div></div>
+</div>
+</div></div>
+\n
+<div class="s" id="s4" style="background:#0F172A;color:#fff;display:flex;align-items:center;justify-content:center; text-align:center;">
+<div class="rv unfold">
+<div style="font-family:'Playfair Display',serif;font-size:48px;font-weight:700;margin-bottom:24px;">An Engineering Narrative.</div>
+<div style="font-size:20px;color:#94A3B8;max-width:800px;margin:0 auto;line-height:1.6;">Before we show you what we're building, we show you WHERE and WHY. This is a journey through data, light, structure, and impact.</div>
+</div>
+</div>
+\n
+<!-- ═══════════════ ACT I: THE LAND ═══════════════ -->
+<div class="s" style="min-height:80vh;background:linear-gradient(135deg,var(--td),#064E3B);display:flex;align-items:center;justify-content:center;padding:0">
+<svg class="draw on" style="position:absolute;inset:0;width:100%;height:100%;opacity:.12;pointer-events:none" viewBox="0 0 1000 500" preserveAspectRatio="none"><path class="sankey-flow" d="M0 250Q250 100 500 250T1000 250" fill="none" stroke="#fff" stroke-width="1.5"/><path class="sankey-flow" d="M0 300Q250 150 500 300T1000 300" fill="none" stroke="#fff" stroke-width="1"/><path class="sankey-flow" d="M0 350Q250 200 500 350T1000 350" fill="none" stroke="#fff" stroke-width="2"/></svg>
+<div class="rv scaleIn" style="position:relative;z-index:2;text-align:center;color:#fff">
+<div class="mono" style="font-size:14px;letter-spacing:.3em;text-transform:uppercase;color:var(--tl);margin-bottom:24px">Section 01 · The Land</div>
+<div style="font-family:'Playfair Display',serif;font-size:clamp(64px,10vw,120px);font-weight:900;margin-bottom:16px;letter-spacing:-.02em;text-shadow:0 20px 40px rgba(0,0,0,.3)">1.17°S, 37.45°E</div>
+<div class="mono" style="font-size:20px;letter-spacing:.2em;text-transform:uppercase;color:var(--tl)">Yatta Plateau · Machakos County · Kenya</div>
+</div>
+</div>
+\n
+<div class="s" id="s6"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">01.01 · Geolocation</div></div>
+<div class="pad rv slideFromLeft">
+<div class="t1">Connected, but <em>independent.</em></div>
+<div class="intro">60km from Nairobi CBD via A109 highway. 25km from Athi River SGR station. Strategic proximity to infrastructure without the cost burden of the metropolis. Elevation: 1,450–1,550m ASL.</div>
+<div class="draw on" style="position:relative;height:400px;background:var(--card);border-radius:32px;border:1px solid var(--bl);overflow:hidden;margin-top:40px;box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+<svg style="width:100%;height:100%;position:absolute;inset:0;z-index:1" viewBox="0 0 1000 400"><path class="sankey-flow" d="M150 320Q300 320 450 200T750 120" fill="none" stroke="var(--tl)" stroke-width="8" stroke-dasharray="16 16"/></svg>
+<div class="transform-scale" style="position:absolute;z-index:2;left:15%;top:75%;transform:translate(-50%,-50%);text-align:center;transition:scale 0.3s;"><div style="width:24px;height:24px;border-radius:50%;background:#fff;border:4px solid var(--ink);margin:0 auto 8px"></div><div style="background:rgba(255,255,255,.9);padding:6px 14px;border-radius:8px;font-weight:700;font-size:13px">Nairobi CBD</div></div>
+<div class="transform-scale" style="position:absolute;z-index:2;left:40%;top:85%;transform:translate(-50%,-50%);text-align:center;transition:scale 0.3s;"><div style="width:20px;height:20px;border-radius:50%;background:#fff;border:4px solid #F59E0B;margin:0 auto 8px"></div><div style="background:rgba(255,255,255,.9);padding:6px 14px;border-radius:8px;font-weight:700;font-size:13px">Athi River SGR</div><div class="mono" style="font-size:11px;color:var(--td);margin-top:2px">25km</div></div>
+<div class="transform-scale" style="position:absolute;z-index:2;left:72%;top:28%;transform:translate(-50%,-50%);text-align:center;transition:scale 0.3s;"><div style="width:32px;height:32px;border-radius:50%;background:var(--td);border:4px solid var(--tb);animation:pulse 2s infinite;margin:0 auto 8px"></div><div style="background:rgba(255,255,255,.95);padding:8px 16px;border-radius:8px;font-weight:700;font-size:14px">Angawatch Site</div><div class="mono" style="font-size:11px;color:var(--td);margin-top:2px">60km from CBD via A109</div></div>
+</div>
+</div></div>
+\n
+<div class="s" id="s7"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">01.02 · Site Parameters</div></div>
+<div class="pad rv unfold">
+<div class="dark glow-on-hover" style="transform:rotate(-1deg);max-width:900px;transition: transform 0.3s, box-shadow 0.3s;">
+<div class="cross" style="top:20px;left:20px"></div><div class="cross" style="bottom:20px;right:20px"></div>
+<div class="t1" style="color:#fff;margin-bottom:40px;border-bottom:1px solid rgba(255,255,255,.1);padding-bottom:24px">Verified Site Parameters</div>
+<div class="g2">
+<div>
+<div class="kv"><span class="k">Google Earth Area</span><span class="v hi">101.9 ha</span></div>
+<div class="kv"><span class="k">Perimeter</span><span class="v">4,508.92 m</span></div>
+<div class="kv"><span class="k">Elevation Range</span><span class="v">1,273–1,326m ASL</span></div>
+<div class="kv"><span class="k">Elevation Median</span><span class="v">1,298m ASL</span></div>
+</div>
+<div>
+<div class="kv"><span class="k">Current Use</span><span class="v">Agricultural / Scrub</span></div>
+<div class="kv"><span class="k">Solar Irradiance</span><span class="v hi">5.18 kWh/m²/day</span></div>
+<div class="kv"><span class="k">Rainfall</span><span class="v">700–900mm bimodal</span></div>
+<div class="kv"><span class="k">Soil</span><span class="v">Basaltic laterite (Yatta Fm.)</span></div>
+</div>
+</div>
+</div>
+</div></div>
+\n
+<div class="s" id="s8"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">01.03 · 8 Reasons</div></div>
+<div class="pad rv slideFromRight">
+<div class="g2">
+<div><div class="t1">Why this <em>exact spot.</em></div><div class="intro">Every constraint — affordability, energy, climate, water, soil, access — converges at these coordinates. Not a compromise. The mathematical optimum.</div></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+<div class="pill transform-scale"><div class="n">1</div><div><div style="font-weight:700;font-size:15px">Elevation</div><span class="mono" style="font-size:12px;color:var(--td)">Zero AC load (17–27°C)</span></div></div>
+<div class="pill transform-scale"><div class="n">2</div><div><div style="font-weight:700;font-size:15px">Solar</div><span class="mono" style="font-size:12px;color:var(--td)">5.18 kWh/m²/day</span></div></div>
+<div class="pill transform-scale"><div class="n">3</div><div><div style="font-weight:700;font-size:15px">Laterite Soil</div><span class="mono" style="font-size:12px;color:var(--td)">5% cement CSEB</span></div></div>
+<div class="pill transform-scale"><div class="n">4</div><div><div style="font-weight:700;font-size:15px">Yatta Canal</div><span class="mono" style="font-size:12px;color:var(--td)">2km, gravity irr.</span></div></div>
+<div class="pill transform-scale"><div class="n">5</div><div><div style="font-weight:700;font-size:15px">KPLC Substation</div><span class="mono" style="font-size:12px;color:var(--td)">4km grid link</span></div></div>
+<div class="pill transform-scale"><div class="n">6</div><div><div style="font-weight:700;font-size:15px">A109 Highway</div><span class="mono" style="font-size:12px;color:var(--td)">Direct to Nairobi</span></div></div>
+<div class="pill transform-scale"><div class="n">7</div><div><div style="font-weight:700;font-size:15px">Bimodal Rain</div><span class="mono" style="font-size:12px;color:var(--td)">700–900mm/year</span></div></div>
+<div class="pill transform-scale"><div class="n">8</div><div><div style="font-weight:700;font-size:15px">Thwake Dam</div><span class="mono" style="font-size:12px;color:var(--td)">20MW grid backup</span></div></div>
+</div>
+</div>
+</div></div>
+\n
+<div class="s" id="s9"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">01.04 · Master Plan</div></div>
+<div class="pad rv">
+<div class="t1">102 Hectares. <em>Mapped.</em></div>
+<div class="unfold" style="display:grid;grid-template-columns:repeat(12,1fr);grid-template-rows:repeat(6,56px);gap:10px;margin-top:40px">
+<div class="zone" style="grid-column:span 5;grid-row:span 3;background:var(--td)"><div style="font-family:'Playfair Display',serif;font-size:22px;font-weight:700">Residential</div><div class="mono" style="font-size:13px;opacity:.9">37ha · 36%</div></div>
+<div class="zone" style="grid-column:span 4;grid-row:span 4;background:#166534"><div style="font-family:'Playfair Display',serif;font-size:22px;font-weight:700">YattaFarm</div><div class="mono" style="font-size:13px;opacity:.9">20ha · 22%</div></div>
+<div class="zone" style="grid-column:span 3;grid-row:span 2;background:#3B82F6"><div style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700">Community Hub</div><div class="mono" style="font-size:12px;opacity:.9">12ha · 13%</div></div>
+<div class="zone" style="grid-column:span 4;grid-row:span 2;background:#22C55E"><div style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700">Green Space</div><div class="mono" style="font-size:12px;opacity:.9">10ha · 11%</div></div>
+<div class="zone" style="grid-column:span 3;grid-row:span 2;background:#F59E0B"><div style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700">Jua Kali</div><div class="mono" style="font-size:12px;opacity:.9">8ha · 9%</div></div>
+<div class="zone" style="grid-column:span 3;grid-row:span 1;background:#64748B"><div class="mono" style="font-size:12px">Roads 7ha</div></div>
+<div class="zone" style="grid-column:span 2;grid-row:span 1;background:#8B5CF6"><div class="mono" style="font-size:12px">Commercial 5ha</div></div>
+<div class="zone" style="grid-column:span 2;grid-row:span 1;background:#EF4444"><div class="mono" style="font-size:12px">Energy 3ha</div></div>
+</div>
+</div></div>
+\n
+<div class="s" id="s10"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">01.05 · Surroundings</div></div>
+<div class="pad rv scaleIn">
+<div class="t1">Not Empty. <em>Surrounded.</em></div>
+<div class="ol-box glow-on-hover" style="background:#0F172A;border-radius:32px;padding:40px;min-height:400px;display:flex;align-items:center;justify-content:center;overflow:hidden;margin-top:20px;">
+<svg class="draw on" viewBox="0 0 800 400" style="width:100%;height:100%">
+<g transform="translate(400, 200)">
+    <circle cx="0" cy="0" r="40" fill="var(--td)" />
+    <text x="0" y="5" class="ol-tb" style="text-anchor:middle;">SITE</text>
+    
+    <!-- Nodes -->
+    <path class="sankey-flow ol-line" d="M0,0 L-200,-100" />
+    <circle cx="-200" cy="-100" r="20" class="ol-node" />
+    <text x="-200" y="-130" class="ol-t">Kithimani Parish</text>
+    <text x="-200" y="-70" class="ol-t" style="font-size:10px;fill:var(--tb)">Boundary</text>
+    
+    <path class="sankey-flow ol-line" d="M0,0 L200,-140" />
+    <circle cx="200" cy="-140" r="20" class="ol-node" />
+    <text x="200" y="-170" class="ol-t">Rimaal Prime Hospital</text>
+    <text x="200" y="-110" class="ol-t" style="font-size:10px;fill:var(--tb)">Boundary</text>
+    
+    <path class="sankey-flow ol-line" d="M0,0 L-250,50" />
+    <circle cx="-250" cy="50" r="20" class="ol-node" />
+    <text x="-250" y="30" class="ol-t">Yatta Canal</text>
+    <text x="-250" y="80" class="ol-t" style="font-size:10px;fill:var(--tb)">2km West</text>
+
+    <path class="sankey-flow ol-line" d="M0,0 L-100,150" />
+    <circle cx="-100" cy="150" r="20" class="ol-node" />
+    <text x="-100" y="130" class="ol-t">A109 Highway</text>
+    <text x="-100" y="180" class="ol-t" style="font-size:10px;fill:var(--tb)">West Edge</text>
+
+    <path class="sankey-flow ol-line" d="M0,0 L150,150" />
+    <circle cx="150" cy="150" r="20" class="ol-node" />
+    <text x="150" y="130" class="ol-t">Matuu KPLC Substation</text>
+    <text x="150" y="180" class="ol-t" style="font-size:10px;fill:var(--tb)">4km</text>
+    
+    <path class="sankey-flow ol-line" d="M0,0 L300,50" />
+    <circle cx="300" cy="50" r="20" class="ol-node" />
+    <text x="300" y="30" class="ol-t">Thwake Dam Phase I</text>
+    <text x="300" y="80" class="ol-t" style="font-size:10px;fill:var(--tb)">50km SE</text>
+</g>
+</svg>
+</div>
+</div></div>
+\n
+<div class="s" id="s11"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">01.06 · Construction Cost</div></div>
+<div class="pad rv slideFromRight">
+<div class="glow-on-hover" style="background:linear-gradient(135deg,var(--tl),#fff);border-radius:32px;padding:64px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;box-shadow:0 20px 40px rgba(0,0,0,.05); transition: box-shadow 0.3s;">
+<div>
+<div class="t1">The Clean Slate.</div>
+<p style="font-size:16px;line-height:1.7;color:var(--body);margin-bottom:32px">No demolition. No relocation. Cable routes, drainage, and solar pitch optimized from first principles.</p>
+<div style="font-family:'Playfair Display',serif;font-size:72px;font-weight:900;color:var(--td);line-height:1;margin-bottom:12px">46,500<span style="font-size:24px;opacity:.5"> KES/m²</span></div>
+<div class="mono" style="font-size:12px;color:var(--td);font-weight:600">VAT-INCLUSIVE · 25–28% BELOW CONCRETE</div>
+</div>
+<div style="background:#fff;padding:32px;border-radius:24px;box-shadow:0 10px 20px rgba(0,0,0,.03)">
+<div style="display:flex;align-items:center;margin-bottom:24px;gap:16px"><div style="width:140px;font-size:14px;font-weight:600">Nairobi Concrete</div><div class="bar-w"><div class="bar-f" style="width:100%;background:#EF4444"></div></div><div class="mono" style="font-size:12px;color:#EF4444">~120K</div></div>
+<div style="display:flex;align-items:center;gap:16px"><div style="width:140px;font-size:14px;font-weight:600">Angawatch CSEB</div><div class="bar-w"><div class="bar-f" style="width:38%;background:var(--tb)"></div></div><div class="mono" style="font-size:12px;color:var(--td);font-weight:700">46.5K</div></div>
+</div>
+</div>
+</div></div>
+\n
+<div class="s" id="s12"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">01.07 · Climate</div></div>
+<div class="pad rv slideFromLeft">
+<div class="t1">Bimodal Rainfall. <em>Perfect Comfort.</em></div>
+<div class="intro">Year-round temperatures 17–27°C (elevation eliminates cooling load). Rain: 700-900mm.</div>
+<div class="card unfold" style="min-height: 300px; display:flex; align-items:flex-end; gap: 10px; padding: 20px 40px;">
+    <div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end;"><div style="width:100%; max-width:40px; background:var(--tb); border-radius: 4px 4px 0 0; height:40px; transition: height 0.5s;"></div><div class="mono" style="margin-top:10px; font-size:10px;">JAN</div></div><div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end;"><div style="width:100%; max-width:40px; background:var(--tb); border-radius: 4px 4px 0 0; height:50px; transition: height 0.5s;"></div><div class="mono" style="margin-top:10px; font-size:10px;">FEB</div></div><div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end;"><div style="width:100%; max-width:40px; background:var(--tb); border-radius: 4px 4px 0 0; height:100px; transition: height 0.5s;"></div><div class="mono" style="margin-top:10px; font-size:10px;">MAR</div></div><div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end;"><div style="width:100%; max-width:40px; background:var(--tb); border-radius: 4px 4px 0 0; height:200px; transition: height 0.5s;"></div><div class="mono" style="margin-top:10px; font-size:10px;">APR</div></div><div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end;"><div style="width:100%; max-width:40px; background:var(--tb); border-radius: 4px 4px 0 0; height:150px; transition: height 0.5s;"></div><div class="mono" style="margin-top:10px; font-size:10px;">MAY</div></div><div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end;"><div style="width:100%; max-width:40px; background:var(--tb); border-radius: 4px 4px 0 0; height:20px; transition: height 0.5s;"></div><div class="mono" style="margin-top:10px; font-size:10px;">JUN</div></div><div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end;"><div style="width:100%; max-width:40px; background:var(--tb); border-radius: 4px 4px 0 0; height:10px; transition: height 0.5s;"></div><div class="mono" style="margin-top:10px; font-size:10px;">JUL</div></div><div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end;"><div style="width:100%; max-width:40px; background:var(--tb); border-radius: 4px 4px 0 0; height:10px; transition: height 0.5s;"></div><div class="mono" style="margin-top:10px; font-size:10px;">AUG</div></div><div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end;"><div style="width:100%; max-width:40px; background:var(--tb); border-radius: 4px 4px 0 0; height:20px; transition: height 0.5s;"></div><div class="mono" style="margin-top:10px; font-size:10px;">SEP</div></div><div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end;"><div style="width:100%; max-width:40px; background:var(--tb); border-radius: 4px 4px 0 0; height:80px; transition: height 0.5s;"></div><div class="mono" style="margin-top:10px; font-size:10px;">OCT</div></div><div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end;"><div style="width:100%; max-width:40px; background:var(--tb); border-radius: 4px 4px 0 0; height:180px; transition: height 0.5s;"></div><div class="mono" style="margin-top:10px; font-size:10px;">NOV</div></div><div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end;"><div style="width:100%; max-width:40px; background:var(--tb); border-radius: 4px 4px 0 0; height:100px; transition: height 0.5s;"></div><div class="mono" style="margin-top:10px; font-size:10px;">DEC</div></div>
+</div>
+<div style="text-align:center; font-family:'DM Mono',monospace; font-size:12px; margin-top:20px; color:var(--mute);">Monthly Average Rainfall (mm equivalent). Horizontal temperature band: 17–27°C.</div>
+</div></div>
+\n
+<div class="s" id="s13"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">01.08 · Solar Resource</div></div>
+<div class="pad rv scaleIn" style="text-align:center;">
+<div class="t1">Solar Irradiance.</div>
+<div class="intro" style="margin: 0 auto 40px auto;">Annual average 5.18 kWh/m²/day. PVGIS v5.2 verified.</div>
+<div style="position:relative; width:400px; height:400px; margin: 0 auto;">
+    <svg class="draw on" viewBox="0 0 100 100" style="width:100%; height:100%; filter: drop-shadow(0 0 30px rgba(20,184,166,0.3));">
+        <!-- Sunburst abstract -->
+        <path d="M50 50 L90.0 50.0" stroke="var(--tb)" stroke-width="2" class="sankey-flow"/><path d="M50 50 L84.64102499667348 69.99998467949023" stroke="var(--tb)" stroke-width="2" class="sankey-flow"/><path d="M50 50 L70.00003064100781 84.64099846076536" stroke="var(--tb)" stroke-width="2" class="sankey-flow"/><path d="M50 50 L50.000053071795875 89.99999999996479" stroke="var(--tb)" stroke-width="2" class="sankey-flow"/><path d="M50 50 L30.00006128206256 84.64105153252058" stroke="var(--tb)" stroke-width="2" class="sankey-flow"/><path d="M50 50 L15.359028075203703 70.00007660249017" stroke="var(--tb)" stroke-width="2" class="sankey-flow"/><path d="M50 50 L10.00000000014083 50.00010614359175" stroke="var(--tb)" stroke-width="2" class="sankey-flow"/><path d="M50 50 L15.358921931693274 30.000107243650554" stroke="var(--tb)" stroke-width="2" class="sankey-flow"/><path d="M50 50 L29.999877436062654 15.359054611233773" stroke="var(--tb)" stroke-width="2" class="sankey-flow"/><path d="M50 50 L49.99984078461242 10.000000000316874" stroke="var(--tb)" stroke-width="2" class="sankey-flow"/><path d="M50 50 L69.99984679472627 15.358895395968133" stroke="var(--tb)" stroke-width="2" class="sankey-flow"/><path d="M50 50 L84.6409188526752 29.999831474650716" stroke="var(--tb)" stroke-width="2" class="sankey-flow"/>
+        <circle cx="50" cy="50" r="30" fill="var(--td)" />
+    </svg>
+    <div style="position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; color:#fff; pointer-events:none;">
+        <div style="font-family:'Playfair Display', serif; font-size:48px; font-weight:900; line-height:1;">5.18</div>
+        <div class="mono" style="font-size:12px; letter-spacing:0.1em; opacity:0.8;">kWh/m²/day</div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s14"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">01.09 · Soil & Water</div></div>
+<div class="pad rv">
+<div class="t1">Earth and Water.</div>
+<div class="g2" style="margin-top:40px;">
+<div class="card transform-up" style="border-top:6px solid #8B5CF6; min-height: 250px;">
+    <div style="font-family:'Playfair Display',serif;font-size:28px;font-weight:700;margin-bottom:10px;">Basaltic Laterite</div>
+    <div class="mono" style="font-size:12px;color:var(--mute);margin-bottom:20px;">YATTA FORMATION · CSEB SUITABLE</div>
+    <p style="font-size:15px;line-height:1.6;">Perfect soil profile for Compressed Stabilised Earth Blocks (CSEB). KS 02-1070 compliant. Requires only <strong>5% cement binder</strong> for structural integrity.</p>
+</div>
+<div class="card transform-up" style="border-top:6px solid #38BDF8; min-height: 250px;">
+    <div style="font-family:'Playfair Display',serif;font-size:28px;font-weight:700;margin-bottom:10px;">Yatta Canal</div>
+    <div class="mono" style="font-size:12px;color:var(--mute);margin-bottom:20px;">3 M³/SEC FLOW · 2KM WEST</div>
+    <p style="font-size:15px;line-height:1.6;">A permanent water source. The entire YattaFarm requires merely <strong>0.4%</strong> of the canal's flow, establishing robust food security.</p>
+</div>
+</div>
+</div></div>
+\n
+<!-- ═══════════════ ACT II: THE PROBLEM ═══════════════ -->
+<div class="s" style="min-height:80vh;background:#0F172A;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff">
+<div class="rv scaleIn">
+<div style="font-family:'Playfair Display',serif;font-size:200px;font-weight:900;color:#EF4444;line-height:.8;text-shadow:0 20px 40px rgba(239,68,68,.2);margin-bottom:24px">6</div>
+<div class="t1" style="color:#fff;margin:0">Documented Needs.<br><em style="color:var(--tb);border-color:transparent">Six Engineered Responses.</em></div>
+</div>
+</div>
+\n
+<div class="s" id="s16"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">02.01 · Air Pollution</div></div>
+<div class="pad rv slideFromRight">
+<div class="t1">Household Air Pollution.</div>
+<div class="intro">3.2 million deaths/year globally (WHO 2022). 70%+ of Machakos households cook on charcoal — exceeding WHO PM2.5 limits by up to 67×.</div>
+<div class="glow-on-hover" style="position:relative;background:#fff;border-radius:32px;padding:64px 64px 64px 200px;box-shadow:0 20px 40px rgba(0,0,0,.05);margin-top:40px; transition:box-shadow .3s;">
+<div style="position:absolute;left:238px;top:0;bottom:0;width:2px;border-left:2px dashed #EF4444;z-index:5"></div>
+<div style="position:absolute;top:16px;left:248px;color:#EF4444;font-weight:700;font-size:13px">WHO Limit 15 µg/m³</div>
+<div style="margin-bottom:28px;display:flex;align-items:center;position:relative;z-index:2"><div style="position:absolute;left:-160px;width:140px;font-weight:700;text-align:right;font-size:14px">Charcoal</div><div class="bar-w" style="height:28px;border-radius:14px"><div class="bar-f" style="width:100%;background:linear-gradient(90deg,#991B1B,#EF4444);border-radius:14px;display:flex;align-items:center;padding-left:12px;color:#fff;font-size:12px;font-weight:700">1,000 µg/m³</div></div></div>
+<div style="margin-bottom:28px;display:flex;align-items:center;position:relative;z-index:2"><div style="position:absolute;left:-160px;width:140px;font-weight:700;text-align:right;font-size:14px">LPG (Phase 1)</div><div class="bar-w" style="height:28px;border-radius:14px"><div class="bar-f" style="width:12%;background:linear-gradient(90deg,#B45309,#F59E0B);border-radius:14px;display:flex;align-items:center;padding-left:12px;color:#fff;font-size:12px;font-weight:700">30</div></div></div>
+<div style="margin-bottom:28px;display:flex;align-items:center;position:relative;z-index:2"><div style="position:absolute;left:-160px;width:140px;font-weight:700;text-align:right;font-size:14px">Biogas (Inst.)</div><div class="bar-w" style="height:28px;border-radius:14px"><div class="bar-f" style="width:4%;background:linear-gradient(90deg,#047857,#10B981);border-radius:14px;display:flex;align-items:center;padding-left:8px;color:#fff;font-size:12px;font-weight:700">&lt;10</div></div></div>
+<div style="display:flex;align-items:center;position:relative;z-index:2"><div style="position:absolute;left:-160px;width:140px;font-weight:700;text-align:right;font-size:14px">Solar Induction</div><div class="bar-w" style="height:28px;border-radius:14px"><div class="bar-f" style="width:1%;background:var(--tb);border-radius:14px">&nbsp;</div></div><span class="mono" style="font-size:12px;color:var(--td);margin-left:8px;font-weight:700">~0</span></div>
+</div>
+</div></div>
+\n
+<div class="s" id="s17"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">02.01b · Cooking Transition</div></div>
+<div class="pad rv unfold"><div class="t1">Three-Phase Cooking Transition.</div><div class="intro">We do not pretend 2,000 homes can cook on solar batteries immediately. We transition honestly.</div>
+<div style="display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:40px;flex-wrap:wrap">
+<div class="card transform-up" style="flex:1;min-width:240px;text-align:center;border-top:8px solid #F59E0B"><div class="mono" style="font-size:12px;color:#B45309;margin-bottom:8px">PHASE 1 (Yrs 1–5)</div><h3 style="font-size:18px;font-weight:700;margin-bottom:10px">SACCO LPG</h3><p style="font-size:13px;color:var(--mute);margin-bottom:12px">Bulk procurement. Monthly billing.</p><div style="font-weight:700;font-size:18px">KES 1,260/mo</div><div class="mono" style="font-size:10px;color:red;margin-top:5px;">10-30 µg/m³ PM2.5</div></div>
+<div style="font-size:24px;color:var(--bm);flex-shrink:0">→</div>
+<div class="card transform-up" style="flex:1;min-width:240px;text-align:center;border-top:8px solid var(--tb)"><div class="mono" style="font-size:12px;color:var(--tb);margin-bottom:8px">PHASE 2 (Yrs 2+)</div><h3 style="font-size:18px;font-weight:700;margin-bottom:10px">Biogas Institutions</h3><p style="font-size:13px;color:var(--mute);margin-bottom:12px">CHC, schools, market on pipeline.</p><div style="font-weight:700;font-size:18px;color:var(--td)">Near-Zero PM2.5</div></div>
+<div style="font-size:24px;color:var(--bm);flex-shrink:0">→</div>
+<div class="card transform-up" style="flex:1;min-width:240px;text-align:center;border-top:8px solid var(--td)"><div class="mono" style="font-size:12px;color:var(--td);margin-bottom:8px">PHASE 3 (Yr 10+)</div><h3 style="font-size:18px;font-weight:700;margin-bottom:10px">Solar Induction</h3><p style="font-size:13px;color:var(--mute);margin-bottom:12px">Homes migrate as surplus grows.</p><div style="font-weight:700;font-size:18px;color:var(--td)">~0 µg/m³</div></div>
+</div></div></div>
+\n
+<div class="s" id="s18"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">02.02 · Energy Poverty</div></div>
+<div class="pad rv slideFromLeft">
+<div class="glow-on-hover" style="display:grid;grid-template-columns:1fr 1fr;border-radius:40px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.1);position:relative;margin-top:40px; transition: box-shadow .3s;">
+<div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-family:'Playfair Display',serif;font-size:120px;font-weight:900;color:#fff;text-shadow:0 10px 30px rgba(0,0,0,.5);z-index:10;pointer-events:none">64%</div>
+<div style="padding:80px 64px;background:#1E293B;color:#94A3B8">
+<div class="mono" style="font-size:14px;letter-spacing:.1em;margin-bottom:16px;color:#EF4444">THE PROBLEM</div>
+<h3 style="font-family:'Playfair Display',serif;font-size:32px;color:#fff;margin-bottom:24px">KPLC Grid</h3>
+<p style="font-size:16px;line-height:1.8">KES 25–28/kWh tariff<br>15–25 outages/year<br>4–8 hour average duration<br>45–60% regional connection</p>
+</div>
+<div style="padding:80px 64px;background:var(--td);color:var(--tl)">
+<div class="mono" style="font-size:14px;letter-spacing:.1em;margin-bottom:16px;color:var(--tl)">THE SOLUTION</div>
+<h3 style="font-family:'Playfair Display',serif;font-size:32px;color:#fff;margin-bottom:24px">Angawatch</h3>
+<p style="font-size:16px;line-height:1.8">KES 9/kWh community tariff<br>99.6% guaranteed uptime<br>Zero cooling load<br>100% connection</p>
+</div>
+</div>
+</div></div>
+\n
+<div class="s" id="s19"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">02.03 · Cooking Cost</div></div>
+<div class="pad rv unfold">
+<div class="t1">The Upfront Barrier.</div>
+<div class="intro">Cash-flow barriers force reliance on toxic charcoal. Retail LPG cylinder refills demand high single payments.</div>
+<div class="g3">
+    <div class="card transform-up" style="border-top: 8px solid #EF4444; border-radius: 12px; text-align:center;">
+        <h3 style="font-size:24px;margin-bottom:16px;color:#EF4444;">Charcoal</h3>
+        <div style="font-family:'Playfair Display', serif; font-size:48px; font-weight:700;">3,250<span style="font-size:16px;">/mo</span></div>
+        <div class="mono" style="font-size:12px; color:var(--mute); margin-top:20px;">Health & Deforestation</div>
+    </div>
+    <div class="card transform-up" style="border-top: 8px solid #F59E0B; border-radius: 12px; text-align:center;">
+        <h3 style="font-size:24px;margin-bottom:16px;color:#F59E0B;">Retail LPG</h3>
+        <div style="font-family:'Playfair Display', serif; font-size:48px; font-weight:700;">1,560<span style="font-size:16px;">/mo</span></div>
+        <div class="mono" style="font-size:12px; color:var(--mute); margin-top:20px;">1,500 KES upfront barrier</div>
+    </div>
+    <div class="card transform-up" style="border-top: 8px solid var(--td); border-radius: 12px; text-align:center; box-shadow: 0 10px 30px rgba(15,118,110,.2);">
+        <h3 style="font-size:24px;margin-bottom:16px;color:var(--td);">SACCO LPG</h3>
+        <div style="font-family:'Playfair Display', serif; font-size:48px; font-weight:700; color:var(--td);">1,260<span style="font-size:16px;">/mo</span></div>
+        <div class="mono" style="font-size:12px; color:var(--mute); margin-top:20px;">Angawatch Solution</div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s20"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">02.04 · Transport Poverty</div></div>
+<div class="pad rv slideFromRight">
+<div class="t1">Breaking Transport Poverty.</div>
+<div class="g2" style="margin-top: 40px;">
+    <!-- Matatu vs E-Matatu -->
+    <div class="card transform-scale">
+        <svg viewBox="0 0 100 40" width="100" height="40"><rect x="10" y="10" width="80" height="25" rx="5" fill="#3B82F6"/><circle cx="30" cy="35" r="5" fill="#0F172A"/><circle cx="70" cy="35" r="5" fill="#0F172A"/></svg>
+        <h3 style="font-size: 20px; font-weight:700; margin: 10px 0;">Matatu Commute</h3>
+        <div style="display:flex; justify-content:space-between; border-bottom:1px solid var(--bl); padding: 8px 0;"><span>Current ICE Matatu</span><strong>KES 6,600 / mo</strong></div>
+        <div style="display:flex; justify-content:space-between; border-bottom:1px solid var(--bl); padding: 8px 0; color:var(--td);"><span>E-Matatu (Angawatch)</span><strong>KES 3,960 / mo</strong></div>
+        <div style="font-weight:700; color:var(--td); margin-top:12px; text-align:right;">Saving: KES 2,640</div>
+    </div>
+    <!-- Boda vs E-Boda -->
+    <div class="card transform-scale">
+        <svg viewBox="0 0 100 40" width="80" height="40"><path d="M20 30 L40 10 L60 10 L80 30" stroke="#F59E0B" stroke-width="4" fill="none"/><circle cx="20" cy="30" r="8" fill="#0F172A"/><circle cx="80" cy="30" r="8" fill="#0F172A"/></svg>
+        <h3 style="font-size: 20px; font-weight:700; margin: 10px 0;">Boda Boda Operator</h3>
+        <div style="display:flex; justify-content:space-between; border-bottom:1px solid var(--bl); padding: 8px 0;"><span>Petrol Cost</span><strong>KES 7,500 / mo</strong></div>
+        <div style="display:flex; justify-content:space-between; border-bottom:1px solid var(--bl); padding: 8px 0; color:var(--td);"><span>Roam Air Swap</span><strong>KES 1,500 / mo</strong></div>
+        <div style="font-weight:700; color:var(--td); margin-top:12px; text-align:right;">Saving: KES 6,000</div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s21"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">02.05 · Healthcare</div></div>
+<div class="pad rv scaleIn">
+<div class="t1">Healthcare Access.</div>
+<div class="g2" style="align-items:center;">
+    <div style="text-align:center;">
+        <div style="position:relative; display:inline-block;">
+            <div style="font-family:'Playfair Display', serif; font-size:96px; font-weight:900; color:var(--mute); text-decoration:line-through; opacity:0.5;">1:8,000</div>
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); background:#fff; padding:20px; border-radius:50%; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                <span style="font-size:64px;">🏥</span>
+            </div>
+        </div>
+        <div class="mono" style="margin-top:20px; color:var(--mute);">MACHAKOS DOCTOR RATIO vs WHO (1:1,000)</div>
+    </div>
+    <div>
+        <h3 style="font-size:28px; font-weight:700; margin-bottom:16px;">50-Bed Level 3 CHC</h3>
+        <p style="font-size:18px; line-height:1.6; color:var(--body);">Located within walking distance inside the Angawatch community.</p>
+        <ul style="list-style:none; padding:0; margin-top:20px;">
+            <li style="margin-bottom:12px; padding-left:24px; position:relative;"><span style="position:absolute; left:0; color:var(--td);">✓</span> Uninterruptible power supply</li>
+            <li style="margin-bottom:12px; padding-left:24px; position:relative;"><span style="position:absolute; left:0; color:var(--td);">✓</span> High-speed telemedicine link to Machakos L5</li>
+            <li style="margin-bottom:12px; padding-left:24px; position:relative;"><span style="position:absolute; left:0; color:var(--td);">✓</span> High quality housing to attract medical staff</li>
+        </ul>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s22"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">02.06 · Education</div></div>
+<div class="pad rv slideFromLeft">
+<div class="t1">Education Crisis.</div>
+<div class="g2">
+    <div class="card transform-up">
+        <h3 style="text-align:center; margin-bottom:16px;">National Average: 50+ per class</h3>
+        <svg viewBox="0 0 100 60" width="100%" height="200" style="background:#FEE2E2; border-radius: 8px;">
+            <circle cx="10" cy="10" r="2.5" fill="#EF4444"/><circle cx="19" cy="10" r="2.5" fill="#EF4444"/><circle cx="28" cy="10" r="2.5" fill="#EF4444"/><circle cx="37" cy="10" r="2.5" fill="#EF4444"/><circle cx="46" cy="10" r="2.5" fill="#EF4444"/><circle cx="55" cy="10" r="2.5" fill="#EF4444"/><circle cx="64" cy="10" r="2.5" fill="#EF4444"/><circle cx="73" cy="10" r="2.5" fill="#EF4444"/><circle cx="82" cy="10" r="2.5" fill="#EF4444"/><circle cx="91" cy="10" r="2.5" fill="#EF4444"/><circle cx="10" cy="20" r="2.5" fill="#EF4444"/><circle cx="19" cy="20" r="2.5" fill="#EF4444"/><circle cx="28" cy="20" r="2.5" fill="#EF4444"/><circle cx="37" cy="20" r="2.5" fill="#EF4444"/><circle cx="46" cy="20" r="2.5" fill="#EF4444"/><circle cx="55" cy="20" r="2.5" fill="#EF4444"/><circle cx="64" cy="20" r="2.5" fill="#EF4444"/><circle cx="73" cy="20" r="2.5" fill="#EF4444"/><circle cx="82" cy="20" r="2.5" fill="#EF4444"/><circle cx="91" cy="20" r="2.5" fill="#EF4444"/><circle cx="10" cy="30" r="2.5" fill="#EF4444"/><circle cx="19" cy="30" r="2.5" fill="#EF4444"/><circle cx="28" cy="30" r="2.5" fill="#EF4444"/><circle cx="37" cy="30" r="2.5" fill="#EF4444"/><circle cx="46" cy="30" r="2.5" fill="#EF4444"/><circle cx="55" cy="30" r="2.5" fill="#EF4444"/><circle cx="64" cy="30" r="2.5" fill="#EF4444"/><circle cx="73" cy="30" r="2.5" fill="#EF4444"/><circle cx="82" cy="30" r="2.5" fill="#EF4444"/><circle cx="91" cy="30" r="2.5" fill="#EF4444"/><circle cx="10" cy="40" r="2.5" fill="#EF4444"/><circle cx="19" cy="40" r="2.5" fill="#EF4444"/><circle cx="28" cy="40" r="2.5" fill="#EF4444"/><circle cx="37" cy="40" r="2.5" fill="#EF4444"/><circle cx="46" cy="40" r="2.5" fill="#EF4444"/><circle cx="55" cy="40" r="2.5" fill="#EF4444"/><circle cx="64" cy="40" r="2.5" fill="#EF4444"/><circle cx="73" cy="40" r="2.5" fill="#EF4444"/><circle cx="82" cy="40" r="2.5" fill="#EF4444"/><circle cx="91" cy="40" r="2.5" fill="#EF4444"/><circle cx="10" cy="50" r="2.5" fill="#EF4444"/><circle cx="19" cy="50" r="2.5" fill="#EF4444"/><circle cx="28" cy="50" r="2.5" fill="#EF4444"/><circle cx="37" cy="50" r="2.5" fill="#EF4444"/><circle cx="46" cy="50" r="2.5" fill="#EF4444"/><circle cx="55" cy="50" r="2.5" fill="#EF4444"/><circle cx="64" cy="50" r="2.5" fill="#EF4444"/><circle cx="73" cy="50" r="2.5" fill="#EF4444"/><circle cx="82" cy="50" r="2.5" fill="#EF4444"/><circle cx="91" cy="50" r="2.5" fill="#EF4444"/>
+        </svg>
+    </div>
+    <div class="card transform-up" style="border-top:8px solid var(--td);">
+        <h3 style="text-align:center; margin-bottom:16px; color:var(--td);">Angawatch Target: 30 per class</h3>
+        <svg viewBox="0 0 100 60" width="100%" height="200" style="background:var(--tl); border-radius: 8px;">
+            <circle cx="10" cy="10" r="3" fill="var(--td)"/><circle cx="26" cy="10" r="3" fill="var(--td)"/><circle cx="42" cy="10" r="3" fill="var(--td)"/><circle cx="58" cy="10" r="3" fill="var(--td)"/><circle cx="74" cy="10" r="3" fill="var(--td)"/><circle cx="90" cy="10" r="3" fill="var(--td)"/><circle cx="10" cy="20" r="3" fill="var(--td)"/><circle cx="26" cy="20" r="3" fill="var(--td)"/><circle cx="42" cy="20" r="3" fill="var(--td)"/><circle cx="58" cy="20" r="3" fill="var(--td)"/><circle cx="74" cy="20" r="3" fill="var(--td)"/><circle cx="90" cy="20" r="3" fill="var(--td)"/><circle cx="10" cy="30" r="3" fill="var(--td)"/><circle cx="26" cy="30" r="3" fill="var(--td)"/><circle cx="42" cy="30" r="3" fill="var(--td)"/><circle cx="58" cy="30" r="3" fill="var(--td)"/><circle cx="74" cy="30" r="3" fill="var(--td)"/><circle cx="90" cy="30" r="3" fill="var(--td)"/><circle cx="10" cy="40" r="3" fill="var(--td)"/><circle cx="26" cy="40" r="3" fill="var(--td)"/><circle cx="42" cy="40" r="3" fill="var(--td)"/><circle cx="58" cy="40" r="3" fill="var(--td)"/><circle cx="74" cy="40" r="3" fill="var(--td)"/><circle cx="90" cy="40" r="3" fill="var(--td)"/><circle cx="10" cy="50" r="3" fill="var(--td)"/><circle cx="26" cy="50" r="3" fill="var(--td)"/><circle cx="42" cy="50" r="3" fill="var(--td)"/><circle cx="58" cy="50" r="3" fill="var(--td)"/><circle cx="74" cy="50" r="3" fill="var(--td)"/><circle cx="90" cy="50" r="3" fill="var(--td)"/>
+        </svg>
+    </div>
+</div>
+<div style="margin-top:40px; text-align:center; font-size:18px;">Nearly 300 resident teacher families. The ability to walk to work in a safe, fully-powered environment. Minimum commute, maximum impact.</div>
+</div></div>
+\n
+<!-- ═══════════════ ACT III: THE PEOPLE ═══════════════ -->
+<div class="s" style="min-height:60vh;background:#0F172A;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff">
+<div class="rv scaleIn">
+<div class="mono" style="font-size:14px;letter-spacing:.3em;color:var(--mute);margin-bottom:24px">Section 03 · The People</div>
+<div class="t1" style="color:#fff;margin:0;font-size:56px">Designed for nurses, teachers,<br><em style="color:var(--tb);border-color:transparent">and the self-employed.</em></div>
+<div style="display:flex; gap:20px; justify-content:center; margin-top:60px;">
+    <!-- Abstract Silhouettes -->
+    <svg width="60" height="100" viewBox="0 0 60 100"><polygon points="30,0 60,30 60,100 0,100 0,30" fill="var(--td)"/><circle cx="30" cy="30" r="15" fill="#0F172A"/></svg>
+    <svg width="60" height="100" viewBox="0 0 60 100"><polygon points="30,10 50,40 60,100 0,100 10,40" fill="#F59E0B"/><circle cx="30" cy="25" r="12" fill="#0F172A"/></svg>
+    <svg width="60" height="100" viewBox="0 0 60 100"><polygon points="30,20 60,50 60,100 0,100 0,50" fill="#E2E8F0"/><circle cx="30" cy="35" r="18" fill="#0F172A"/></svg>
+</div>
+</div>
+</div>
+\n
+<div class="s" id="s24"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">03.01 · The Rural Nurse</div></div>
+<div class="pad rv slideFromRight">
+<div class="g2" style="gap:64px;margin-top:20px">
+<div class="card transform-up" style="border-top:6px solid var(--td)">
+<div style="width:80px;height:80px;border-radius:50%;background:var(--tl);display:flex;align-items:center;justify-content:center;margin-bottom:20px"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--td)" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+<div style="font-family:'Playfair Display',serif;font-size:28px;font-weight:700;margin-bottom:4px">The Rural Nurse</div>
+<div class="mono" style="font-size:12px;color:var(--td);margin-bottom:20px">~60% POPULATION · 3BR · KES 95K–134K DUAL INCOME</div>
+
+<!-- Current vs Angawatch cost bars -->
+<div style="margin-bottom:20px;">
+    <div style="display:flex; justify-content:space-between; font-size:13px; font-weight:700; margin-bottom:4px;"><span>Current (Rent)</span><span>KES 12K - 18K</span></div>
+    <div class="bar-w" style="margin-bottom:12px;"><div class="bar-f" style="width:40%; background:var(--mute);"></div></div>
+    
+    <div style="display:flex; justify-content:space-between; font-size:13px; font-weight:700; color:var(--td); margin-bottom:4px;"><span>Angawatch EMI</span><span>KES 40,803</span></div>
+    <div class="bar-w"><div class="bar-f" style="width:100%; background:var(--td);"></div></div>
+</div>
+
+</div>
+<div>
+<div class="quote">"Tokens zinaisha haraka sana — na wakati wa load shedding, chakula inaharibika."<small>"Tokens run out too fast — and when there's load shedding, the food goes bad."</small></div>
+<div class="quote" style="border-color:#EF4444;background:#FEF2F2">"Smoke from the jiko makes the children cough, but gas is too expensive to buy all at once — you cannot buy half a cylinder."<small style="color:#B91C1C">Cash-flow barriers force reliance on toxic charcoal.</small></div>
+</div>
+</div>
+</div></div>
+\n
+<div class="s" id="s25"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">03.01b · Engineering Response</div></div>
+<div class="pad rv unfold">
+<div class="t1">The Engineering Response.</div>
+<div class="dark" style="margin-top:40px;">
+<table class="dt inv" style="font-size:16px;">
+    <tr><th style="font-size:14px; color:#fff;">Problem / Pain Point</th><th style="font-size:14px; color:var(--tb);">Angawatch Solution</th></tr>
+    <tr><td>Electricity cost: KES 7,200/mo (KPLC)</td><td style="color:var(--tl)">Community Solar: KES 930/mo</td></tr>
+    <tr><td>Daily load shedding / power outages</td><td style="color:var(--tl)">99.6% guaranteed uptime (3,600 kWh BESS)</td></tr>
+    <tr><td>Toxic charcoal / Upfront LPG cost barrier</td><td style="color:var(--tl)">SACCO bulk LPG at KES 1,260/mo (billed easily)</td></tr>
+    <tr><td>Commute costs (KES 5,500 - 7,700/mo)</td><td style="color:var(--tl)">E-matatu fleet (KES 2,200/mo) or walking (CHC on site)</td></tr>
+</table>
+</div>
+</div></div>
+\n
+<div class="s" id="s26"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">03.02 · The Boda Operator</div></div>
+<div class="pad rv slideFromLeft">
+<div class="g2" style="gap:64px">
+<div>
+    <div class="quote" style="border-color:#F59E0B;background:#FEF3C7">"Boda ni kazi ngumu — petrol inapanda kila wiki, lakini hakuna alternative."<small style="color:#B45309">"Boda is hard work — petrol rises every week, but there is no alternative."</small></div>
+    <div class="quote">"Nataka mahali salama — si lazima kubwa, lakini salama na stima inayofanya kazi."<small>"I want somewhere safe — not necessarily big, but safe and with electricity that works."</small></div>
+    <div style="background:#FEF2F2;border-left:4px solid #EF4444;padding:20px;border-radius:0 16px 16px 0;margin-top:24px; box-shadow:0 4px 12px rgba(239,68,68,.1);"><div class="mono" style="font-size:12px;color:#B91C1C;margin-bottom:6px;font-weight:700">HONEST LIMITATION</div><p style="font-size:14px;color:#7F1D1D;line-height:1.5">At KES 30k–48k sole income, KMRC mortgage is unaffordable. Correct product: <strong>1BR Cooperative Rental at KES 10k–12k/month</strong>.</p></div>
+</div>
+<div class="card transform-up" style="border-top:6px solid #F59E0B;transform:rotate(1deg)">
+    <div style="font-family:'Playfair Display',serif;font-size:28px;font-weight:700">The Boda Operator</div>
+    <div class="mono" style="font-size:12px;color:#D97706;margin-bottom:20px">1BR RENTAL · 7.5% POPULATION · KES 30K–48K</div>
+    <div class="kv" style="border-color:var(--bl)"><span class="k" style="color:var(--mute)">Petrol cost</span><span class="v" style="color:#EF4444">KES 7,500–10K/mo</span></div>
+    <div class="kv" style="border-color:transparent"><span class="k" style="color:var(--mute)">Roam Air swap</span><span class="v" style="color:var(--td)">KES 1,500/mo</span></div>
+    <div style="margin-top:40px; padding:20px; background:var(--tl); border-radius:12px;">
+        <p style="font-weight:700; color:var(--td); font-size:14px;">The e-boda transition literally pays for the 1BR rental.</p>
+    </div>
+</div>
+</div>
+</div></div>
+\n
+<div class="s" id="s27"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">03.03 · The Deputy Principal</div></div>
+<div class="pad rv scaleIn">
+<div class="g2" style="gap:64px">
+<div class="card transform-up" style="background:linear-gradient(135deg,#1E293B,#0F172A);color:#fff;border-color:#334155;border-top:6px solid #FCD34D;box-shadow: 0 20px 40px rgba(0,0,0,.3)">
+    <div style="font-family:'Playfair Display',serif;font-size:28px;font-weight:700;color:#FCD34D;margin-bottom:4px">The Deputy Principal</div>
+    <div class="mono" style="font-size:12px;color:#93C5FD;margin-bottom:20px">4BR PREMIUM · 1% POPULATION · KES 120K–200K</div>
+    <div class="kv" style="border-color:#334155"><span class="k" style="color:#94A3B8">Unit</span><span class="v">4BR Bungalow</span></div>
+    <div class="kv" style="border-color:transparent"><span class="k" style="color:#94A3B8">EMI</span><span class="v" style="color:#FCD34D">KES 48,615</span></div>
+</div>
+<div>
+    <div class="quote" style="background:var(--card);border-color:#334155;box-shadow:none">"The land is good and it is not far, but who will teach my children if all the good teachers are in Nairobi?"<small>Senior pros need quality schools on-site to relocate.</small></div>
+    <div class="quote" style="background:var(--card);border-color:#334155;box-shadow:none">"I work night shifts — I need the lights and the fridge to work."<small>99.6% uptime is non-negotiable for this archetype.</small></div>
+</div>
+</div>
+</div></div>
+\n
+<div class="s" id="s28"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">03.04 · Archetype Comparison</div></div>
+<div class="pad rv slideFromRight">
+<div class="t1">Three Families. <em>Three Paths.</em></div>
+<div style="display:grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: stretch; margin-top:40px;">
+    
+    <!-- Operator -->
+    <div class="card" style="display:flex; flex-direction:column; border-top: 4px solid #F59E0B;">
+        <h3 style="font-size:22px; font-weight:700; margin-bottom:12px; color:#F59E0B;">The Operator</h3>
+        <p style="font-size:14px; margin-bottom:20px; color:var(--mute);">KES 30K - 48K</p>
+        <ul style="list-style:none; padding:0; flex:1; font-size:14px; line-height:2;">
+            <li><strong>Unit:</strong> 1BR Studio</li>
+            <li><strong>Tenure:</strong> Rental</li>
+            <li><strong>Monthly:</strong> KES 10K-12K</li>
+            <li><strong>Key Saving:</strong> Fuel (E-boda)</li>
+        </ul>
+        <div style="margin-top:20px; padding-top:10px; border-top:1px solid #FCA5A5; color:#EF4444; font-size:12px; font-weight:700;">Limitation: Cannot afford KMRC deposit</div>
+    </div>
+
+    <!-- Nurse (Highlight) -->
+    <div class="card" style="display:flex; flex-direction:column; border-top: 4px solid var(--td); background:var(--tl); transform:scale(1.05); box-shadow:0 20px 40px rgba(15,118,110,.15); z-index:10;">
+        <h3 style="font-size:22px; font-weight:700; margin-bottom:12px; color:var(--td);">The Nurse Family</h3>
+        <p style="font-size:14px; margin-bottom:20px; color:var(--td);">KES 95K - 134K</p>
+        <ul style="list-style:none; padding:0; flex:1; font-size:14px; line-height:2;">
+            <li><strong>Unit:</strong> 3BR Maisonette</li>
+            <li><strong>Tenure:</strong> KMRC Mortgage</li>
+            <li><strong>EMI:</strong> KES 40,803</li>
+            <li><strong>Key Saving:</strong> Energy & Rent</li>
+        </ul>
+        <div style="margin-top:20px; padding-top:10px; border-top:1px solid var(--td); color:var(--ink); font-size:12px; font-weight:700;">The ultimate core population (~60%)</div>
+    </div>
+
+    <!-- Principal -->
+    <div class="card" style="display:flex; flex-direction:column; border-top: 4px solid #FCD34D; background:#1E293B; color:#fff;">
+        <h3 style="font-size:22px; font-weight:700; margin-bottom:12px; color:#FCD34D;">The Principal</h3>
+        <p style="font-size:14px; margin-bottom:20px; color:#94A3B8;">KES 120K - 200K</p>
+        <ul style="list-style:none; padding:0; flex:1; font-size:14px; line-height:2;">
+            <li><strong>Unit:</strong> 4BR Bungalow</li>
+            <li><strong>Tenure:</strong> Premium Mortgage</li>
+            <li><strong>EMI:</strong> KES 48,615</li>
+            <li><strong>Key Demand:</strong> Quality Schools</li>
+        </ul>
+        <div style="margin-top:20px; padding-top:10px; border-top:1px solid #334155; color:#FCD34D; font-size:12px; font-weight:700;">Critical for social anchor / leadership</div>
+    </div>
+
+</div>
+</div></div>
+\n
+<div class="s" id="s29"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">03.05 · Salary Verification</div></div>
+<div class="pad rv unfold">
+<div class="t1">Anchored in Data.</div>
+<div class="intro">Sources: KNBS 2019, TSC salary scales 2023, NCK nurse grades.</div>
+<div class="dark">
+    <div style="margin-bottom:30px; position:relative;">
+        <div style="display:flex; justify-content:space-between; font-weight:700; margin-bottom:8px; font-size:14px;"><span>RN Nurse</span><span>KES 40K - 75K</span></div>
+        <div class="bar-w" style="background:#1E293B;"><div class="bar-f" style="width:45%; margin-left:15%; background:linear-gradient(90deg, #F87171, #EF4444);"></div></div>
+    </div>
+    <div style="margin-bottom:30px; position:relative;">
+        <div style="display:flex; justify-content:space-between; font-weight:700; margin-bottom:8px; font-size:14px;"><span>Teacher (TSC)</span><span>KES 37K - 77K</span></div>
+        <div class="bar-w" style="background:#1E293B;"><div class="bar-f" style="width:50%; margin-left:12%; background:linear-gradient(90deg, #60A5FA, #3B82F6);"></div></div>
+    </div>
+    <div style="margin-bottom:30px; position:relative;">
+        <div style="display:flex; justify-content:space-between; font-weight:700; margin-bottom:8px; font-size:14px;"><span>Dual Junior/Mid</span><span style="color:var(--td);">KES 87K - 110K</span></div>
+        <div class="bar-w" style="background:#1E293B;"><div class="bar-f" style="width:30%; margin-left:35%; background:linear-gradient(90deg, var(--tb), var(--td));"></div></div>
+    </div>
+    <div style="position:relative;">
+        <div style="display:flex; justify-content:space-between; font-weight:700; margin-bottom:8px; font-size:14px;"><span>Senior Duo</span><span style="color:#F59E0B">KES 120K - 140K+</span></div>
+        <div class="bar-w" style="background:#1E293B;"><div class="bar-f" style="width:25%; margin-left:60%; background:linear-gradient(90deg, #FCD34D, #F59E0B);"></div></div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s30"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">03.06 · Pull Factors</div></div>
+<div class="pad rv scaleIn">
+<div class="t1" style="text-align:center;">8 Reasons They Will Move.</div>
+<div style="display:grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-top:40px;">
+    <div class="card transform-up" style="text-align:center; padding:24px 16px;"><div style="font-size:32px; margin-bottom:12px;">🚶</div><h4 style="font-size:15px; font-weight:700; margin-bottom:8px;">Walk to Work</h4><p style="font-size:12px; color:var(--mute); line-height:1.4;">Zero commute for 300+ professionals internally.</p></div>
+    <div class="card transform-up" style="text-align:center; padding:24px 16px;"><div style="font-size:32px; margin-bottom:12px;">🔑</div><h4 style="font-size:15px; font-weight:700; margin-bottom:8px;">Ownership</h4><p style="font-size:12px; color:var(--mute); line-height:1.4;">Generational wealth building instead of dead rent.</p></div>
+    <div class="card transform-up" style="text-align:center; padding:24px 16px;"><div style="font-size:32px; margin-bottom:12px;">🎒</div><h4 style="font-size:15px; font-weight:700; margin-bottom:8px;">Quality Schools</h4><p style="font-size:12px; color:var(--mute); line-height:1.4;">30 per class. Top tier infrastructure on site.</p></div>
+    <div class="card transform-up" style="text-align:center; padding:24px 16px;"><div style="font-size:32px; margin-bottom:12px;">🤝</div><h4 style="font-size:15px; font-weight:700; margin-bottom:8px;">Community</h4><p style="font-size:12px; color:var(--mute); line-height:1.4;">A neighborhood of fellow professionals.</p></div>
+    <div class="card transform-up" style="text-align:center; padding:24px 16px;"><div style="font-size:32px; margin-bottom:12px;">⚡</div><h4 style="font-size:15px; font-weight:700; margin-bottom:8px;">No Energy Stress</h4><p style="font-size:12px; color:var(--mute); line-height:1.4;">99.6% guaranteed uptime. Fridge never spoils.</p></div>
+    <div class="card transform-up" style="text-align:center; padding:24px 16px;"><div style="font-size:32px; margin-bottom:12px;">🌬️</div><h4 style="font-size:15px; font-weight:700; margin-bottom:8px;">Clean Air</h4><p style="font-size:12px; color:var(--mute); line-height:1.4;">Zero charcoal. No more indoor toxic fumes.</p></div>
+    <div class="card transform-up" style="text-align:center; padding:24px 16px;"><div style="font-size:32px; margin-bottom:12px;">📱</div><h4 style="font-size:15px; font-weight:700; margin-bottom:8px;">M-Pesa Yield</h4><p style="font-size:12px; color:var(--mute); line-height:1.4;">Net metering credit sent straight to M-Pesa.</p></div>
+    <div class="card transform-up" style="text-align:center; padding:24px 16px;"><div style="font-size:32px; margin-bottom:12px;">🛡️</div><h4 style="font-size:15px; font-weight:700; margin-bottom:8px;">Gated Security</h4><p style="font-size:12px; color:var(--mute); line-height:1.4;">Child-safe courtyards and compound perimeter.</p></div>
+</div>
+</div></div>
+\n
+<!-- ═══════════════ ACT IV: THE HOMES ═══════════════ -->
+<div class="s" style="min-height:60vh;background:var(--td);display:flex;align-items:center;justify-content:center;text-align:center;color:#fff">
+<div class="rv scaleIn">
+<div class="mono" style="font-size:14px;letter-spacing:.3em;color:var(--tl);margin-bottom:24px">Section 04 · Nyumba Ya Angawatch</div>
+<div style="font-family:'Playfair Display',serif;font-size:64px;font-weight:900;margin-bottom:16px">4 Unit Types. 2,000 Families.</div>
+<div style="font-size:18px;color:var(--tl)">Built entirely around solar capability.</div>
+<div style="display:flex; align-items:flex-end; justify-content:center; gap:10px; margin-top:40px;">
+    <!-- Abstract 5-storey and G+2 ->
+    <svg width="200" height="200" viewBox="0 0 200 200">
+        <!-- G+2 maisonette -->
+        <rect x="20" y="140" width="60" height="60" fill="var(--tl)"/>
+        <line x1="20" y1="160" x2="80" y2="160" stroke="#0F172A" stroke-width="2"/>
+        <line x1="20" y1="180" x2="80" y2="180" stroke="#0F172A" stroke-width="2"/>
+        
+        <!-- 5-Storey block -->
+        <rect x="100" y="50" width="80" height="150" fill="var(--tb)"/>
+        <line x1="100" y1="80" x2="180" y2="80" stroke="#0F172A" stroke-width="2"/>
+        <line x1="100" y1="110" x2="180" y2="110" stroke="#0F172A" stroke-width="2"/>
+        <line x1="100" y1="140" x2="180" y2="140" stroke="#0F172A" stroke-width="2"/>
+        <line x1="100" y1="170" x2="180" y2="170" stroke="#0F172A" stroke-width="2"/>
+    </svg>
+</div>
+</div>
+</div>
+\n
+<div class="s" id="s32"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">04.01 · 1BR Floor Plan</div></div>
+<div class="pad rv slideFromRight">
+<div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:20px;flex-wrap:wrap;gap:12px">
+<div><div class="t1" style="margin-bottom:2px;font-size:40px">Unit 1: 1BR Studio</div><div class="mono" style="color:var(--td);font-size:13px">42m² · 150 Units · Cooperative Rental</div></div>
+<div style="text-align:right"><div style="font-size:22px;font-weight:700">KES 10k–12k<span style="font-size:13px;color:var(--mute)">/mo</span></div></div>
+</div>
+<div class="fp-box glow-on-hover"><svg class="draw on" viewBox="0 0 400 300" style="width:100%;max-width:500px;height:auto">
+<rect x="25" y="25" width="200" height="200" class="fp-room"/>
+<text x="125" y="118" class="fp-t">LIVING / SLEEPING</text>
+<text x="125" y="132" class="fp-d">18.0 m²</text>
+<rect x="25" y="225" width="120" height="50" class="fp-room"/>
+<text x="85" y="252" class="fp-t">KITCHEN 5.4m²</text>
+<rect x="145" y="225" width="80" height="50" class="fp-room"/>
+<text x="185" y="252" class="fp-t">BATH 3.5m²</text>
+<rect x="225" y="25" width="60" height="200" class="fp-room" style="fill:rgba(14,165,233,.08)"/>
+<text x="255" y="120" class="fp-t">BALCONY</text>
+<rect x="25" y="25" width="260" height="250" class="fp-wall"/>
+<line x1="225" y1="25" x2="225" y2="225" class="fp-wall"/><line x1="25" y1="225" x2="225" y2="225" class="fp-wall"/><line x1="145" y1="225" x2="145" y2="275" class="fp-wall"/>
+<line x1="285" y1="50" x2="285" y2="150" class="fp-win"/><line x1="25" y1="100" x2="25" y2="150" class="fp-win"/>
+<rect x="100" y="222" width="20" height="6" fill="var(--ink)"/> <!-- door -->
+<rect x="180" y="222" width="15" height="6" fill="var(--ink)"/> <!-- door -->
+<polygon points="310,25 320,25 315,10" fill="var(--td)"/>
+<text x="315" y="40" class="mono" style="font-size:10px; text-anchor:middle;">N</text>
+</svg></div>
+<div style="margin-top:20px;font-size:13px;color:var(--mute)"><strong>Peak:</strong> 2,936W. <strong>Daily:</strong> 2.406 kWh. <strong>Monthly:</strong> 72.2 kWh. <strong>Annual (×150):</strong> 131.8 MWh.</div>
+</div></div>
+\n
+<div class="s" id="s33"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">04.01b · 1BR Load Schedule</div></div>
+<div class="pad rv scaleIn">
+<div class="t1">1BR Electrical Load Schedule.</div>
+<table class="dt" style="margin-top:20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+    <tr><th style="width:25%">Appliance</th><th style="width:15%">Watts</th><th style="width:40%">Scale</th><th style="width:20%">Daily kWh</th></tr>
+    <tr><td>LED Lights (4)</td><td>36</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:5%; background:var(--tb);"></div></div></td><td>0.144</td></tr>
+    <tr><td>Ceiling Fan</td><td>50</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:10%; background:var(--tb);"></div></div></td><td>0.300</td></tr>
+    <tr><td>Fridge</td><td>60</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:12%; background:var(--tb);"></div></div></td><td>0.480</td></tr>
+    <tr><td>TV & Devices</td><td>115</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:20%; background:var(--tb);"></div></div></td><td>0.460</td></tr>
+    <tr><td>Kettle (Peak)</td><td>1,800</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:90%; background:#EF4444;"></div></div></td><td>0.300</td></tr>
+    <tr><td>Iron (Peak)</td><td>1,000</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:60%; background:#F59E0B;"></div></div></td><td>0.166</td></tr>
+    <tr style="background:var(--card); font-weight:700;"><td>Total Daily Load</td><td>~3.0kW Peak</td><td>Breaker Size: 16A</td><td>2.406 kWh</td></tr>
+</table>
+</div></div>
+\n
+<div class="s" id="s34"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">04.02 · 2BR Floor Plan</div></div>
+<div class="pad rv slideFromLeft">
+<div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:20px;flex-wrap:wrap;gap:12px">
+<div><div class="t1" style="margin-bottom:2px;font-size:40px">Unit 2: 2BR Apartment</div><div class="mono" style="color:var(--td);font-size:13px">75m² · 1,130 Units · KMRC Mortgage</div></div>
+<div style="text-align:right"><div style="font-size:22px;font-weight:700">KES 33,015<span style="font-size:13px;color:var(--mute)">/mo EMI</span></div></div>
+</div>
+<div class="fp-box glow-on-hover"><svg class="draw on" viewBox="0 0 500 350" style="width:100%;max-width:560px;height:auto">
+<rect x="20" y="20" width="460" height="310" class="fp-wall" fill="none"/>
+<rect x="20" y="20" width="200" height="150" class="fp-room"/>
+<text x="120" y="90" class="fp-t">MASTER BED</text>
+<rect x="220" y="20" width="160" height="150" class="fp-room"/>
+<text x="300" y="90" class="fp-t">BEDROOM 2</text>
+<rect x="20" y="170" width="250" height="160" class="fp-room"/>
+<text x="145" y="250" class="fp-t">LIVING / DINING</text>
+<rect x="270" y="170" width="130" height="100" class="fp-room"/>
+<text x="335" y="225" class="fp-t">KITCHEN</text>
+<rect x="270" y="270" width="130" height="60" class="fp-room"/>
+<text x="335" y="305" class="fp-t">BATH</text>
+<rect x="380" y="20" width="100" height="310" class="fp-room" style="fill:rgba(14,165,233,.08)"/>
+<text x="430" y="175" class="fp-t">BALCONY</text>
+<line x1="220" y1="20" x2="220" y2="170" class="fp-wall"/><line x1="20" y1="170" x2="380" y2="170" class="fp-wall"/><line x1="270" y1="170" x2="270" y2="330" class="fp-wall"/><line x1="380" y1="20" x2="380" y2="330" class="fp-wall"/><line x1="270" y1="270" x2="380" y2="270" class="fp-wall"/>
+<line x1="480" y1="50" x2="480" y2="280" class="fp-win"/>
+<polygon points="410,320 420,320 415,305" fill="var(--td)"/>
+<text x="415" y="335" class="mono" style="font-size:10px;text-anchor:middle;">N</text>
+</svg></div>
+<div style="margin-top:20px;font-size:13px;color:var(--mute)"><strong>Daily:</strong> 3.565 kWh. <strong>Monthly:</strong> ~107 kWh. <strong>Annual (×1,130):</strong> 1,397 MWh.</div>
+</div></div>
+\n
+<div class="s" id="s35"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">04.02b · 2BR Load Schedule</div></div>
+<div class="pad rv unfold">
+<div class="t1">2BR Electrical Load Schedule.</div>
+<table class="dt" style="margin-top:20px;">
+    <tr><th style="width:25%">Appliance</th><th style="width:15%">Watts</th><th style="width:40%">Scale</th><th style="width:20%">Daily kWh</th></tr>
+    <tr><td>LED Lights (8)</td><td>72</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:8%; background:var(--tb);"></div></div></td><td>0.288</td></tr>
+    <tr><td>Ceiling Fans (2)</td><td>100</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:15%; background:var(--tb);"></div></div></td><td>0.600</td></tr>
+    <tr><td>Larger Fridge</td><td>120</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:18%; background:var(--tb);"></div></div></td><td>0.960</td></tr>
+    <tr><td>Entertainment & IT</td><td>200</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:25%; background:var(--tb);"></div></div></td><td>0.900</td></tr>
+    <tr><td>Kettle + Iron (Peak)</td><td>2,800</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:95%; background:#EF4444;"></div></div></td><td>0.500</td></tr>
+    <tr><td>Miscellaneous</td><td>150</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:20%; background:var(--tb);"></div></div></td><td>0.317</td></tr>
+    <tr style="background:var(--card); font-weight:700;"><td>Total Daily Load</td><td>~4.0kW Peak</td><td>Breaker Size: 20A</td><td>3.565 kWh</td></tr>
+</table>
+</div></div>
+\n
+<div class="s" id="s36"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">04.03 · 3BR Floor Plan</div></div>
+<div class="pad rv slideFromRight">
+<div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:20px;flex-wrap:wrap;gap:12px">
+<div><div class="t1" style="margin-bottom:2px;font-size:40px">Unit 3: 3BR Maisonette</div><div class="mono" style="color:var(--td);font-size:13px">95m² · G+2 · 700 Units · KMRC Core</div></div>
+<div style="text-align:right"><div style="font-size:22px;font-weight:700">KES 40,803<span style="font-size:13px;color:var(--mute)">/mo EMI</span></div></div>
+</div>
+<div class="fp-box glow-on-hover" style="min-height:400px"><svg class="draw on" viewBox="0 0 580 340" style="width:100%;max-width:600px;height:auto">
+<g transform="translate(20,20)"><text x="0" y="-5" class="mono" style="font-size:11px;fill:var(--ink);font-weight:700">GROUND FLOOR</text>
+<rect x="0" y="0" width="200" height="250" class="fp-wall" fill="none"/>
+<rect x="0" y="0" width="200" height="100" class="fp-room"/>
+<text x="100" y="55" class="fp-t">LIVING / DINING</text>
+<rect x="0" y="100" width="130" height="80" class="fp-room"/>
+<text x="65" y="145" class="fp-t">KITCHEN</text>
+<rect x="130" y="100" width="70" height="45" class="fp-room"/>
+<text x="165" y="128" class="fp-t">WC</text>
+<rect x="0" y="180" width="200" height="70" class="fp-room" style="fill:rgba(34,197,94,.08)"/>
+<text x="100" y="220" class="fp-t">GARDEN</text>
+<line x1="0" y1="100" x2="200" y2="100" class="fp-wall"/><line x1="130" y1="100" x2="130" y2="180" class="fp-wall"/><line x1="0" y1="180" x2="200" y2="180" class="fp-wall"/>
+</g>
+<g transform="translate(280,20)"><text x="0" y="-5" class="mono" style="font-size:11px;fill:var(--ink);font-weight:700">FIRST FLOOR</text>
+<rect x="0" y="0" width="200" height="180" class="fp-wall" fill="none"/>
+<rect x="0" y="0" width="200" height="80" class="fp-room"/>
+<text x="100" y="45" class="fp-t">MASTER BED</text>
+<rect x="0" y="80" width="100" height="100" class="fp-room"/>
+<text x="50" y="135" class="fp-t">BED 2</text>
+<rect x="100" y="80" width="100" height="100" class="fp-room"/>
+<text x="150" y="135" class="fp-t">BED 3</text>
+<line x1="0" y1="80" x2="200" y2="80" class="fp-wall"/><line x1="100" y1="80" x2="100" y2="180" class="fp-wall"/>
+</g>
+</svg></div>
+<div style="margin-top:20px;font-size:13px;color:var(--mute)"><strong>Daily:</strong> 4.507 kWh. <strong>Monthly:</strong> ~135 kWh. <strong>Annual (×700):</strong> 1,084 MWh.</div>
+</div></div>
+\n
+<div class="s" id="s37"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">04.03b · 3BR Load Schedule</div></div>
+<div class="pad rv scaleIn">
+<div class="t1">3BR Electrical Load Schedule.</div>
+<table class="dt" style="margin-top:20px;">
+    <tr><th style="width:25%">Appliance</th><th style="width:15%">Watts</th><th style="width:40%">Scale</th><th style="width:20%">Daily kWh</th></tr>
+    <tr><td>LED Lights (12)</td><td>108</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:12%; background:var(--tb);"></div></div></td><td>0.540</td></tr>
+    <tr><td>Ceiling Fans (4)</td><td>200</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:25%; background:var(--tb);"></div></div></td><td>1.200</td></tr>
+    <tr><td>Family Fridge</td><td>180</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:20%; background:var(--tb);"></div></div></td><td>1.440</td></tr>
+    <tr><td>Multiple Entertainment</td><td>300</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:30%; background:var(--tb);"></div></div></td><td>1.200</td></tr>
+    <tr><td>Peak Loads (Kettle/Iron)</td><td>3,500</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:100%; background:#EF4444;"></div></div></td><td>1.000</td></tr>
+    <tr><td>Miscellaneous</td><td>250</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:28%; background:var(--tb);"></div></div></td><td>0.127</td></tr>
+    <tr style="background:var(--card); font-weight:700;"><td>Total Daily Load</td><td>~5.0kW Peak</td><td>Breaker Size: 25A</td><td>4.507 kWh</td></tr>
+</table>
+</div></div>
+\n
+<div class="s" id="s38"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">04.04 · 4BR Floor Plan</div></div>
+<div class="pad rv slideFromLeft">
+<div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:20px;flex-wrap:wrap;gap:12px">
+<div><div class="t1" style="margin-bottom:2px;font-size:40px; color:#F59E0B;">Unit 4: 4BR Bungalow</div><div class="mono" style="color:var(--mute);font-size:13px">115m² · G+1 · 20 Units · Premium</div></div>
+<div style="text-align:right"><div style="font-size:22px;font-weight:700; color:#F59E0B;">KES 48,615<span style="font-size:13px;color:var(--mute)">/mo EMI</span></div></div>
+</div>
+<div class="fp-box glow-on-hover" style="border:1px solid #F59E0B; box-shadow:0 20px 40px rgba(245,158,11,0.1);"><svg class="draw on" viewBox="0 0 600 350" style="width:100%;max-width:560px;height:auto">
+<!-- Premium Ground Floor Layout -->
+<rect x="20" y="20" width="560" height="310" fill="none" stroke="#F59E0B" stroke-width="4"/>
+<rect x="20" y="20" width="200" height="200" class="fp-room"/>
+<text x="120" y="110" class="fp-t" style="fill:#F59E0B;">LIVING / DINING</text>
+<rect x="220" y="20" width="160" height="120" class="fp-room"/>
+<text x="300" y="80" class="fp-t">KITCHEN</text>
+<rect x="380" y="20" width="200" height="120" class="fp-room"/>
+<text x="480" y="80" class="fp-t">MASTER SUITE</text>
+<rect x="20" y="220" width="160" height="110" class="fp-room"/>
+<text x="100" y="280" class="fp-t">BEDROOM 2</text>
+<rect x="180" y="220" width="160" height="110" class="fp-room"/>
+<text x="260" y="280" class="fp-t">BEDROOM 3</text>
+<rect x="340" y="220" width="140" height="110" class="fp-room"/>
+<text x="410" y="280" class="fp-t">STUDY / BED 4</text>
+<rect x="480" y="220" width="100" height="110" class="fp-room"/>
+<text x="530" y="280" class="fp-t">GUEST BATH</text>
+
+<line x1="220" y1="20" x2="220" y2="220" stroke="#F59E0B" stroke-width="2"/>
+<line x1="380" y1="20" x2="380" y2="140" stroke="#F59E0B" stroke-width="2"/>
+<line x1="20" y1="220" x2="580" y2="220" stroke="#F59E0B" stroke-width="2"/>
+<line x1="180" y1="220" x2="180" y2="330" stroke="#F59E0B" stroke-width="2"/>
+<line x1="340" y1="220" x2="340" y2="330" stroke="#F59E0B" stroke-width="2"/>
+<line x1="480" y1="220" x2="480" y2="330" stroke="#F59E0B" stroke-width="2"/>
+</svg></div>
+<div style="margin-top:20px;font-size:13px;color:var(--mute)"><strong>Daily:</strong> ~5.2 kWh. <strong>Monthly:</strong> ~146 kWh. <strong>Annual (×20):</strong> 35 MWh.</div>
+</div></div>
+\n
+<div class="s" id="s39"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">04.04b · 4BR Load Schedule</div></div>
+<div class="pad rv unfold">
+<div class="t1">4BR Electrical Load Schedule.</div>
+<div class="dark" style="margin-top:20px; border-top: 4px solid #F59E0B;">
+<table class="dt inv" style="margin-top:20px;">
+    <tr><th style="width:25%">Appliance</th><th style="width:15%">Watts</th><th style="width:40%">Scale</th><th style="width:20%">Daily kWh</th></tr>
+    <tr><td>LED Lights (18)</td><td>162</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:15%; background:#F59E0B;"></div></div></td><td>0.810</td></tr>
+    <tr><td>Ceiling Fans (5)</td><td>250</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:25%; background:#F59E0B;"></div></div></td><td>1.500</td></tr>
+    <tr><td>Large Double Fridge</td><td>220</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:22%; background:#F59E0B;"></div></div></td><td>1.760</td></tr>
+    <tr><td>Multiple Entertainment</td><td>400</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:40%; background:#F59E0B;"></div></div></td><td>1.600</td></tr>
+    <tr><td>Heavy Kitchen Appliances</td><td>3,800</td><td style="padding:10px;"><div class="bar-w"><div class="bar-f" style="width:100%; background:#EF4444;"></div></div></td><td>1.200</td></tr>
+    <tr style="background:#1E293B; font-weight:700;"><td>Total Daily Load</td><td style="color:#F59E0B;">~6.0kW Peak</td><td>Breaker Size: 32A</td><td>~6.87 kWh</td></tr>
+</table>
+</div>
+</div></div>
+\n
+<div class="s" id="s40"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">04.05 · Portfolio</div></div>
+<div class="pad rv slideFromRight">
+<div class="t1" style="text-align:center">Housing Portfolio</div>
+<div class="g4" style="margin-top:40px">
+<div class="card transform-up"><div style="font-family:'Playfair Display',serif;font-size:22px;font-weight:700;margin-bottom:10px">1BR</div><div class="kv" style="border-color:var(--bl);font-size:13px"><span class="k" style="color:var(--mute)">Area</span><span class="v" style="color:var(--ink)">42m²</span></div><div class="kv" style="border-color:var(--bl);font-size:13px"><span class="k" style="color:var(--mute)">Cost</span><span class="v" style="color:var(--td)">10–12k/mo</span></div><div class="kv" style="border-color:transparent;font-size:13px"><span class="k" style="color:var(--mute)">Units</span><span class="v" style="color:var(--ink)">150</span></div></div>
+<div class="card transform-up" style="border-color:var(--tb);box-shadow:0 10px 20px rgba(20,184,166,.1)"><div style="font-family:'Playfair Display',serif;font-size:22px;font-weight:700;margin-bottom:10px">2BR</div><div class="kv" style="border-color:var(--bl);font-size:13px"><span class="k" style="color:var(--mute)">Area</span><span class="v" style="color:var(--ink)">75m²</span></div><div class="kv" style="border-color:var(--bl);font-size:13px"><span class="k" style="color:var(--mute)">EMI</span><span class="v" style="color:var(--td)">33,015</span></div><div class="kv" style="border-color:transparent;font-size:13px"><span class="k" style="color:var(--mute)">Units</span><span class="v" style="color:var(--ink)">1,130</span></div></div>
+<div class="card transform-up"><div style="font-family:'Playfair Display',serif;font-size:22px;font-weight:700;margin-bottom:10px">3BR</div><div class="kv" style="border-color:var(--bl);font-size:13px"><span class="k" style="color:var(--mute)">Area</span><span class="v" style="color:var(--ink)">95m²</span></div><div class="kv" style="border-color:var(--bl);font-size:13px"><span class="k" style="color:var(--mute)">EMI</span><span class="v" style="color:var(--td)">40,803</span></div><div class="kv" style="border-color:transparent;font-size:13px"><span class="k" style="color:var(--mute)">Units</span><span class="v" style="color:var(--ink)">700</span></div></div>
+<div class="card transform-up" style="border-color:#F59E0B"><div style="font-family:'Playfair Display',serif;font-size:22px;font-weight:700;color:#B45309;margin-bottom:10px">4BR</div><div class="kv" style="border-color:var(--bl);font-size:13px"><span class="k" style="color:var(--mute)">Area</span><span class="v" style="color:var(--ink)">115m²</span></div><div class="kv" style="border-color:var(--bl);font-size:13px"><span class="k" style="color:var(--mute)">EMI</span><span class="v" style="color:#B45309">48,615</span></div><div class="kv" style="border-color:transparent;font-size:13px"><span class="k" style="color:var(--mute)">Units</span><span class="v" style="color:var(--ink)">20</span></div></div>
+</div>
+</div></div>
+\n
+<div class="s" id="s41"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">04.06 · Financial Viability</div></div>
+<div class="pad rv unfold">
+<div class="t1">KMRC Affordability Matrix.</div>
+<div class="dark">
+<table class="dt inv" style="font-size:13px;">
+    <tr><th>Unit</th><th>Build Cost (KES 46.5k/m²) + Land</th><th>EMI @ 8.99% 25YR</th><th>DTI @ KES 87K Gross</th><th>DTI @ KES 110K Gross</th></tr>
+    <tr><td>2BR (75m²)</td><td>3,937,500</td><td style="color:var(--tb);font-weight:700;">33,015</td><td style="color:var(--tb);">38% (✓)</td><td style="color:var(--tb);">30% (✓)</td></tr>
+    <tr><td>3BR (95m²)</td><td>4,867,500</td><td style="color:var(--tb);font-weight:700;">40,803</td><td style="color:#EF4444;">47% (✗)</td><td style="color:var(--tb);">37% (✓)</td></tr>
+    <tr><td>4BR (115m²)</td><td>5,797,500</td><td style="color:#F59E0B;font-weight:700;">48,615</td><td style="color:#EF4444;">56% (✗)</td><td style="color:#EF4444;">44% (✗)</td></tr>
+</table>
+<div style="margin-top:20px; color:#94A3B8; font-size:12px;">*AHP subsidy required for 3BR if income < KES 100K. Maximum safe DTI threshold is 40%.</div>
+</div>
+</div></div>
+\n
+<div class="s" id="s42"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">04.07 · Population Data</div></div>
+<div class="pad rv scaleIn">
+<div style="text-align:center;margin-top:48px"><div style="font-family:'Playfair Display',serif;font-size:120px;font-weight:900;color:var(--ink);line-height:1">8,090</div>
+<div class="mono" style="font-size:16px;color:var(--mute);margin-top:8px">TOTAL RESIDENTS · 2,000 FAMILIES · 91.5% CORE FAMILY UNITS</div>
+<div class="glow-on-hover" style="display:flex;height:60px;border-radius:30px;overflow:hidden;box-shadow:0 12px 24px rgba(0,0,0,.08);margin-top:40px;max-width:900px;margin-left:auto;margin-right:auto; transition:box-shadow .3s;">
+<div style="width:3.7%;background:#64748B" title="1BR: 300"></div>
+<div style="width:55.9%;background:var(--td);display:flex;align-items:center;justify-content:center;color:#fff;font-size:16px;font-weight:700" title="2BR: 4,520">4,520 Residents in 2BR</div>
+<div style="width:38.9%;background:var(--tb);display:flex;align-items:center;justify-content:center;color:#fff;font-size:16px;font-weight:700" title="3BR: 3,150">3,150 Residents in 3BR</div>
+<div style="width:1.5%;background:#F59E0B" title="4BR: 120"></div>
+</div></div>
+</div></div>
+\n
+<div class="s" id="s43"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">04.08 · Ekeja Cluster Model</div></div>
+<div class="pad rv slideFromRight">
+<div class="t1">The Ekeja Five-Storey Block.</div>
+<div class="g2" style="align-items:center;">
+<div>
+    <p class="intro">Gated apartment clusters. Single entry. Shared courtyards. 4 apartments per floor around central stairwell + lift. Ground floor: 2 commercial units. Floors 2–5: residential.</p>
+</div>
+<div class="glow-on-hover" style="text-align:center; background:var(--card); border-radius:32px; padding:40px; border:1px solid var(--bl); transition:box-shadow .3s;">
+    <!-- BUILD AN SVG ISOMETRIC/2.5D BUILDING DIAGRAM -->
+    <svg viewBox="0 0 200 250" width="100%" height="300" style="filter: drop-shadow(0 20px 30px rgba(0,0,0,0.1));">
+        <!-- Isometric projection polygons -->
+        <!-- Front Face -->
+        <polygon points="100,50 160,80 160,200 100,170" fill="var(--td)" stroke="#fff" stroke-width="1"/>
+        <!-- Left Face -->
+        <polygon points="40,80 100,50 100,170 40,200" fill="var(--tb)" stroke="#fff" stroke-width="1"/>
+        <!-- Roof -->
+        <polygon points="100,20 160,50 100,80 40,50" fill="var(--tl)" stroke="var(--td)" stroke-width="2"/>
+        
+        <!-- Floor lines -->
+        <line x1="40" y1="170" x2="100" y2="140" stroke="#fff" stroke-width="1"/> <line x1="100" y1="140" x2="160" y2="170" stroke="#fff" stroke-width="1"/>
+        <line x1="40" y1="140" x2="100" y2="110" stroke="#fff" stroke-width="1"/> <line x1="100" y1="110" x2="160" y2="140" stroke="#fff" stroke-width="1"/>
+        <line x1="40" y1="110" x2="100" y2="80" stroke="#fff" stroke-width="1"/>  <line x1="100" y1="80" x2="160" y2="110" stroke="#fff" stroke-width="1"/>
+        
+        <!-- Solar Panels on Roof -->
+        <polygon points="100,30 140,50 100,70 60,50" fill="#0F172A"/>
+        
+        <!-- Commercial Ground floor highlight -->
+        <polygon points="40,200 100,170 160,200 100,230" fill="#F59E0B" opacity="0.8"/>
+        
+        <!-- Labels -->
+        <text x="100" y="245" class="mono" style="font-size:10px;fill:var(--ink);text-anchor:middle;">COMMERCIAL BASE</text>
+        <text x="100" y="10" class="mono" style="font-size:10px;fill:var(--ink);text-anchor:middle;">SOLAR ROOF</text>
+    </svg>
+</div>
+</div>
+</div></div>
+\n
+<div class="s" id="s44"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">04.09 · Passive Design</div></div>
+<div class="pad rv slideFromLeft">
+<div class="t1">Built for the Climate.</div>
+<div class="g2">
+    <!-- SVG Cross-section -->
+    <div style="background:var(--card); border-radius:32px; padding:20px; display:flex; justify-content:center; align-items:center;">
+        <svg viewBox="0 0 200 300" width="100%" height="100%" class="draw on">
+            <!-- Roof -->
+            <polygon points="10,80 100,20 190,80" fill="none" stroke="#1E293B" stroke-width="6"/>
+            <!-- Solar Water -->
+            <rect x="50" y="30" width="30" height="10" transform="rotate(33 50 30)" fill="#F59E0B"/>
+            <!-- Walls -->
+            <rect x="20" y="80" width="20" height="200" fill="#B45309"/>
+            <rect x="160" y="80" width="20" height="200" fill="#B45309"/>
+            <!-- Render -->
+            <line x1="15" y1="80" x2="15" y2="280" stroke="#FEF3C7" stroke-width="4"/>
+            <line x1="185" y1="80" x2="185" y2="280" stroke="#FEF3C7" stroke-width="4"/>
+            <!-- Window -->
+            <rect x="16" y="120" width="28" height="60" fill="none" class="sankey-flow" stroke="#38BDF8" stroke-width="4"/>
+            <!-- Interior slab -->
+            <rect x="40" y="260" width="120" height="20" fill="var(--bl)"/>
+        </svg>
+    </div>
+    
+    <div style="display:flex;flex-direction:column;gap:8px;">
+        <div class="layer transform-up" style="border-left-color:#1E293B"><div><h4>Ventilated Roof Cavity</h4><p>150mm air gap. Ridge vents. Slab 8–12°C cooler.</p></div></div>
+        <div class="layer transform-up" style="border-left-color:#F59E0B"><div><h4>Solar Water Heating</h4><p>2m² flat-plate per unit. Eliminates 3kW geyser spike.</p></div></div>
+        <div class="layer transform-up" style="border-left-color:#38BDF8"><div><h4>Louvred Windows</h4><p>Aluminium. Cross-ventilation: 3–5 air changes/hr. Insect screened (malaria).</p></div></div>
+        <div class="layer transform-up" style="border-left-color:#D97706"><div><h4>Laterite-Lime Render</h4><p>15mm breathable skin. 60% solar reflectance. Not cement plaster.</p></div></div>
+        <div class="layer transform-up" style="border-left-color:#B45309"><div><h4>CSEB Thermal Mass</h4><p>300mm laterite. 5% cement. Interior stays 20–26°C year-round.</p></div></div>
+    </div>
+</div>
+</div></div>
+\n
+<!-- ═══════════════ ACT V: ENERGY SYSTEM ═══════════════ -->
+<div class="s" style="min-height:60vh;background:#0F172A;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff">
+<div class="rv unfold">
+<div class="mono" style="font-size:14px;letter-spacing:.3em;color:var(--mute);margin-bottom:24px">Section 05 · The Engine</div>
+<div style="font-family:'Playfair Display',serif;font-size:80px;font-weight:900;color:var(--td);margin-bottom:16px;text-shadow:0 10px 30px rgba(15,118,110,.4);">The Energy System.</div>
+<div style="font-size:24px;color:var(--tl)">3.36 MWp Solar · 6.4 MWh Storage · 6,400 kVA Conversion</div>
+<svg class="draw on" width="100%" height="200" viewBox="0 0 1000 200" style="margin-top:40px;opacity:.2">
+    <!-- Grid/Energy wave abstract -->
+    <path class="sankey-flow" d="M0 100 Q 250 10 500 100 T 1000 100" fill="none" stroke="var(--tl)" stroke-width="2"/>
+    <path class="sankey-flow" d="M0 100 Q 250 190 500 100 T 1000 100" fill="none" stroke="var(--tb)" stroke-width="4"/>
+</svg>
+</div>
+</div>
+\n
+<div class="s" id="s46"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.01 · Load Synthesis</div></div>
+<div class="pad rv scaleIn">
+<div class="t1">Community Load Synthesis.</div>
+<div class="g2">
+    <div>
+        <p class="intro">Aggregating 2,000 homes, YattaFarm water pumping, E-Matatu charging, and community hubs creates a distinct 24-hour load shape.</p>
+        <ul style="font-size:15px;line-height:1.8;color:var(--body);margin-top:20px;padding-left:20px;">
+            <li><strong style="color:var(--ink)">Base Load:</strong> ~600 kW (Fridges, Security, Server)</li>
+            <li><strong style="color:#EF4444">Morning Peak:</strong> 1.8 MW (6:00-8:30) Kettles, Showers</li>
+            <li><strong style="color:var(--td)">Midday E-Matatu charging:</strong> Timed to solar maximum</li>
+            <li><strong style="color:#F59E0B">Evening Peak:</strong> 3.1 MW (19:00-21:30) Lighting, TVs, Evening Routines</li>
+        </ul>
+    </div>
+    <div style="background:var(--card);border-radius:24px;padding:24px;border:1px solid var(--bl);">
+        <svg viewBox="0 0 500 300" width="100%" height="auto" class="draw on">
+            <!-- Grid lines -->
+            <line x1="50" y1="50" x2="480" y2="50" stroke="var(--bl)" stroke-dasharray="4 4"/><line x1="50" y1="100" x2="480" y2="100" stroke="var(--bl)" stroke-dasharray="4 4"/><line x1="50" y1="150" x2="480" y2="150" stroke="var(--bl)" stroke-dasharray="4 4"/><line x1="50" y1="200" x2="480" y2="200" stroke="var(--bl)" stroke-dasharray="4 4"/><line x1="50" y1="250" x2="480" y2="250" stroke="var(--bl)" stroke-dasharray="4 4"/>
+            <text x="35" y="55" class="mono" style="font-size:10px;text-anchor:end">3MW</text>
+            <text x="35" y="105" class="mono" style="font-size:10px;text-anchor:end">2MW</text>
+            <text x="35" y="155" class="mono" style="font-size:10px;text-anchor:end">1MW</text>
+            <text x="35" y="255" class="mono" style="font-size:10px;text-anchor:end">0MW</text>
+            <!-- X Axis Ticks -->
+            <text x="50" y="275" class="mono" style="font-size:10px;text-anchor:middle">00h</text>
+            <text x="140" y="275" class="mono" style="font-size:10px;text-anchor:middle">06h</text>
+            <text x="265" y="275" class="mono" style="font-size:10px;text-anchor:middle">12h</text>
+            <text x="390" y="275" class="mono" style="font-size:10px;text-anchor:middle">18h</text>
+            <text x="480" y="275" class="mono" style="font-size:10px;text-anchor:middle">24h</text>
+            
+            <!-- Load Curve -->
+            <!-- 0->06(base)->08(peak)->10(drop)->15(base+charging)->18(rise)->20(peak)->24(base) -->
+            <path class="sankey-flow" d="M50 200 C 100 200, 120 200, 140 100 C 160 200, 200 150, 265 140 C 330 150, 370 200, 390 50 C 420 50, 440 200, 480 200" fill="none" stroke="var(--td)" stroke-width="4"/>
+            <!-- Solar Fill Overlay -->
+            <path d="M140 250 C 200 40, 330 40, 390 250 Z" fill="rgba(245,158,11,0.2)"/>
+            <text x="265" y="100" class="mono" style="font-size:12px;fill:#B45309;font-weight:700;text-anchor:middle">SOLAR CURVE</text>
+        </svg>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s47"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.02 · The Night Peak</div></div>
+<div class="pad rv slideFromRight">
+<div class="t1">The 3.1 MW Night Peak.</div>
+<div class="g2">
+    <div style="background:#0F172A;color:#fff;padding:40px;border-radius:32px;">
+        <h3 style="font-size:24px;margin-bottom:16px;">The "Duck Curve" Problem</h3>
+        <p style="font-size:16px;line-height:1.6;color:var(--mute);">When the sun sets at 18:30, solar generation drops to zero exactly as 2,000 households switch on lights, TVs, and evening appliances.</p>
+        <div style="font-family:'Playfair Display',serif;font-size:64px;font-weight:700;margin-top:24px;color:#EF4444;">3.1 MW</div>
+        <div class="mono" style="font-size:12px;color:#FCA5A5;">PREDICTED 19:30 DEMAND</div>
+    </div>
+    <div>
+        <h3 style="font-size:24px;margin-bottom:16px;">The Engineering Buffer</h3>
+        <p style="font-size:16px;line-height:1.6;color:var(--body);margin-bottom:24px;">Lead-acid batteries cannot discharge 3.1 MW instantly without voltage collapse. The system demands high C-rate lithium architecture.</p>
+        <div class="kv"><span class="k">Required Storage</span><span class="v" style="color:var(--td);font-weight:700;">6,400 kWh (6.4 MWh)</span></div>
+        <div class="kv"><span class="k">Chemistry</span><span class="v">LiFePO4 (LFP)</span></div>
+        <div class="kv"><span class="k">Max Discharge Rate</span><span class="v">>0.5C (3.2 MW capable)</span></div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s48"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.03 · Irradiance Matching</div></div>
+<div class="pad rv unfold">
+<div class="t1">Sizing the Array.</div>
+<div class="intro">Target daily consumption: 15,300 kWh (15.3 MWh). System losses (inverter, wiring, battery round-trip): ~18%. Required generation: 18,650 kWh/day.</div>
+<div class="g3" style="margin-top:40px;">
+    <div class="card transform-up" style="border-top:4px solid var(--td);text-align:center;">
+        <h3 style="font-size:16px;color:var(--td);margin-bottom:10px;">PVGIS Irradiance</h3>
+        <div style="font-family:'Playfair Display',serif;font-size:40px;font-weight:700;">5.18</div>
+        <div class="mono" style="font-size:10px;color:var(--mute);">kWh/m²/day EQUIVALENT</div>
+    </div>
+    <div class="card transform-up" style="border-top:4px solid var(--ink);text-align:center;">
+        <h3 style="font-size:16px;color:var(--ink);margin-bottom:10px;">DC Capacity Sizing</h3>
+        <div style="font-family:'Playfair Display',serif;font-size:40px;font-weight:700;">3,600</div>
+        <div class="mono" style="font-size:10px;color:var(--mute);">kWp REQUIRED</div>
+    </div>
+    <div class="card transform-up" style="border-top:4px solid var(--tb);text-align:center;">
+        <h3 style="font-size:16px;color:var(--tb);margin-bottom:10px;">Panel Count (580W)</h3>
+        <div style="font-family:'Playfair Display',serif;font-size:40px;font-weight:700;">6,206</div>
+        <div class="mono" style="font-size:10px;color:var(--mute);">TIER-1 MONO BIFACIAL</div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s49"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.04 · Storage Selection</div></div>
+<div class="pad rv slideFromLeft">
+<div class="t1">Storage Chemistry Matrix.</div>
+<table class="dt" style="margin-top:20px; font-size:14px;">
+    <tr style="background:#F8FAFC;"><th style="width:25%;">Parameter</th><th>Lead Acid (Tubular)</th><th>NMC Lithium</th><th style="color:var(--td);background:var(--tl)">LiFePO4 (LFP) - CHOSEN</th></tr>
+    <tr><td>Cycle Life @ 80% DoD</td><td>1,200 (3-4 years)</td><td>3,000 (8 years)</td><td style="font-weight:700;color:var(--td);background:var(--tl)">6,000+ (15+ years)</td></tr>
+    <tr><td>Thermal Runaway Risk</td><td>Low (Hydrogen gas)</td><td style="color:#EF4444;">High (Fire hazard)</td><td style="font-weight:700;color:var(--td);background:var(--tl)">Effectively Zero</td></tr>
+    <tr><td>High Temp Degrade</td><td style="color:#EF4444;">Severe (>25°C kills)</td><td>Moderate</td><td style="font-weight:700;color:var(--td);background:var(--tl)">Highly Tolerant (up to 45°C)</td></tr>
+    <tr><td>Max C-Rate</td><td style="color:#EF4444;">0.1C - 0.2C</td><td>1.0C</td><td style="font-weight:700;color:var(--td);background:var(--tl)">1.0C (Safely 0.5C)</td></tr>
+    <tr><td>Cost per kWh (Capex)</td><td style="color:var(--tb);">Low (~$120)</td><td>High (~$300)</td><td style="font-weight:700;background:var(--tl)">Moderate (~$180 - $220)</td></tr>
+    <tr><td>Cost per Cycle (Opex)</td><td style="color:#EF4444;">Highest</td><td>Moderate</td><td style="font-weight:700;color:var(--td);background:var(--tl)">Lowest</td></tr>
+</table>
+</div></div>
+\n
+<div class="s" id="s50"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.05 · Storage Specs</div></div>
+<div class="pad rv scaleIn">
+<div class="g2">
+    <div>
+        <div class="t1" style="font-size:40px;">BESS Enclosures.</div>
+        <div class="intro">We utilize containerized Utility-Scale Battery Energy Storage Systems (BESS). Drop-in ready, pre-wired with HVAC and fire suppression.</div>
+        <ul style="margin-top:20px;line-height:1.8;padding-left:20px;font-size:16px;">
+            <li>Format: Liquid-cooled 10ft / 20ft ISO containers</li>
+            <li>Voltage: 1000V - 1500V DC high voltage string</li>
+            <li>BMS: Cell-level active balancing</li>
+            <li>Augmentation: Modular expansion without replacing entire bank</li>
+        </ul>
+    </div>
+    <div style="background:linear-gradient(135deg,#0F172A,#1E293B);padding:40px;border-radius:32px;color:#fff;text-align:center;box-shadow:0 20px 40px rgba(0,0,0,.2);">
+        <div style="font-family:'Playfair Display',serif;font-size:72px;font-weight:700;color:var(--td);">6.4</div>
+        <div class="mono" style="font-size:14px;color:var(--tl);margin-bottom:32px;">MEGAWATT HOURS REQUIRED</div>
+        <p style="font-size:14px;color:var(--mute);line-height:1.6;margin-bottom:20px;">Sufficient to carry the entire community from sunset to 08:00 AM completely autonomously, with a 20% reserve daily buffer.</p>
+        <div style="display:inline-block;padding:8px 16px;background:rgba(255,255,255,.1);border-radius:100px;font-size:12px;font-weight:700;">8,000 CYCLES @ 80% DoD</div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s51"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.06 · Topology</div></div>
+<div class="pad rv slideFromRight">
+<div class="t1">The Topology: Distributed DC.</div>
+<div class="intro">A centralized 3.36MW inverter bank forces massive thick AC cable runs. Instead, we distribute 300kW containerized Energy Hubs across the 102 hectares.</div>
+<div class="glow-on-hover" style="background:#fff;border-radius:32px;padding:40px;border:1px solid var(--bl);margin-top:40px; transition:box-shadow .3s;">
+    <!-- SVG Distributed Topology diagram -->
+    <svg viewBox="0 0 800 250" width="100%" height="auto">
+        <!-- Central Arrays (DC) -->
+        <rect x="50" y="50" width="100" height="150" fill="var(--td)" rx="8"/>
+        <text x="100" y="120" style="fill:#fff;font-size:14px;font-weight:700;text-anchor:middle;">SOLAR</text>
+        <text x="100" y="140" style="fill:#fff;font-size:12px;text-anchor:middle;">ARRAY</text>
+        
+        <!-- DC Bus -->
+        <line x1="150" y1="125" x2="250" y2="125" stroke="#EF4444" stroke-width="4" stroke-dasharray="8 4"/>
+        <text x="200" y="115" class="mono" style="font-size:10px;fill:#EF4444;text-anchor:middle;">1000V DC BUS</text>
+        
+        <!-- BESS -->
+        <rect x="250" y="75" width="80" height="100" fill="#1E293B" rx="4"/>
+        <text x="290" y="125" style="fill:#fff;font-size:14px;font-weight:700;text-anchor:middle;">BESS</text>
+        
+        <!-- DC to AC Hubs -->
+        <line x1="330" y1="125" x2="450" y2="125" stroke="#EF4444" stroke-width="4" stroke-dasharray="8 4"/>
+        
+        <!-- Hub 1 -->
+        <rect x="450" y="20" width="100" height="60" fill="var(--tb)" rx="4"/>
+        <text x="500" y="50" style="fill:#fff;font-size:12px;font-weight:700;text-anchor:middle;">INVERTER A</text>
+        <line x1="400" y1="125" x2="400" y2="50" stroke="#EF4444" stroke-width="2"/>
+        <line x1="400" y1="50" x2="450" y2="50" stroke="#EF4444" stroke-width="2"/>
+        
+        <!-- Hub 2 -->
+        <rect x="450" y="95" width="100" height="60" fill="var(--tb)" rx="4"/>
+        <text x="500" y="125" style="fill:#fff;font-size:12px;font-weight:700;text-anchor:middle;">INVERTER B</text>
+        <line x1="330" y1="125" x2="450" y2="125" stroke="#EF4444" stroke-width="2"/>
+        
+        <!-- Hub 3 -->
+        <rect x="450" y="170" width="100" height="60" fill="var(--tb)" rx="4"/>
+        <text x="500" y="200" style="fill:#fff;font-size:12px;font-weight:700;text-anchor:middle;">INVERTER C</text>
+        <line x1="400" y1="125" x2="400" y2="200" stroke="#EF4444" stroke-width="2"/>
+        <line x1="400" y1="200" x2="450" y2="200" stroke="#EF4444" stroke-width="2"/>
+        
+        <!-- Homes (AC) -->
+        <line x1="550" y1="50" x2="650" y2="50" stroke="#3B82F6" stroke-width="2"/>
+        <polygon points="650,40 670,50 650,60" fill="#3B82F6"/>
+        <text x="710" y="55" style="fill:var(--ink);font-size:12px;font-weight:700;text-anchor:middle;">HOMES (1-500)</text>
+
+        <line x1="550" y1="125" x2="650" y2="125" stroke="#3B82F6" stroke-width="2"/>
+        <polygon points="650,115 670,125 650,135" fill="#3B82F6"/>
+        <text x="710" y="130" style="fill:var(--ink);font-size:12px;font-weight:700;text-anchor:middle;">HOMES (501-1K)</text>
+
+        <line x1="550" y1="200" x2="650" y2="200" stroke="#3B82F6" stroke-width="2"/>
+        <polygon points="650,190 670,200 650,210" fill="#3B82F6"/>
+        <text x="710" y="205" style="fill:var(--ink);font-size:12px;font-weight:700;text-anchor:middle;">HOMES (1K-1.5K)</text>
+    </svg>
+</div>
+</div></div>
+\n
+<div class="s" id="s52"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.07 · AC vs DC Framework</div></div>
+<div class="pad rv unfold">
+<div class="t1">The Copper Cost Avoided.</div>
+<div class="g2" style="margin-top:40px;">
+    <div style="background:#FEF2F2;border:1px solid #FCA5A5;padding:32px;border-radius:24px;">
+        <h3 style="font-size:20px;color:#B91C1C;margin-bottom:16px;">Standard AC Topology (Flawed)</h3>
+        <p style="font-size:14px;line-height:1.6;margin-bottom:20px;">If 3.36 MW is inverted entirely at the central solar farm to 415V AC, pushing that AC power to house clusters 800 meters away requires extremely thick, heavy, expensive armored copper cable to combat AC voltage drop.</p>
+        <div style="color:#EF4444;font-weight:700;font-size:24px;">Cable Capex = Fatal</div>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--tb);padding:32px;border-radius:24px;box-shadow:0 10px 30px rgba(20,184,166,.1);">
+        <h3 style="font-size:20px;color:var(--td);margin-bottom:16px;">Angawatch DC Topology</h3>
+        <p style="font-size:14px;line-height:1.6;margin-bottom:20px;">We transmit power at 1000V DC from the BESS/Solar arrays to neighborhood "Inverter Kiosks". High voltage DC uses thin, cheap cable with minimal loss. Inversion to 415V/240V AC happens right next to the homes.</p>
+        <div style="color:var(--td);font-weight:700;font-size:24px;">Cable Capex reduced ~60%</div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s53"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.08 · HVDC Backbone</div></div>
+<div class="pad rv slideFromLeft">
+<div class="g2" style="align-items:center;">
+    <div>
+        <div class="t1">High Voltage DC Backbone.</div>
+        <p style="font-size:16px;line-height:1.8;margin-bottom:20px;">Reticulation map of the 102 hectares utilizing underground armored 1000V DC trunklines. Immune to lightning strikes. Immune to copper theft. Zero visual pollution from poles.</p>
+        <ul style="list-style:none;padding:0;">
+            <li style="margin-bottom:10px;font-size:14px;"><strong style="color:var(--td);">Trunk:</strong> 150mm² XLPE Aluminum</li>
+            <li style="margin-bottom:10px;font-size:14px;"><strong style="color:var(--td);">Distance:</strong> Max 1,200m radius</li>
+            <li style="margin-bottom:10px;font-size:14px;"><strong style="color:var(--td);">Efficiency:</strong> 99.2% transmission efficiency over 1km.</li>
+        </ul>
+    </div>
+    <!-- Simple abstract map representation -->
+    <div style="width:100%;height:400px;background:var(--bl);border-radius:32px;position:relative;overflow:hidden;box-shadow:inset 0 10px 20px rgba(0,0,0,.05);">
+        <svg class="draw on" width="100%" height="100%" viewBox="0 0 400 400">
+            <!-- Grid bg -->
+            <path d="M0 100 L400 100 M0 200 L400 200 M0 300 L400 300 M100 0 L100 400 M200 0 L200 400 M300 0 L300 400" stroke="#CBD5E1" stroke-width="1" fill="none"/>
+            <!-- Solar Farm -->
+            <rect x="150" y="150" width="100" height="100" fill="var(--td)"/>
+            <!-- Trunks -->
+            <path class="sankey-flow" d="M200 150 L200 50 L100 50" stroke="#EF4444" stroke-width="4" fill="none"/>
+            <path class="sankey-flow" d="M150 200 L50 200 L50 300" stroke="#EF4444" stroke-width="4" fill="none"/>
+            <path class="sankey-flow" d="M250 200 L350 200 L350 100" stroke="#EF4444" stroke-width="4" fill="none"/>
+            <path class="sankey-flow" d="M200 250 L200 350 L300 350" stroke="#EF4444" stroke-width="4" fill="none"/>
+            <!-- Nodes -->
+            <circle cx="100" cy="50" r="12" fill="#1E293B" stroke="#fff" stroke-width="2"/>
+            <circle cx="50" cy="300" r="12" fill="#1E293B" stroke="#fff" stroke-width="2"/>
+            <circle cx="350" cy="100" r="12" fill="#1E293B" stroke="#fff" stroke-width="2"/>
+            <circle cx="300" cy="350" r="12" fill="#1E293B" stroke="#fff" stroke-width="2"/>
+        </svg>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s54"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.09 · Inverter Kiosks</div></div>
+<div class="pad rv scaleIn">
+<div class="g2">
+    <div style="background:var(--card);border-radius:32px;padding:40px;border:1px solid var(--bl);">
+        <h3 style="font-family:'Playfair Display',serif;font-size:32px;margin-bottom:20px;">The 300kW Hubs</h3>
+        <p style="font-size:16px;line-height:1.7;color:var(--body);margin-bottom:20px;">Instead of one massive central inverter, we use 22 distribution nodes. Each node takes the 1000V DC trunk and drops it to 415V 3-Phase AC, serving ~90 homes within a 150m radius.</p>
+        <ul style="list-style:none;padding:0;margin-top:20px;line-height:1.8;">
+            <li><strong>Input:</strong> 1000V DC (Backbone)</li>
+            <li><strong>Output:</strong> 415V/240V AC</li>
+            <li><strong>Capacity:</strong> 300 kW per kiosk</li>
+            <li><strong>Max AC Run:</strong> Under 150 meters to the furthest home.</li>
+        </ul>
+    </div>
+    <div style="display:flex;align-items:center;justify-content:center;">
+        <svg viewBox="0 0 300 300" width="100%" height="auto">
+            <!-- Node abstract -->
+            <rect x="100" y="50" width="100" height="200" rx="10" fill="var(--tb)"/>
+            <!-- DC in -->
+            <line x1="150" y1="0" x2="150" y2="50" stroke="#EF4444" stroke-width="6"/>
+            <!-- AC out multiple -->
+            <line x1="200" y1="100" x2="300" y2="100" stroke="#3B82F6" stroke-width="4"/>
+            <line x1="200" y1="150" x2="300" y2="150" stroke="#3B82F6" stroke-width="4"/>
+            <line x1="200" y1="200" x2="300" y2="200" stroke="#3B82F6" stroke-width="4"/>
+            
+            <circle cx="150" cy="150" r="30" fill="#fff"/>
+            <text x="150" y="155" class="mono" style="font-size:12px;fill:var(--ink);text-anchor:middle;">DC-AC</text>
+        </svg>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s55"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.10 · Substation</div></div>
+<div class="pad rv slideFromRight">
+<div class="t1">The Substation & Switchgear.</div>
+<div style="background:#0F172A;border-radius:32px;padding:40px;margin-top:40px;color:#fff;display:flex;gap:40px;">
+    <div style="flex:1;">
+        <h3 style="font-size:24px;margin-bottom:20px;color:var(--tl)">12MVA Core Infrastructure</h3>
+        <p style="font-size:15px;line-height:1.7;color:var(--mute);margin-bottom:20px;">The central master switch room processes the raw DC power and manages the intertie with KPLC and backup generation.</p>
+        <div class="kv" style="border-color:#334155"><span class="k" style="color:#94A3B8">Step-Up Transformer</span><span class="v">12 MVA (11kV KPLC export)</span></div>
+        <div class="kv" style="border-color:#334155"><span class="k" style="color:#94A3B8">Relay Protection</span><span class="v">SEL-751 Feeder Protection</span></div>
+        <div class="kv" style="border-color:transparent"><span class="k" style="color:#94A3B8">SCADA System</span><span class="v">Ignition / Modbus TCP</span></div>
+    </div>
+    <div style="flex:1;background:#1E293B;border-radius:24px;padding:32px;border:1px solid #334155;">
+        <div style="font-family:'Playfair Display',serif;font-size:48px;font-weight:700;color:var(--tb);">99.6%</div>
+        <div class="mono" style="font-size:12px;color:var(--mute);margin-bottom:20px;">GUARANTEED UPTIME PLATFORM</div>
+        <p style="font-size:14px;color:#94A3B8;line-height:1.6;">Automated transfer switches (ATS) shift between Solar→Battery→Grid→Diesel in under 20 milliseconds. Complete resilience.</p>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s56"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.11 · The Worst Case Week</div></div>
+<div class="pad rv unfold">
+<div class="t1">The Worst Case Week.</div>
+<div class="intro">Designing for November 'short rains' — consecutive overcast days with irradiance plummeting to 3.2 kWh/m².</div>
+<div class="card" style="margin-top:40px;">
+    <!-- Abstract 7-day battery SoC bar chart -->
+    <div style="display:flex;align-items:flex-end;height:250px;gap:10px;padding:20px;border-bottom:2px solid var(--bl);">
+        <div style="flex:1;display:flex;flex-direction:column;align-items:center;"><div style="width:100%;background:var(--td);height:100%;max-height:90%;"></div><div style="margin-top:10px;" class="mono">DAY 1</div></div>
+        <div style="flex:1;display:flex;flex-direction:column;align-items:center;"><div style="width:100%;background:var(--tb);height:100%;max-height:75%;"></div><div style="margin-top:10px;" class="mono">DAY 2</div></div>
+        <div style="flex:1;display:flex;flex-direction:column;align-items:center;"><div style="width:100%;background:#FCD34D;height:100%;max-height:55%;"></div><div style="margin-top:10px;" class="mono">DAY 3</div></div>
+        <div style="flex:1;display:flex;flex-direction:column;align-items:center;"><div style="width:100%;background:#F59E0B;height:100%;max-height:35%;"></div><div style="margin-top:10px;" class="mono">DAY 4</div></div>
+        <div style="flex:1;display:flex;flex-direction:column;align-items:center;"><div style="width:100%;background:#EF4444;height:100%;max-height:20%;"></div><div style="margin-top:10px;" class="mono">DAY 5</div></div>
+        <div style="flex:1;display:flex;flex-direction:column;align-items:center;"><div style="width:100%;background:var(--tb);height:100%;max-height:60%;"></div><div style="margin-top:10px;" class="mono">DAY 6</div></div>
+        <div style="flex:1;display:flex;flex-direction:column;align-items:center;"><div style="width:100%;background:var(--td);height:100%;max-height:85%;"></div><div style="margin-top:10px;" class="mono">DAY 7</div></div>
+    </div>
+    <div style="margin-top:20px;display:flex;justify-content:space-between;color:var(--mute);font-size:13px;">
+        <span>Starts 100% SoC</span>
+        <span style="color:#EF4444;font-weight:700;">Bottoms at 20% SoC (DoD Limit Protect)</span>
+        <span>Recovers rapidly with grid/diesel assist</span>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s57"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.12 · Grid Intertie</div></div>
+<div class="pad rv scaleIn">
+<div class="g2">
+    <div>
+        <div class="t1">The KPLC Intertie.</div>
+        <p style="font-size:16px;line-height:1.7;color:var(--body);margin-bottom:20px;">We do not island. The 11kV KPLC line 4km away is our battery's battery. We intertie under the Energy Act 2019 Net Metering regulations.</p>
+        <div class="kv"><span class="k">Export (Day)</span><span class="v" style="color:var(--td);font-weight:700;">Up to 1.5MW Surplus</span></div>
+        <div class="kv"><span class="k">Import (Night/Rain)</span><span class="v" style="color:#EF4444;">When SoC < 20%</span></div>
+        <p style="font-size:14px;color:var(--mute);line-height:1.6;margin-top:20px;border-left:4px solid var(--tb);padding-left:16px;">This ensures that even during a 2-week rain storm, power never fails. The grid is treated as a secondary backup to the primary solar microgrid.</p>
+    </div>
+    <div style="display:flex;align-items:center;justify-content:center;">
+        <svg viewBox="0 0 300 200" width="100%" height="auto">
+            <!-- Grid Intertie Diagram -->
+            <rect x="20" y="50" width="80" height="100" fill="var(--td)" rx="8"/>
+            <text x="60" y="105" style="fill:#fff;font-size:12px;font-weight:700;text-anchor:middle;">ANGAWATCH</text>
+            
+            <rect x="200" y="50" width="80" height="100" fill="#1E293B" rx="8"/>
+            <text x="240" y="105" style="fill:#fff;font-size:12px;font-weight:700;text-anchor:middle;">KPLC GRID</text>
+            
+            <!-- Bidirectional arrows -->
+            <line x1="100" y1="80" x2="200" y2="80" stroke="var(--td)" stroke-width="6"/>
+            <polygon points="190,70 205,80 190,90" fill="var(--td)"/>
+            <text x="150" y="70" style="font-size:10px;fill:var(--td);text-anchor:middle;">DAY SURPLUS</text>
+            
+            <line x1="200" y1="120" x2="100" y2="120" stroke="#EF4444" stroke-width="6"/>
+            <polygon points="110,110 95,120 110,130" fill="#EF4444"/>
+            <text x="150" y="145" style="font-size:10px;fill:#EF4444;text-anchor:middle;">NIGHT BACKUP</text>
+        </svg>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s58"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.13 · Levelized Cost (LCOE)</div></div>
+<div class="pad rv slideFromRight">
+<div class="t1">Levelized Cost of Energy.</div>
+<div class="intro">Why we can sell power at KES 9/kWh while KPLC charges KES 25–28/kWh.</div>
+<div class="glow-on-hover" style="display:flex;margin-top:40px;background:var(--card);border-radius:24px;border:1px solid var(--bl);overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.05); transition:box-shadow .3s;">
+    <div style="flex:1;padding:40px;border-right:1px solid var(--bl);">
+        <div style="font-family:'Playfair Display',serif;font-size:56px;font-weight:900;color:var(--ink);">$0.041</div>
+        <div class="mono" style="font-size:12px;color:var(--mute);margin-bottom:20px;">LCOE (USD/kWh) OVER 25 YRS</div>
+        <p style="font-size:14px;line-height:1.6;color:var(--body);">Calculated using NREL SAM model factoring 6% discount rate, module degradation, and battery replacement at year 15.</p>
+    </div>
+    <div style="flex:1;padding:40px;background:#fff;">
+        <h4 style="font-size:16px;margin-bottom:20px;">Tariff Comparison (KES/kWh)</h4>
+        <div style="margin-bottom:20px;">
+            <div style="display:flex;justify-content:space-between;font-size:13px;font-weight:700;margin-bottom:4px;"><span>KPLC (Avg)</span><span>26.50</span></div>
+            <div class="bar-w"><div class="bar-f" style="width:100%;height:16px;background:linear-gradient(90deg,#94A3B8,#1E293B);"></div></div>
+        </div>
+        <div style="margin-bottom:20px;">
+            <div style="display:flex;justify-content:space-between;font-size:13px;font-weight:700;margin-bottom:4px;color:var(--td);"><span>Angawatch Tariff</span><span>9.00</span></div>
+            <div class="bar-w"><div class="bar-f" style="width:34%;height:16px;background:linear-gradient(90deg,var(--tl),var(--td));"></div></div>
+        </div>
+        <div style="display:flex;justify-content:space-between;font-size:13px;font-weight:700;margin-bottom:4px;color:#16A34A;"><span>Our LCOE Cost</span><span>5.50</span></div>
+        <div class="bar-w"><div class="bar-f" style="width:20%;height:16px;background:#22C55E;"></div></div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s59"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.14 · Payback & ROI</div></div>
+<div class="pad rv slideFromLeft">
+<div class="g2" style="align-items:center;">
+    <div style="background:var(--td);color:#fff;padding:40px;border-radius:32px;text-align:center;">
+        <div style="font-family:'Playfair Display',serif;font-size:72px;font-weight:700;margin-bottom:10px;">6.8</div>
+        <div class="mono" style="font-size:14px;color:var(--tl);margin-bottom:20px;">YEARS PAYBACK</div>
+        <p style="font-size:14px;opacity:0.9;">Project IRR: 14.2%<br>NPV @ 8%: KES 450M</p>
+    </div>
+    <div>
+        <h3 style="font-size:32px;margin-bottom:20px;font-weight:700;">Financial Engine.</h3>
+        <p style="font-size:16px;line-height:1.7;color:var(--body);margin-bottom:20px;padding-right:20px;">The margin between KES 5.50 (cost) and KES 9.00 (sale) generated across 18.6 MWh daily yields a profound cash flow. This margin fully covers the SACCO administration, security, landscaping, and water pumping for the entire town. <br><br><strong style="color:var(--ink);">The energy pays for the city's maintenance.</strong></p>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s60"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.15 · Billing Architecture</div></div>
+<div class="pad rv scaleIn">
+<div class="t1">M-Pesa Smart Metering.</div>
+<div style="display:flex; gap:20px; margin-top:40px; flex-wrap:wrap;">
+    <!-- Meter -->
+    <div class="card transform-up" style="flex:1;text-align:center;">
+        <div style="font-size:40px;margin-bottom:16px;">⏱️</div>
+        <h3 style="font-weight:700;margin-bottom:8px;">Smart Meters</h3>
+        <p style="font-size:13px;color:var(--mute);">Hexing / Shenzen LoRaWAN IoT meters on every door.</p>
+    </div>
+    <!-- Server -->
+    <div class="card transform-up" style="flex:1;text-align:center;">
+        <div style="font-size:40px;margin-bottom:16px;">📡</div>
+        <h3 style="font-weight:700;margin-bottom:8px;">Head-End System</h3>
+        <p style="font-size:13px;color:var(--mute);">Local server processes meter data every 15 minutes.</p>
+    </div>
+    <!-- M-pesa -->
+    <div class="card transform-up" style="flex:1;text-align:center;border-color:#16A34A;">
+        <div style="font-size:40px;margin-bottom:16px;">📱</div>
+        <h3 style="font-weight:700;color:#16A34A;margin-bottom:8px;">M-Pesa Daraja API</h3>
+        <p style="font-size:13px;color:var(--mute);">Paybill integration. Tokens instantly sent to meter via LoRa.</p>
+    </div>
+</div>
+<div style="margin-top:30px;padding:20px;background:var(--tl);border-radius:12px;font-size:14px;color:var(--td);text-align:center;font-weight:600;">NO VENDORS. NO COMMISSIONS. 100% OF REVENUE STAYS IN THE COOPERATIVE.</div>
+</div></div>
+\n
+<div class="s" id="s61"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.16 · Energy BoM</div></div>
+<div class="pad rv unfold">
+<div class="t1">Key Equipment Specifications.</div>
+<table class="dt" style="margin-top:20px; font-size:13px;">
+    <tr style="background:var(--ink);color:#fff;"><th>Component</th><th>Specification</th><th>Supplier Ecosystem</th></tr>
+    <tr><td><strong style="color:var(--td)">Solar Modules</strong></td><td>580W N-Type TOPCon Bifacial (6,206 units)</td><td>Jinko / LONGi / Trina</td></tr>
+    <tr><td><strong style="color:var(--td)">BESS Enclosures</strong></td><td>3.2 MWh Liquid-Cooled LFP Containers (x2)</td><td>Huawei / Sungrow / CATL</td></tr>
+    <tr><td><strong style="color:var(--td)">String Inverters</strong></td><td>300kW Max 1500V DC (x22 units)</td><td>Huawei SUN2000 / Sungrow SG350</td></tr>
+    <tr><td><strong style="color:var(--td)">Mounting</strong></td><td>Galvanized Steel, 15° Tilt, Ground Mount</td><td>Schletter / Local Fabricators</td></tr>
+    <tr><td><strong style="color:var(--td)">Smart Meters</strong></td><td>STS Compliant, LoRaWAN module</td><td>Hexing / Conlog</td></tr>
+    <tr><td><strong style="color:var(--td)">Transformer</strong></td><td>12 MVA 1000/415V/11kV Step-up</td><td>ABB / Schneider / Local KPLC spec</td></tr>
+</table>
+</div></div>
+\n
+<div class="s" id="s62" style="background:#0F172A;color:#fff;"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">05.17 · Emergency Protocol</div></div>
+<div class="pad rv slideFromRight" style="padding-top:100px;">
+<div style="border-left:8px solid #EF4444;padding-left:40px;">
+    <div style="font-family:'Playfair Display',serif;font-size:64px;font-weight:900;margin-bottom:20px;color:#EF4444;">The 'Dark Day' Protocol.</div>
+    <ul style="font-size:20px;line-height:2;color:#CBD5E1;list-style:none;padding:0;">
+        <li style="margin-bottom:16px;"><strong>Level 1 (BESS < 30%):</strong> Automatic non-critical load shed (streetlights dim 50%, YattaFarm pumps halt).</li>
+        <li style="margin-bottom:16px;"><strong>Level 2 (BESS < 20%):</strong> ATS engages KPLC intertie. Grid charges BESS at max 1MW.</li>
+        <li style="margin-bottom:16px;"><strong>Level 3 (Grid down + BESS < 10%):</strong> Automatic startup of 1.5MVA standby diesel genset. Prioritizes clinic, security, and residential core circuits.</li>
+        <li style="margin-bottom:16px;color:#FCA5A5;font-weight:700;">Zero blackouts. No matter the weather. No matter the grid.</li>
+    </ul>
+</div>
+</div></div>
+\n
+<!-- ═══════════════ ACT VI: WATER & SANITATION ═══════════════ -->
+<div class="s" style="min-height:60vh;background:linear-gradient(135deg,#0369A1,#0ea5e9);display:flex;align-items:center;justify-content:center;text-align:center;color:#fff">
+<div class="rv scaleIn">
+<div class="mono" style="font-size:14px;letter-spacing:.3em;color:var(--tl);margin-bottom:24px">Section 06 · The Water Cycle</div>
+<div style="font-family:'Playfair Display',serif;font-size:80px;font-weight:900;margin-bottom:16px;text-shadow:0 10px 30px rgba(0,0,0,.2);">Gravity, Biology, Solar.</div>
+<div style="font-size:24px;color:rgba(255,255,255,.9)">Zero diesel pumping. Zero raw wastewater discharge.</div>
+<svg class="draw on" width="100%" height="200" viewBox="0 0 1000 200" style="margin-top:40px;opacity:.2">
+    <!-- Water wave abstract -->
+    <path class="sankey-flow" d="M0 100 Q 125 50 250 100 T 500 100 T 750 100 T 1000 100" fill="none" stroke="#fff" stroke-width="4"/>
+    <path class="sankey-flow" d="M0 120 Q 125 70 250 120 T 500 120 T 750 120 T 1000 120" fill="none" stroke="#fff" stroke-width="2"/>
+</svg>
+</div>
+</div>
+\n
+<div class="s" id="s64"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">06.01 · Demand Profile</div></div>
+<div class="pad rv slideFromRight">
+<div class="t1">Water Demand Matrix.</div>
+<div class="g2" style="margin-top:40px;">
+    <!-- Values -->
+    <div style="padding-right:20px;">
+        <h3 style="font-size:20px;font-weight:700;margin-bottom:16px;">Daily Volumetric Need</h3>
+        <p style="font-size:15px;line-height:1.7;color:var(--body);margin-bottom:20px;">Calculated using WHO baseline of 100 Liters Per Capita per Day (LPCD).</p>
+        <div class="kv"><span class="k">Residential (8,090 pax)</span><span class="v" style="color:#0ea5e9;font-weight:700;">809,000 L/day</span></div>
+        <div class="kv"><span class="k">Commercial & CHC</span><span class="v" style="color:var(--ink);">50,000 L/day</span></div>
+        <div class="kv"><span class="k">System Losses (5%)</span><span class="v" style="color:#EF4444;">~43,000 L/day</span></div>
+        <div class="kv" style="border-top:2px solid var(--ink);margin-top:20px;"><span class="k" style="font-weight:700;color:var(--ink);">Total Daily Demand</span><span class="v" style="font-size:24px;color:#0ea5e9;font-weight:700;">902 m³ / day</span></div>
+    </div>
+    
+    <!-- Yatta farm intro -->
+    <div class="card transform-up" style="background:#F8FAFC;border-top:6px solid #166534;border-color:#166534;">
+        <h3 style="font-size:24px;font-weight:700;margin-bottom:12px;color:#166534">YattaFarm Irrigation</h3>
+        <p style="font-size:15px;line-height:1.6;margin-bottom:20px;">The 20-hectare intensive agriculture zone is decoupled from the potable system.</p>
+        <div class="mono" style="font-size:12px;color:#064E3B;margin-bottom:8px;">IRRIGATION SOURCE</div>
+        <div style="font-size:20px;font-weight:700;color:#15803D;margin-bottom:20px;">Greywater + Direct Canal</div>
+        <p style="font-size:14px;color:var(--mute);">Agricultural demand peaks at 960 m³/day. Met almost entirely via nutrient-rich polished greywater.</p>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s65"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">06.02 · Intake Topology</div></div>
+<div class="pad rv unfold">
+<div class="t1">The Yatta Canal Intake.</div>
+<div class="g2" style="align-items:center;">
+    <div style="background:var(--card);border-radius:32px;padding:40px;text-align:center;border:1px solid var(--bl);">
+        <svg viewBox="0 0 100 100" width="120" height="120" style="margin-bottom:20px;">
+            <!-- Canal to pipe abstract -->
+            <path d="M10 50 Q 50 20 90 50 T 170 50" stroke="#0ea5e9" stroke-width="8" fill="none"/>
+            <circle cx="50" cy="50" r="15" fill="var(--td)"/>
+        </svg>
+        <div style="font-family:'Playfair Display',serif;font-size:64px;font-weight:700;color:#0ea5e9;">0.4%</div>
+        <div class="mono" style="font-size:14px;color:var(--mute);margin-top:10px;">OF CANAL FLOW REQUIRED</div>
+    </div>
+    <div>
+        <p class="intro">Located 2km west, the permanent Yatta Canal flows at ~3.0 cubic meters per second. Our 902 m³/day extraction requires less than half a percent of its capacity.</p>
+        <ul style="font-size:15px;line-height:1.8;padding-left:20px;margin-top:20px;">
+            <li><strong>Intake:</strong> Submerged sump with coarse filtration screen</li>
+            <li><strong>Pumping:</strong> 45kW Solar VP Pump (Lorentz)</li>
+            <li><strong>Schedule:</strong> Pumps strictly between 09:00 - 15:00 using dedicated direct-drive solar array (No battery strain).</li>
+            <li><strong>Storage:</strong> 2,000 m³ elevated pressed steel tank (2 days autonomy)</li>
+        </ul>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s66"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">06.03 · Potable Treatment</div></div>
+<div class="pad rv scaleIn">
+<div class="t1">Potable Treatment Module.</div>
+<div class="glow-on-hover" style="background:#1E293B;color:#fff;border-radius:32px;padding:40px;margin-top:40px;display:flex;justify-content:space-between;align-items:center; transition:box-shadow .3s;">
+    <!-- Treatment flow -->
+    <div class="card" style="background:#0F172A;border-color:#334155;text-align:center;flex:1;margin:0 10px;">
+        <div class="mono" style="color:var(--mute);margin-bottom:8px;">STAGE 1</div>
+        <h4 style="font-size:16px;font-weight:700;color:#38BDF8;">Flocculation</h4>
+        <p style="font-size:12px;color:#94A3B8;margin-top:10px;">Removal of canal turbidity</p>
+    </div>
+    <div style="color:#334155;">➜</div>
+    <div class="card" style="background:#0F172A;border-color:#334155;text-align:center;flex:1;margin:0 10px;">
+        <div class="mono" style="color:var(--mute);margin-bottom:8px;">STAGE 2</div>
+        <h4 style="font-size:16px;font-weight:700;color:#38BDF8;">Sand Filter</h4>
+        <p style="font-size:12px;color:#94A3B8;margin-top:10px;">Rapid gravity polishing</p>
+    </div>
+    <div style="color:#334155;">➜</div>
+    <div class="card" style="background:#0F172A;border-color:#334155;text-align:center;flex:1;margin:0 10px;">
+        <div class="mono" style="color:var(--mute);margin-bottom:8px;">STAGE 3</div>
+        <h4 style="font-size:16px;font-weight:700;color:#38BDF8;">RO + UV</h4>
+        <p style="font-size:12px;color:#94A3B8;margin-top:10px;">Pathogen / Heavy metal clearing</p>
+    </div>
+    <div style="color:#334155;">➜</div>
+    <div class="card" style="background:#0F172A;border-color:var(--td);text-align:center;flex:1;margin:0 10px;border-width:2px;">
+        <div class="mono" style="color:var(--tb);margin-bottom:8px;">FINAL</div>
+        <h4 style="font-size:16px;font-weight:700;color:#fff;">Gravity Dist.</h4>
+        <p style="font-size:12px;color:#94A3B8;margin-top:10px;">Pressurized via tower</p>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s67"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">06.04 · Wastewater as Asset</div></div>
+<div class="pad rv slideFromLeft">
+<div class="g2">
+    <div>
+        <div class="t1">The Digester Core.</div>
+        <div class="intro">Blackwater is not waste; it is a critical energy feedstock.</div>
+        <p style="font-size:15px;line-height:1.7;color:var(--body);margin-top:20px;">All blackwater (WC effluent) feeds into three massive decentralized anaerobic dome digesters.</p>
+        <div class="kv" style="margin-top:20px;"><span class="k">Gas Yield</span><span class="v" style="color:#F59E0B;font-weight:700;">220 m³ / day</span></div>
+        <div class="kv"><span class="k">Equivalent Energy</span><span class="v">1,320 kWh / day</span></div>
+        <div class="kv"><span class="k">End Use</span><span class="v" style="color:var(--td);">Institutions & Phase 2 Homes</span></div>
+    </div>
+    <div style="background:#F8FAFC;border-radius:32px;padding:40px;border:1px solid var(--bl);">
+        <svg viewBox="0 0 300 250" width="100%" height="auto">
+            <!-- Digester Dome Abstract -->
+            <path d="M50 200 C 50 100, 250 100, 250 200 Z" fill="#D97706"/>
+            <rect x="50" y="200" width="200" height="20" fill="#1E293B"/>
+            <!-- In -->
+            <path class="sankey-flow" d="M0 180 L50 180" stroke="#1E293B" stroke-width="4"/>
+            <text x="20" y="170" class="mono" style="font-size:10px;text-anchor:middle;">IN</text>
+            <!-- Out (Gas) -->
+            <path class="sankey-flow" d="M150 115 L150 50 L250 50" stroke="#F59E0B" stroke-width="4" fill="none"/>
+            <text x="200" y="40" class="mono" style="font-size:10px;fill:#F59E0B;text-anchor:middle;">CH4 TO KITCHENS</text>
+            <!-- Out (Slurry) -->
+            <path class="sankey-flow" d="M250 190 L300 190" stroke="#713F12" stroke-width="4" fill="none"/>
+            <text x="280" y="180" class="mono" style="font-size:10px;fill:#713F12;text-anchor:middle;">NPK FERTILIZER</text>
+        </svg>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s68"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">06.05 · Greywater Loop</div></div>
+<div class="pad rv scaleIn">
+<div class="t1" style="text-align:center;">Closing the Loop: YattaFarm.</div>
+<div class="card" style="margin-top:40px;background:#FEFCE8;border:1px solid #FEF08A;text-align:center;">
+    <h3 style="font-family:'Playfair Display',serif;font-size:28px;color:#A16207;margin-bottom:20px;">600,000 Liters Daily</h3>
+    <p style="font-size:16px;color:#713F12;line-height:1.6;max-width:800px;margin:0 auto 30px;">Greywater (showers, sinks) bypasses the digester. It is routed through constructed reed-bed wetlands, physically polished, and pumped to YattaFarm via solar drip irrigation.</p>
+    <div style="display:flex;justify-content:center;gap:40px;">
+        <div style="text-align:center;">
+            <div style="font-size:40px">🚿</div>
+            <div class="mono" style="font-size:12px;color:#ca8a04;margin-top:10px;font-weight:700">SHOWER</div>
+        </div>
+        <div style="color:var(--bm);font-size:32px;display:flex;align-items:center;">→</div>
+        <div style="text-align:center;">
+            <div style="font-size:40px">🌿</div>
+            <div class="mono" style="font-size:12px;color:#ca8a04;margin-top:10px;font-weight:700">WETLAND POLISH</div>
+        </div>
+        <div style="color:var(--bm);font-size:32px;display:flex;align-items:center;">→</div>
+        <div style="text-align:center;">
+            <div style="font-size:40px">🌽</div>
+            <div class="mono" style="font-size:12px;color:#ca8a04;margin-top:10px;font-weight:700">YATTAFARM</div>
+        </div>
+    </div>
+</div>
+</div></div>
+\n
+<!-- ═══════════════ ACT VII: COMMUNITY & ECONOMY ═══════════════ -->
+<div class="s" style="min-height:60vh;background:linear-gradient(135deg,var(--td),#047857);display:flex;align-items:center;justify-content:center;text-align:center;color:#fff">
+<div class="rv unfold">
+<div class="mono" style="font-size:14px;letter-spacing:.3em;color:var(--tl);margin-bottom:24px">Section 07 · Ecosystem</div>
+<div style="font-family:'Playfair Display',serif;font-size:80px;font-weight:900;margin-bottom:16px;">The Socio-Economic Engine.</div>
+<div style="font-size:24px;color:rgba(255,255,255,.9)">Schools, clinics, EVs, and data connectivity.</div>
+</div>
+</div>
+\n
+<div class="s" id="s70"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">07.01 · YattaFarm</div></div>
+<div class="pad rv slideFromLeft">
+<div class="t1">20 Hectares of Food Security.</div>
+<div class="g2">
+    <div>
+        <p class="intro">A centralized, cooperatively managed high-yield agricultural zone powered by solar irrigation and nutrient-rich greywater.</p>
+        <ul style="font-size:15px;line-height:1.8;padding-left:20px;margin-top:20px;">
+            <li><strong>Crop Profile:</strong> High-margin horticulture (tomatoes, onions, capsicum) + staple drought-resistant grains.</li>
+            <li><strong>Cooling:</strong> On-site solar cold storage eliminates 40% post-harvest loss.</li>
+            <li><strong>Economy:</strong> Sold directly at the Angawatch market hub. Surpluses sold to Machakos.</li>
+        </ul>
+    </div>
+    <div class="card transform-up" style="border-top:6px solid #166534;background:#FEFCE8;border-color:#FEF08A;">
+        <h3 style="font-family:'Playfair Display',serif;font-size:32px;color:#166534;margin-bottom:12px;">Circular Yields</h3>
+        <div class="kv"><span class="k">Fertilizer Source</span><span class="v" style="color:#166534;">Digester NPK Slurry</span></div>
+        <div class="kv"><span class="k">Water Source</span><span class="v" style="color:#166534;">Greywater Loop</span></div>
+        <div class="kv"><span class="k">Revenue Flow</span><span class="v" style="color:#166534;font-weight:700;">SACCO Retained</span></div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s71"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">07.02 · Social Anchors</div></div>
+<div class="pad rv scaleIn">
+<div class="g2">
+    <!-- School -->
+    <div class="card transform-up" style="border-left:8px solid var(--tb);">
+        <h3 style="font-size:24px;margin-bottom:16px;">The Angawatch Academy</h3>
+        <p style="font-size:14px;color:var(--mute);margin-bottom:20px;">Primary & Secondary campus serving 1,200 students. Anchoring the Deputy Principal archetype.</p>
+        <div class="kv"><span class="k">Class Size</span><span class="v" style="font-weight:700;">30 Max</span></div>
+        <div class="kv"><span class="k">Labs</span><span class="v">100% Solar Powered</span></div>
+        <div class="kv"><span class="k">Internet</span><span class="v">Starlink / Fiber node</span></div>
+    </div>
+    <!-- Clinic -->
+    <div class="card transform-up" style="border-left:8px solid #EF4444;">
+        <h3 style="font-size:24px;margin-bottom:16px;">Level 3 Health Centre</h3>
+        <p style="font-size:14px;color:var(--mute);margin-bottom:20px;">50-bed maternity and outpatient clinic. Anchoring the Rural Nurse archetype.</p>
+        <div class="kv"><span class="k">Uptime</span><span class="v" style="font-weight:700;color:#EF4444;">99.9% (Triple Redundant)</span></div>
+        <div class="kv"><span class="k">Sterilization</span><span class="v">Electric Autoclaves</span></div>
+        <div class="kv"><span class="k">Cold Chain</span><span class="v">Vaccine refrigerators guarantee</span></div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s72"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">07.03 · Connectivity</div></div>
+<div class="pad rv slideFromRight">
+<div class="t1">The Fiber-Wireless Grid.</div>
+<div class="intro">Smart meters demand reliable backhaul. Residents demand modern broadband. We deploy a unified network.</div>
+<div style="display:flex;gap:40px;margin-top:40px;align-items:center;">
+    <div style="flex:1;">
+        <div style="border-left:4px solid var(--td);padding-left:16px;margin-bottom:24px;">
+            <h4 style="font-weight:700;font-size:18px;">Backbone: Starlink + NOFBI</h4>
+            <p style="font-size:14px;color:var(--mute);">Dual-WAN load balancing. National Optic Fibre Backbone connection supplemented by Starlink Business for 100% resilience.</p>
+        </div>
+        <div style="border-left:4px solid var(--tb);padding-left:16px;">
+            <h4 style="font-weight:700;font-size:18px;">Last Mile: Wi-Fi 6 + LoRa</h4>
+            <p style="font-size:14px;color:var(--mute);">Commercial Wi-Fi mesh across apartment blocks for resident broadband subscriptions. Dedicated LoRaWAN for smart meters avoids Wi-Fi congestion.</p>
+        </div>
+    </div>
+    <div style="flex:1;background:#0F172A;padding:40px;border-radius:24px;text-align:center;">
+        <div style="font-family:'Playfair Display',serif;font-size:64px;font-weight:700;color:#38BDF8;">1 Gbps</div>
+        <div class="mono" style="font-size:12px;color:var(--mute);">COMMUNITY INGEST CAPACITY</div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s73"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">07.04 · E-Mobility</div></div>
+<div class="pad rv unfold">
+<div class="t1" style="color:var(--td);">Electric Fleet Integration.</div>
+<div class="g2">
+    <div>
+        <p class="intro">Solving the Transport Poverty archetype via the Roam / BasiGo ecosystem. Fully charged via midday solar surplus.</p>
+        <div style="background:var(--card);padding:24px;border-radius:16px;margin-top:20px;border-left:4px solid #F59E0B;">
+            <h4 style="font-weight:700;font-size:16px;margin-bottom:8px;">Roam Air (E-Boda) Hub</h4>
+            <p style="font-size:14px;line-height:1.5;">Battery swap station located at the Commercial Hub. 100 batteries charged exactly during peak solar irradiance (10:00-14:00).</p>
+        </div>
+        <div style="background:var(--card);padding:24px;border-radius:16px;margin-top:20px;border-left:4px solid #3B82F6;">
+            <h4 style="font-weight:700;font-size:16px;margin-bottom:8px;">E-Matatu Route (Machakos-Nairobi)</h4>
+            <p style="font-size:14px;line-height:1.5;">Dedicated 60kW DC fast chargers for 4 co-op owned E-Matatus. Reduces daily resident commute cost by 40%.</p>
+        </div>
+    </div>
+    <div style="text-align:center;display:flex;align-items:center;justify-content:center;">
+        <svg viewBox="0 0 200 200" width="100%" height="auto">
+            <circle cx="100" cy="100" r="80" fill="none" stroke="var(--bl)" stroke-width="2"/>
+            <!-- Arc representing solar charging curve -->
+            <path d="M40 100 A60 60 0 0 1 160 100" stroke="#F59E0B" stroke-width="8" fill="none"/>
+            <text x="100" y="80" class="mono" style="font-size:12px;font-weight:700;fill:#F59E0B;text-anchor:middle">CHARGING</text>
+            <text x="100" y="95" class="mono" style="font-size:10px;fill:var(--mute);text-anchor:middle">10:00 - 15:00</text>
+        </svg>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s74"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">07.05 · Solid Waste</div></div>
+<div class="pad rv scaleIn">
+<div class="t1">Zero-Landfill Philosophy.</div>
+<div style="display:flex;gap:20px;margin-top:40px;">
+    <div class="card transform-up" style="flex:1;border-top:4px solid #10B981;text-align:center;">
+        <div style="font-size:32px;margin-bottom:12px;">♻️</div>
+        <h4 style="font-weight:700;margin-bottom:10px">Organic (60%)</h4>
+        <p style="font-size:13px;color:var(--mute);">Directly blended into the anaerobic digester network alongside blackwater and farm waste. Maximizes biogas yield.</p>
+    </div>
+    <div class="card transform-up" style="flex:1;border-top:4px solid #3B82F6;text-align:center;">
+        <div style="font-size:32px;margin-bottom:12px;">📦</div>
+        <h4 style="font-weight:700;margin-bottom:10px">Plastics / Metals (25%)</h4>
+        <p style="font-size:13px;color:var(--mute);">Source-separated at Ekeja clusters. Processed at Jua Kali zone using solar-powered shredders / balers. Sold to Nairobi recyclers.</p>
+    </div>
+    <div class="card transform-up" style="flex:1;border-top:4px solid #EF4444;text-align:center;">
+        <div style="font-size:32px;margin-bottom:12px;">🔥</div>
+        <h4 style="font-weight:700;margin-bottom:10px">Residual (15%)</h4>
+        <p style="font-size:13px;color:var(--mute);">High-temperature medical incinerator at the Health Centre (with scrubber) safely destroys biohazards and non-recyclables.</p>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s75"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">07.06 · Security</div></div>
+<div class="pad rv slideFromRight">
+<div class="t1">Lit. Patrolled. Secured.</div>
+<div class="g2" style="background:#1E293B;color:#fff;border-radius:32px;padding:40px;margin-top:40px;gap:60px;">
+    <div>
+        <h3 style="font-size:24px;margin-bottom:16px;color:#FCD34D;">Perimeter & Street Lighting</h3>
+        <p style="font-size:15px;line-height:1.7;color:#cbd5e1;margin-bottom:20px;">900 LED streetlights integrated into the DC microgrid. Not susceptible to isolated solar-streetlight battery theft. Controlled centrally via SCADA.</p>
+        <div style="display:flex;align-items:center;gap:16px;">
+            <div style="width:40px;height:40px;border-radius:50%;background:#FCD34D;box-shadow:0 0 30px rgba(252,211,77,.5);"></div>
+            <span class="mono" style="font-size:12px;">40W LED · 50M SPACING</span>
+        </div>
+    </div>
+    <div>
+        <h3 style="font-size:24px;margin-bottom:16px;color:#38BDF8;">Smart Surveillance</h3>
+        <p style="font-size:15px;line-height:1.7;color:#cbd5e1;margin-bottom:20px;">CCTV network covering the 4.5km perimeter wire and all Ekeja cluster access control points. Powered directly from the optical fiber network (PoE) with battery backup.</p>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s76"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">07.07 · SACCO Governance</div></div>
+<div class="pad rv scaleIn">
+<div class="t1">The Cooperative Model.</div>
+<div class="intro">Infrastructure this profound cannot be managed by a standard HOA. It requires the financial and legal structure of a Savings and Credit Cooperative Organization (SACCO).</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:40px;">
+    <div class="card" style="border-left:6px solid var(--td);">
+        <h4 style="font-weight:700;font-size:18px;margin-bottom:8px;">Equity Ownership</h4>
+        <p style="font-size:14px;color:var(--mute);line-height:1.6;">Every resident buys a share in the Angawatch SACCO. The SACCO owns the microgrid, the water plant, and the YattaFarm. Profits are paid as dividends or tariff subsidies.</p>
+    </div>
+    <div class="card" style="border-left:6px solid var(--tb);">
+        <h4 style="font-weight:700;font-size:18px;margin-bottom:8px;">Asset Management</h4>
+        <p style="font-size:14px;color:var(--mute);line-height:1.6;">The SACCO employs a full-time engineering and landscaping team. O&M contracts for the Huawei BESS and solar arrays are centralized.</p>
+    </div>
+    <div class="card" style="border-left:6px solid #F59E0B;">
+        <h4 style="font-weight:700;font-size:18px;margin-bottom:8px;">Default Protection</h4>
+        <p style="font-size:14px;color:var(--mute);line-height:1.6;">Shared liability. Smart meters can dynamically cap power to tier-1 baseline (lights/fridge) if cooperative dues are delayed, rather than complete shutoff.</p>
+    </div>
+    <div class="card" style="border-left:6px solid #3B82F6;">
+        <h4 style="font-weight:700;font-size:18px;margin-bottom:8px;">KMRC Alignment</h4>
+        <p style="font-size:14px;color:var(--mute);line-height:1.6;">KMRC distributes wholesale mortgage funds through SACCOs. The Angawatch SACCO is the perfect vessel for taking 5% wholesale funds and distributing 8.99% mortgages.</p>
+    </div>
+</div>
+</div></div>
+\n
+<!-- ═══════════════ ACT VIII: FINANCIAL VIABILITY ═══════════════ -->
+<div class="s" style="min-height:60vh;background:linear-gradient(135deg,#0F172A,#1E293B);display:flex;align-items:center;justify-content:center;text-align:center;color:#fff">
+<div class="rv slideFromRight">
+<div class="mono" style="font-size:14px;letter-spacing:.3em;color:var(--td);margin-bottom:24px">Section 08 · Financial Architecture</div>
+<div style="font-family:'Playfair Display',serif;font-size:80px;font-weight:900;margin-bottom:16px;">The Matrix of Return.</div>
+<div style="font-size:24px;color:rgba(255,255,255,.7)">Predictable cash flows. De-risked off-take.</div>
+</div>
+</div>
+\n
+<div class="s" id="s78"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">08.01 · CAPEX Structure</div></div>
+<div class="pad rv scaleIn">
+<div class="t1">Capital Expenditure Matrix.</div>
+<div class="g2">
+    <div>
+        <p class="intro">Total development cost estimated at <strong>KES 3.8 Billion (~USD 27.5M)</strong>. Extensively modeled against material rates in the Machakos/Nairobi corridor.</p>
+        <table class="dt" style="margin-top:20px;">
+            <tr><th>Component</th><th>KES (Millions)</th><th>% of Total</th></tr>
+            <tr><td>Land Acquisition (400 Acres)</td><td>250</td><td>6.6%</td></tr>
+            <tr><td>Housing Construction (1,618)</td><td>2,450</td><td>64.5%</td></tr>
+            <tr><td>Solar Microgrid (3.6MW)</td><td>420</td><td>11.0%</td></tr>
+            <tr><td>Water & Digester Bio-System</td><td>180</td><td>4.7%</td></tr>
+            <tr><td>Roads & Social Infra</td><td>350</td><td>9.2%</td></tr>
+            <tr><td>Contingency (4%)</td><td>150</td><td>4.0%</td></tr>
+        </table>
+    </div>
+    <div style="display:flex;align-items:center;justify-content:center;">
+        <div style="width:300px;background:#F8FAFC;border-radius:50%;padding:40px;box-shadow:inset 0 0 50px rgba(0,0,0,.05);position:relative;">
+            <!-- Abstract Donut -->
+            <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="40" fill="none" stroke="var(--bl)" stroke-width="20"/>
+                <!-- Housing (64%) -->
+                <circle cx="50" cy="50" r="40" fill="none" stroke="var(--ink)" stroke-width="20" stroke-dasharray="251.2" stroke-dashoffset="90"/>
+                <!-- Energy (11%) -->
+                <circle cx="50" cy="50" r="40" fill="none" stroke="var(--tb)" stroke-width="20" stroke-dasharray="251.2" stroke-dashoffset="223"/>
+            </svg>
+            <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;">
+                <div style="font-family:'Playfair Display',serif;font-size:24px;font-weight:900;">3.8B</div>
+                <div class="mono" style="font-size:10px;">KES TOTAL</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s79"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">08.02 · Revenue Operations</div></div>
+<div class="pad rv slideFromLeft">
+<div class="t1">The Margin Engine.</div>
+<div class="g3" style="margin-top:40px;">
+    <div class="card" style="border-top:4px solid var(--tb);">
+        <h4 style="font-weight:700;font-size:18px;margin-bottom:8px;">Utility Sales (Energy + Water)</h4>
+        <p style="font-size:14px;color:var(--mute);line-height:1.6;margin-bottom:16px;">Sold internally at cost+ margins. Yields KES 85M annually.</p>
+        <div class="mono" style="font-size:20px;font-weight:700;color:var(--td);">KES 85M / YR</div>
+    </div>
+    <div class="card" style="border-top:4px solid #F59E0B;">
+        <h4 style="font-weight:700;font-size:18px;margin-bottom:8px;">YattaFarm Yields</h4>
+        <p style="font-size:14px;color:var(--mute);line-height:1.6;margin-bottom:16px;">High-margin horticulture leveraging free municipal water and power.</p>
+        <div class="mono" style="font-size:20px;font-weight:700;color:#D97706;">KES 120M / YR</div>
+    </div>
+    <div class="card" style="border-top:4px solid #3B82F6;">
+        <h4 style="font-weight:700;font-size:18px;margin-bottom:8px;">Commercial Leases</h4>
+        <p style="font-size:14px;color:var(--mute);line-height:1.6;margin-bottom:16px;">Supermarket, EV hub, and clinic rentals collected by the SACCO.</p>
+        <div class="mono" style="font-size:20px;font-weight:700;color:#2563EB;">KES 45M / YR</div>
+    </div>
+</div>
+<div style="background:#0F172A;color:#fff;border-radius:16px;padding:24px 40px;margin-top:30px;display:flex;justify-content:space-between;align-items:center;">
+    <div><div class="mono" style="color:var(--mute);font-size:12px;">GROSS REVENUE</div><div style="font-size:24px;font-weight:700;">KES 250M / YR</div></div>
+    <div>➖</div>
+    <div><div class="mono" style="color:var(--mute);font-size:12px;">OPEX & DEV FUND</div><div style="font-size:24px;font-weight:700;color:#EF4444;">KES 90M / YR</div></div>
+    <div>=</div>
+    <div><div class="mono" style="color:var(--mute);font-size:12px;">SACCO NET SURPLUS</div><div style="font-size:24px;font-weight:700;color:var(--tb);">KES 160M / YR</div></div>
+</div>
+</div></div>
+\n
+<div class="s" id="s80"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">08.03 · Affordable Mortgages</div></div>
+<div class="pad rv scaleIn">
+<div class="t1">The KMRC Debt Pipeline.</div>
+<div class="intro">We partner directly with the Kenya Mortgage Refinance Company to slash end-user debt service ratios.</div>
+<div style="display:flex;border:1px solid var(--bl);border-radius:24px;overflow:hidden;margin-top:20px;">
+    <!-- Offtaker -->
+    <div style="flex:1;background:var(--card);padding:40px;text-align:center;">
+        <div style="font-family:'Playfair Display',serif;font-size:48px;font-weight:700;color:var(--ink);">8.99%</div>
+        <div class="mono" style="font-size:12px;color:var(--mute);margin-top:10px;">FIXED INTEREST FOR BUYERS</div>
+        <p style="font-size:14px;color:var(--mute);margin-top:20px;">Buyers pay 8.99% fixed for 20 years. Ensures the Nurse and Teacher can afford the 2-BR unit without exceeding 30% of gross income.</p>
+    </div>
+    <!-- Pipeline -->
+    <div style="flex:1;background:#DFFAFA;padding:40px;border-left:1px solid var(--bl);border-right:1px solid var(--bl);text-align:center;">
+        <div style="font-family:'Playfair Display',serif;font-size:48px;font-weight:700;color:var(--td);">5.00%</div>
+        <div class="mono" style="font-size:12px;color:var(--mute);margin-top:10px;">KMRC WHOLESALE RATE</div>
+        <p style="font-size:14px;color:var(--mute);margin-top:20px;">The Angawatch SACCO borrows the development debt from KMRC at 5%. The ~4% spread covers defaults and SACCO liquidity.</p>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s81"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">08.04 · Repayment Mechanics</div></div>
+<div class="pad rv slideFromRight">
+<div class="g2">
+    <div>
+        <h3 style="font-size:32px;font-weight:700;margin-bottom:20px;">The Waterfall.</h3>
+        <p style="font-size:16px;line-height:1.7;color:var(--body);margin-bottom:20px;">How a single M-Pesa transaction covers everything. Residents pay a consolidated monthly "AngaBill". The system programmatically splits the funds.</p>
+        <ul style="font-size:15px;line-height:2;padding-left:20px;">
+            <li><strong style="color:var(--ink);">Tier 1 (Senior):</strong> KMRC Mortgage Service (65%)</li>
+            <li><strong style="color:var(--ink);">Tier 2 (Utility):</strong> Energy & Water Consumption (15%)</li>
+            <li><strong style="color:var(--ink);">Tier 3 (Sub):</strong> SACCO Maintenance / Admin Fee (10%)</li>
+            <li><strong style="color:var(--ink);">Tier 4 (Equity):</strong> Resident Sinking Fund (10%)</li>
+        </ul>
+    </div>
+    <div style="background:#1E293B;padding:40px;border-radius:32px;">
+        <svg viewBox="0 0 300 300" width="100%" height="auto">
+            <!-- M-PESA Input -->
+            <rect x="100" y="20" width="100" height="40" rx="10" fill="#16A34A"/>
+            <text x="150" y="45" class="mono" style="fill:#fff;font-size:14px;font-weight:700;text-anchor:middle">M-PESA PAYBILL</text>
+            
+            <line x1="150" y1="60" x2="150" y2="100" stroke="#fff" stroke-width="4"/>
+            <!-- Tiers -->
+            <rect x="50" y="100" width="200" height="30" rx="5" fill="none" stroke="#fff" stroke-width="2"/>
+            <text x="150" y="120" style="fill:#fff;font-size:12px;text-anchor:middle">1. MORTGAGE</text>
+            
+            <line x1="150" y1="130" x2="150" y2="160" stroke="#fff" stroke-width="2"/>
+            <rect x="50" y="160" width="200" height="30" rx="5" fill="none" stroke="#38BDF8" stroke-width="2"/>
+            <text x="150" y="180" style="fill:#38BDF8;font-size:12px;text-anchor:middle">2. UTILITIES (SMART METER)</text>
+            
+            <line x1="150" y1="190" x2="150" y2="220" stroke="#fff" stroke-width="2"/>
+            <rect x="50" y="220" width="200" height="30" rx="5" fill="none" stroke="#F59E0B" stroke-width="2"/>
+            <text x="150" y="240" style="fill:#F59E0B;font-size:12px;text-anchor:middle">3. SACCO FEES & SINKING</text>
+        </svg>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s82"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">08.05 · Risk & Mitigation</div></div>
+<div class="pad rv scaleIn">
+<div class="t1">Risk Mitigation.</div>
+<table class="dt" style="margin-top:20px;">
+    <tr><th>Risk Profile</th><th>Severity</th><th>Angawatch Mitigation Strategy</th></tr>
+    <tr><td><strong style="color:#EF4444">Resident Default</strong></td><td>High</td><td>The SACCO holds the title until clearance. Utilities are dynamically throttled to basic life-support levels (10W LED + Water) to enforce payment without inhumane shutoffs.</td></tr>
+    <tr><td><strong style="color:#F59E0B">Battery Degradation</strong></td><td>Med</td><td>LCOE model fully bakes in replacing all CATL LFP modules at Year 15 via the Sinking Fund.</td></tr>
+    <tr><td><strong style="color:#F59E0B">Construction Cost Overrun</strong></td><td>Med</td><td>Use of EPS (Expanded Polystyrene) panels prevents supply chain variability of cement. Standardized modular designs globally source components.</td></tr>
+    <tr><td><strong style="color:var(--td)">Grid Instability (KPLC)</strong></td><td>Low</td><td>Primary architecture is an independent microgrid. KPLC is only required during 7+ day rain events. Even a complete KPLC collapse only triggers the standby diesels.</td></tr>
+</table>
+</div></div>
+\n
+<div class="s" id="s83"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">08.06 · Bankability</div></div>
+<div class="pad rv unfold">
+<div class="g2" style="align-items:center;">
+    <div style="background:var(--ink);padding:60px 40px;border-radius:32px;text-align:center;">
+        <div style="font-family:'Playfair Display',serif;font-size:80px;font-weight:700;color:var(--tl);line-height:1;">IFC</div>
+        <div class="mono" style="font-size:16px;color:var(--mute);margin-top:10px;">EDGE ADVANCED CERTIFIED</div>
+    </div>
+    <div>
+        <h3 style="font-size:32px;font-weight:700;margin-bottom:20px;">Institutional Grade.</h3>
+        <p style="font-size:18px;line-height:1.7;color:var(--body);">The financial model bridges the gap between massive global green bonds and the Kenyan affordability crisis. By securitizing the utility cash flows and hedging the mortgage debt via KMRC, Angawatch becomes an entirely bankable asset for DFIs, pension funds, and impact investors.</p>
+    </div>
+</div>
+</div></div>
+\n
+<!-- ═══════════════ ACT IX: IMPLEMENTATION & TIMELINE ═══════════════ -->
+<div class="s" style="min-height:60vh;background:linear-gradient(135deg,#3B82F6,#1D4ED8);display:flex;align-items:center;justify-content:center;text-align:center;color:#fff">
+<div class="rv slideFromLeft">
+<div class="mono" style="font-size:14px;letter-spacing:.3em;color:#BFDBFE;margin-bottom:24px">Section 09 · Timetable</div>
+<div style="font-family:'Playfair Display',serif;font-size:80px;font-weight:900;margin-bottom:16px;">Phased Execution.</div>
+<div style="font-size:24px;color:rgba(255,255,255,.9)">Moving from rendering to reality in 36 months.</div>
+</div>
+</div>
+\n
+<div class="s" id="s85"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">09.01 · Phase 1</div></div>
+<div class="pad rv scaleIn">
+<div class="t1">Months 1 to 18 : The Core.</div>
+<div class="g2">
+    <div>
+        <p style="font-size:16px;line-height:1.7;color:var(--body);margin-bottom:20px;">We do not build houses first. We build the engine first.</p>
+        <ul style="font-size:15px;line-height:2;padding-left:20px;">
+            <li><strong>Q1-Q2 (Civil):</strong> Land prep, Yatta Canal intake, perimeter wall, primary subterranean utility trunks (1000V DC, Water mains, Fiber).</li>
+            <li><strong>Q3-Q4 (Energy Hub):</strong> Master Substation built. BESS containers installed. 1.5MW of solar deployed.</li>
+            <li><strong>Q5-Q6 (Cluster A):</strong> First 3 Ekeja residential clusters (300 units) erected. Digester 1 commissioned. YattaFarm begins planting.</li>
+        </ul>
+    </div>
+    <div style="background:#F8FAFC;border:1px solid var(--bl);border-radius:24px;padding:32px;">
+        <div style="font-family:'Playfair Display',serif;font-size:24px;font-weight:700;margin-bottom:20px;color:var(--td);">Gantt Projection</div>
+        <div style="margin-bottom:12px;">
+            <div style="display:flex;justify-content:space-between;font-size:12px;" class="mono"><span style="color:var(--mute)">INFRASTRUCTURE</span><span>100%</span></div>
+            <div class="bar-w" style="height:8px;margin-top:4px;"><div class="bar-f" style="width:100%;background:var(--ink)"></div></div>
+        </div>
+        <div style="margin-bottom:12px;">
+            <div style="display:flex;justify-content:space-between;font-size:12px;" class="mono"><span style="color:var(--mute)">HOUSING</span><span>20%</span></div>
+            <div class="bar-w" style="height:8px;margin-top:4px;"><div class="bar-f" style="width:20%;background:var(--tb)"></div></div>
+        </div>
+        <div style="margin-bottom:12px;">
+            <div style="display:flex;justify-content:space-between;font-size:12px;" class="mono"><span style="color:var(--mute)">COMMUNITY HUB</span><span>50%</span></div>
+            <div class="bar-w" style="height:8px;margin-top:4px;"><div class="bar-f" style="width:50%;background:#3B82F6)"></div></div>
+        </div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s86"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">09.02 · Phase 2</div></div>
+<div class="pad rv slideFromRight">
+<div class="t1">Months 19 to 36 : The Expansion.</div>
+<div class="g2">
+    <div>
+        <p style="font-size:16px;line-height:1.7;color:var(--body);margin-bottom:20px;">Leveraging revenue from Phase 1 to accelerate the remaining deployment.</p>
+        <ul style="font-size:15px;line-height:2;padding-left:20px;">
+            <li><strong>Q7-Q8:</strong> Ekeja Clusters 4-10. Expanding the solar array to 2.5MW. Commissioning the Health Centre and School.</li>
+            <li><strong>Q9-Q10:</strong> Final Ekeja Clusters 11-18. Completing the 3.6MW solar array.</li>
+            <li><strong>Q11-Q12:</strong> Final landscaping, EV Hub full commissioning, handover to the SACCO management.</li>
+        </ul>
+    </div>
+    <div style="background:#1E293B;color:#fff;border-radius:24px;padding:32px;display:flex;flex-direction:column;justify-content:center;align-items:center;">
+        <div style="font-family:'Playfair Display',serif;font-size:80px;font-weight:900;color:#38BDF8;line-height:1">18</div>
+        <div class="mono" style="font-size:14px;color:#94A3B8;margin-top:10px;">EKEJA CLUSTERS COMPLETED</div>
+        <div style="margin-top:30px;color:var(--tb);font-weight:700;">FULL HABITATION ACHIEVED</div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s87"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">09.03 · Replication</div></div>
+<div class="pad rv unfold">
+<div class="g2" style="align-items:center;">
+    <div style="background:var(--card);padding:40px;border-radius:32px;border:1px solid var(--bl);">
+        <h3 style="font-family:'Playfair Display',serif;font-size:32px;font-weight:700;margin-bottom:20px;color:var(--ink);">A Blueprint, Not a Monolith.</h3>
+        <p style="font-size:16px;line-height:1.7;color:var(--body);">Angawatch is designed as a highly reproducible blueprint. The microgrid math, the EPS construction schematics, and the SACCO financial model can be lifted and placed in Naivasha, Kisumu, or Thika.</p>
+        <div style="margin-top:20px;display:flex;gap:10px;">
+            <div class="tag" style="background:#EFF6FF;color:#2563EB;">OPEN SOURCE ARCHITECTURE</div>
+        </div>
+    </div>
+    <div style="display:flex;justify-content:center;">
+        <svg viewBox="0 0 200 200" width="150" height="150">
+            <!-- Replication abstract -->
+            <rect x="50" y="50" width="40" height="40" fill="var(--ink)" rx="4"/>
+            <rect x="110" y="50" width="40" height="40" fill="var(--ink)" rx="4" opacity="0.6"/>
+            <rect x="50" y="110" width="40" height="40" fill="var(--ink)" rx="4" opacity="0.3"/>
+            <rect x="110" y="110" width="40" height="40" fill="var(--ink)" rx="4" opacity="0.1"/>
+        </svg>
+    </div>
+</div>
+</div></div>
+\n
+<!-- ═══════════════ ACT X: CONCLUSION ═══════════════ -->
+<div class="s" style="min-height:80vh;background:#0F172A;color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;">
+<div class="rv scaleIn">
+<div class="mono" style="font-size:16px;letter-spacing:.3em;color:var(--tb);margin-bottom:32px">The Angawatch Proposition</div>
+<div style="font-family:'Playfair Display',serif;font-size:80px;font-weight:900;margin-bottom:24px;line-height:1.1;">Dignity is not a luxury.</div>
+<div style="font-size:24px;color:#94A3B8;max-width:800px;margin:0 auto;line-height:1.6;">
+    It is an engineering problem. And we have solved it.
+</div>
+</div>
+</div>
+\n
+<div class="s" id="s89" style="background:#0F172A;color:#fff;"><div class="hdr"><div class="logo"><svg viewBox="0 0 32 32" fill="none"><polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="#0F172A" stroke-width="1.5"/><polygon points="16,7 23,11 23,21 16,25 9,21 9,11" fill="#CCFBF1"/><circle cx="16" cy="16" r="2.5" fill="#0F766E"/></svg><span>Angawatch</span></div><div class="tag">10.01 · The Impact</div></div>
+<div class="pad rv slideFromRight">
+<div class="g4" style="margin-top:60px;">
+    <!-- Metric 1 -->
+    <div style="border-top:2px solid var(--tb);padding-top:20px;">
+        <div style="font-family:'Playfair Display',serif;font-size:48px;font-weight:700;color:#fff;margin-bottom:10px;">8,090</div>
+        <div class="mono" style="font-size:12px;color:#94A3B8;">LIVES ELEVATED</div>
+    </div>
+    <!-- Metric 2 -->
+    <div style="border-top:2px solid #38BDF8;padding-top:20px;">
+        <div style="font-family:'Playfair Display',serif;font-size:48px;font-weight:700;color:#fff;margin-bottom:10px;">Zero</div>
+        <div class="mono" style="font-size:12px;color:#94A3B8;">CARBON EMISSIONS</div>
+    </div>
+    <!-- Metric 3 -->
+    <div style="border-top:2px solid #F59E0B;padding-top:20px;">
+        <div style="font-family:'Playfair Display',serif;font-size:48px;font-weight:700;color:#fff;margin-bottom:10px;">$25M</div>
+        <div class="mono" style="font-size:12px;color:#94A3B8;">LOCAL ECONOMIC DRIVER</div>
+    </div>
+    <!-- Metric 4 -->
+    <div style="border-top:2px solid #10B981;padding-top:20px;">
+        <div style="font-family:'Playfair Display',serif;font-size:48px;font-weight:700;color:#fff;margin-bottom:10px;">100%</div>
+        <div class="mono" style="font-size:12px;color:#94A3B8;">ENERGY & WATER AUTONOMY</div>
+    </div>
+</div>
+</div></div>
+\n
+<div class="s" id="s90" style="background:#0F172A;color:#fff;border-bottom:none;">
+<div class="pad rv unfold">
+<div style="text-align:center;padding:100px 0;">
+    <svg viewBox="0 0 100 100" width="80" height="80" style="margin-bottom:40px;">
+        <polygon points="50,10 90,30 90,70 50,90 10,70 10,30" fill="none" stroke="var(--tb)" stroke-width="4"/>
+        <polygon points="50,25 70,40 70,70 50,85 30,70 30,40" fill="var(--tl)"/>
+        <circle cx="50" cy="50" r="8" fill="var(--td)"/>
+    </svg>
+    <h2 style="font-family:'Playfair Display',serif;font-size:56px;font-weight:700;margin-bottom:30px;">This is Angawatch.</h2>
+    <div class="mono" style="font-size:14px;letter-spacing:.2em;color:#94A3B8;">MACHAKOS COUNTY, KENYA</div>
+    
+    <div style="margin-top:60px;border-top:1px solid #1E293B;padding-top:40px;display:flex;justify-content:center;gap:40px;">
+        <div class="mono" style="font-size:12px;color:#cbd5e1;">A VISION FOR TOMORROW'S AFRICA.</div>
+    </div>
+</div>
+</div></div>
+\n
+</div><!-- /deck -->
+
+<script>
+const obs=new IntersectionObserver(e=>{
+    e.forEach(en=>{
+        if(en.isIntersecting){
+            en.target.querySelectorAll('.rv, .draw, .unfold, .slideFromLeft, .slideFromRight, .scaleIn').forEach(el=>el.classList.add('on'))
+        }
+    })
+},{rootMargin:'-10% 0px -10% 0px',threshold:.15});
+
+document.querySelectorAll('.s').forEach(s=>obs.observe(s));
+</script>
+</body>
+</html>

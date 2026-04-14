@@ -1,0 +1,145 @@
+﻿--- Extracted from c:\Users\phant\Desktop\Angawatch\Angawatch_Complete_FIXED.docx ---
+ANGAWATCH ECO-COMMUNITY
+A First-Principles, Solar-and-Biogas Powered Community for 2,000 Families
+Yatta Plateau, Machakos County, Kenya À 1.17░S, 37.45░E
+Power the Community 2026 À Energy Mentors International
+Submission Deadline: April 15, 2026 by 23:59 GMT (2:59am EAT Apr 16) À energymentors.org/participate
+SECTION 01 EXECUTIVE SUMMARY
+Angawatch ù from the Swahili-Maa fusion of anga (sky/atmosphere) and watch (guardian) ù is KenyaÆs entry for Power the Community 2026. It is a ground-up community for 2,000 families on the Yatta Plateau, Machakos County, 60km from Nairobi. Angawatch answers the competitionÆs founding question directly: we do not retrofit solar onto existing houses. We build houses around solar.
+What Angawatch Is ù And What It Deliberately Is Not
+Angawatch is designed for economic optimisation and housing affordability ù not off-grid environmental purity. This distinction is deliberate and honest. A nurse earning KES 40,000/month cannot afford the capital cost of a system engineered to function in complete grid isolation. What she can afford is a home where her electricity bill drops from KES 11,500 to KES 930 per month, where her mortgage is KES 33,015, and where her children go to school 400 metres from her front door. Angawatch is a Grid-Interactive Microgrid with Islanding Capability ù it connects to the KPLC grid, exports surplus solar for income, imports emergency power during the long rains, and can island-operate during grid outages. This architecture is cheaper, more resilient, and more bankable than a true off-grid system of equivalent size.
+Why Biogas Goes to Schools and Clinics ù Not Homes
+The community biogas plant produces 773 m│/day of usable gas. This is not enough to cook for 2,000 families ù and any document that claims otherwise is mathematically incorrect. The correct figure for 2,000 households would require approximately 3,200 m│/day, more than four times what our system produces. The honest engineering decision: direct all institutional biogas to the Community Health Centre, two schools, and the community market kitchen. These three facilities currently cook on LPG or charcoal. Replacing their cooking fuel with biogas eliminates PM2.5 exposure for 400 children in school kitchens daily and reduces institutional cooking costs by KES 890,000/year. This is a higher-impact use of limited biogas than spreading it thinly across 2,000 homes where LPG SACCO bulk-procurement already delivers a 15û20% cost reduction. Individual homes transition from SACCO LPG to solar induction cooking in Phase 3 (Year 10+) as solar surplus grows. Maximum impact with the resource available ù not maximum coverage.
+The 80/20 Principle ù Three Decisions Deliver 80% of All Benefit
+In the spirit of the competitionÆs engineering philosophy ù most improvement with least input ù three decisions account for 80% of AngawatchÆs resident benefit:
+DECISION 1 ù Biogas system + community LPG SACCO replacing charcoal. The biogas plant (KES 65M) supplies clean gas to the CHC, schools, and community market, eliminating PM2.5 from institutional cooking entirely. Individual households shift from retail LPG (KES 1,560/month) to community SACCO bulk-procured LPG (KES 1,260û1,330/month), saving KES 230û300/month immediately. Phase 3 (Year 10+) transitions homes to solar induction cooking on surplus solar. The biogas system generates 254 MWh/year electricity (with 40-cow commercial dairy). BCR ~2.8 ù still the best investment in the project.
+DECISION 2 ù CSEB construction from Yatta volcanic laterite. Eliminates mechanical cooling entirely (zero kWh for AC), reduces build cost 35% vs concrete block, employs community labour during construction, and provides lifelong passive thermal comfort. Zero operating cost.
+DECISION 3 ù M-Pesa SmartMeter community tariff at KES 9/kWh. Requires KES 2.5M software development. At 150 kWh/month planned household consumption, saves each family KES 2,400/month versus KPLCÆs KES 25/kWh (KES 1,350 vs KES 3,750 for same 150 kWh). A Nairobi-equivalent household consuming 460 kWh/month saves KES 7,360/month ù the community tariff rate advantage is 64% regardless of consumption level. Citizens buy their own units, control their own consumption, receive net metering credits directly to their mobile wallet ù energy governance controlled by residents, not a central utility.
+Key Metrics
+What Makes Angawatch Original
+YattaFarm Solar-Pumped Canal Irrigation ù 15,000m│ retention pond at the highest elevation of YattaFarm. A 10kW solar high-lift pump at the canal boundary pumps water uphill into the pond. The full pond then acts as a massive gravity header-tank, distributing water downhill to the entire drip irrigation network by gravity. First community in Kenya to combine a pumped-fill upslope reservoir with solar-powered gravity distribution to a cooperative farm.
+M-Pesa SmartMeter Energy Payments ù Residents buy electricity tokens via USSD/WhatsApp using the same M-Pesa infrastructure 56 million Kenyans already use. Unique Kenyan innovation no other competition team can replicate.
+Biochar from Digestate ù Solid fraction of biogas digestate pyrolised into biochar for sale to Machakos flower farms. Carbon-negative, zero-waste, additional revenue.
+Battery Swap Station for Bodas ù Ampersand/Roam-model swappable 1.85 kWh packs for 50 Roam Air electric motorcycles. 2-minute swap replaces 8-hour charge wait. Already operational model in Kenya.
+CSEB from Yatta Basaltic Laterite ù Yatta Formation volcanic laterite requires only 5% cement stabiliser vs standard 8-10%, reducing embodied carbon and cost.
+SECTION 02 SITE SELECTION ù YATTA PLATEAU, MACHAKOS COUNTY
+Angawatch is sited at 1.17░S, 37.45░E on the Yatta Plateau escarpment, near Matuu town, Yatta Sub-County ù 60km southeast of Nairobi along the A109 highway and 25km from Athi River SGR station.
+Site Parameters
+Land Use ù 100û102 Hectares (Revised for Mixed Typology)
+SECTION 03 CRITICAL NEEDS ù STATEMENT SUPPORTED BY REFERENCES
+Every design decision in Angawatch traces to a specific, referenced problem. The following six needs are documented from government, WHO, and field data sources. References appear in Section 22.
+Need 1 ù Household Air Pollution from Solid Fuel Cooking (and why LPG alone is not enough)
+The World Health Organisation (2022) reports that household air pollution from cooking on solid fuels ù charcoal, firewood, animal dung ù is responsible for 3.2 million deaths per year globally, including over 237,000 deaths of children under five. Around 2.4 billion people cook this way. In Machakos County, over 70% of rural households cook on charcoal or firewood (KNBS 2019 Census). Indoor PM2.5 concentrations during charcoal cooking reach 300û1,000 Ág/m│ ù up to 67Î the WHO 24-hour safe limit of 15 Ág/m│. AngawatchÆs three-phase approach: Phase 1 ù all residents switch from charcoal to LPG via community bulk SACCO procurement (immediate PM2.5 reduction). Phase 2 ù biogas supplied to CHC, schools, and community market (institutional cooking goes near-zero PM2.5). Phase 3 ù solar induction cooking for homes (Year 10+ as solar surplus grows). LPG with proper ventilation is a dramatic improvement over charcoal ù PM2.5 drops from 300û1,000 Ág/m│ to 10û30 Ág/m│, far below charcoal but higher than biogas. This phased approach is honest and achievable.
+Need 2 ù Energy Poverty
+KPLC connection rates in Yatta sub-county: 45û60%, far below NairobiÆs 95%+. Where KPLC reaches homes, domestic tariffs of KES 25û28/kWh consume a disproportionate share of income. The Yatta region experiences 15û25 power outages per year, with each outage averaging 4û8 hours (KPLC Outage Report 2024). AngawatchÆs community solar provides power at KES 9/kWh ù 64% cheaper ù with 99.6% annual uptime.
+Need 3 ù Cooking Cost and Transition Strategy
+Current situation: 70%+ of Yatta households cook on charcoal or firewood. The nurse-teacher family that has already switched to LPG pays KES 1,560/month (1.2 Î 6kg cylinders). Those still on charcoal pay KES 2,500û4,000/month but suffer severe indoor air pollution. AngawatchÆs phased cooking strategy: Phase 1 (Years 1û5) ù Community LPG SACCO buys cylinders in bulk from TOTAL Energies Kenya at 15û20% discount. Resident cost: KES 1,260û1,330/month. Saving vs retail LPG: KES 230û300/month. Saving vs charcoal: KES 1,200û2,700/month. Phase 2 ù Biogas from the community plant supplies the CHC, schools, and community market kitchen. Phase 3 (Year 10+) ù Solar induction cooking for homes as solar surplus grows. From charcoal to LPG to solar: a realistic, funded, 10-year cooking transition.
+Need 4 ù Transport Poverty
+Current matatu fares: Matuu to Machakos KES 120û180 one way. Return: KES 240û360/day Î 22 working days = KES 5,280û7,920/month. Angawatch electric community e-matatu: KES 80û100/trip Î 2 Î 22 days = KES 3,520û4,400/month. Saving: ~KES 4,840/month. Boda operators currently spend KES 6,000û8,000/month on petrol. Roam Air electric boda: KES 50/day charging = KES 1,500/month. Saving: KES 5,500û6,500/month.
+Need 5 ù Healthcare Access
+Machakos County doctor-to-patient ratio: 1:8,000 (Machakos County CIDP 2023û2027). WHO recommended minimum: 1:1,000. AngawatchÆs 50-bed CHC staffed primarily by resident nurse families brings healthcare within walking distance. Telemedicine link to Machakos Level 5 Hospital via broadband connectivity.
+Need 6 ù Education Infrastructure
+Yatta sub-county school pupil-to-classroom ratio: 50+ (national average). Angawatch Primary and Secondary schools achieve 30 pupils per class. With approximately 300 resident teacher families, teachers live within walking distance of their workplace ù eliminating the teacher housing shortage that afflicts rural Kenyan schools.
+SECTION 04 COMMUNITY ARCHETYPES ù WHO ANGAWATCH IS BUILT FOR
+To guide our engineering parameters, financial modelling, and unit mix decisions, we developed three Core User Archetypes. These are Human-Centered Design composite personas ù not specific individuals quoted verbatim, but representative profiles constructed from KNBS 2019 Census data, Kenya TSC salary scales (2023), NCK nurse grade salary schedules, and brief on-the-ground surveys with residents of Matuu and Yatta townships in early 2026. Every design decision ù housing size, transport cost, cooking fuel, energy budget ù is calibrated against at least one archetype.
+Archetype 1: The Rural Nurse ù Composite profile representing public health and education households earning KES 95,000û134,000 combined
+This archetype represents the dual-income professional family ù the primary beneficiary and most common household type at Angawatch, making up approximately 60% of the 3BR resident population.
+What residents in this income bracket actually say when asked about energy costs: æTokens zinaisha haraka sana ù na wakati wa load shedding, chakula inaharibika.Æ (Tokens run out too fast ù and when thereÆs load shedding, the food goes bad.) This reflects the KNBS finding that 68% of peri-urban Machakos households cite electricity cost and reliability as their top household expense concern after rent.
+What they say about cooking: æSmoke from the jiko makes the children cough, but gas is too expensive to buy all at once ù you cannot buy half a cylinder.Æ This captures the real barrier: not the monthly cost but the upfront refill cost of KES 1,300û1,500 in a single transaction. The SACCO bulk procurement model solves this by spreading the cost.
+Archetype 2: The Boda Boda Operator ù Composite profile representing transport and informal trade workers earning KES 30,000û48,000/month
+This archetype represents the self-employed informal sector worker ù the 1BR cooperative rental resident. Approximately 7.5% of the Angawatch population. The honest design tension: this income bracket is at the lower edge of affordability even for the 1BR cooperative rental.
+What residents in this income bracket actually say: æBoda ni kazi ngumu ù petrol inapanda kila wiki, lakini hakuna alternative.Æ (Boda is hard work ù petrol rises every week, but there is no alternative.) This reflects EPRA data showing petrol prices in Machakos County rose 34% between January 2022 and December 2023.
+What they say about housing aspiration: æNataka mahali salama ù si lazima kubwa, lakini salama na stima inayofanya kazi.Æ (I want somewhere safe ù not necessarily big, but safe and with electricity that works.) The 1BR cooperative rental at KES 10,000û12,000/month directly addresses this.
+Archetype 3: The Deputy Principal ù Composite profile representing senior civil servants and upper-tier professionals earning KES 120,000û200,000 combined
+This archetype represents the 4BR resident ù approximately 1% of the population. A small but important cohort: if Angawatch cannot attract senior professionals, the schools and CHC cannot function at the standard the community requires.
+What residents at this income level say about Yatta: æThe land is good and it is not far, but who will teach my children if all the good teachers are in Nairobi?Æ This is the circular problem Angawatch breaks: senior professionals will not move to areas that lack quality schools and medical facilities. The integrated 30-pupil-per-class school and 50-bed CHC are the answer.
+What they say about energy: æI work night shifts ù I need the lights and the fridge to work. I cannot budget for a generator every time KPLC fails.Æ The 99.6% uptime argument is more important for this archetype than the cost savings.
+SECTION 05 HOUSING ù WHY NURSES AND TEACHERS CHOOSE ANGAWATCH
+The most important question the competition judges will ask is: would real nurses and teachers actually want to live here? The answer must be yes for reasons that go beyond cost savings ù people do not move their families 60km from Nairobi for a spreadsheet. These are the genuine pull factors.
+5.1 Pull Factors ù Why Angawatch, Not Just æ****Somewhere Cheaper****Æ
+5.2 Rent vs Own ù The Dual Tenure Model
+Not every resident will be ready or able to take on a 25-year mortgage from Day 1. Angawatch operates a dual tenure model: the community cooperative owns a block of units that are rented to residents who are in the mortgage qualification process, on short-term contracts, or simply prefer renting. This also provides early cash flow for the cooperative during the construction phase.
+The rental option means Angawatch is accessible to a junior nurse (KES 40,000 sole income) who cannot qualify for a mortgage today but wants to establish roots in the community. Rental income from cooperative-owned units is already included in the KES 178.4M/year community revenue figure.
+5.3 Population Verification ù Aligned with Competition Brief
+Population arithmetic: 300 + 4,520 + 3,150 + 120 = 8,090. This is the cleanest possible answer to the competitionæs Æfamily of 4, plus or minusÆ brief: 1,830 units designed exactly for families of 4; 170 units for the plus/minus cases.
+5.4 Honest Income Range
+ALIGNED WITH COMPETITION BRIEF: The competition specifies a baseline demographic of a 4-person family (2 parents, 2 children). The Angawatch unit mix was reverse-engineered from this constraint. The 2-Bedroom apartment is the quintessential Kenyan Starter Family Home: parents in the master bedroom, two children sharing the second bedroom ù a 4-person household in a 2BR. The 3-Bedroom maisonette is for the same family when children are older and need separate rooms. Together, 1,130 Î 2BR + 700 Î 3BR = 1,830 units = 91.5% of the entire community. These are the æCore Family Units.Æ The remaining 8.5%: 150 Î 1BR for young professionals and childless couples (the æminusÆ demographic), and 20 Î 4BR for larger multi-generational families (the æplusÆ demographic). This mix literally quotes the competition briefÆs own æplus or minusÆ language back to the judges.
+KMRC Affordability ù VAT-Inclusive Construction Cost KES 46,500/m▓ (All units sold except 150 Î 1BR cooperative rentals)
+Error reading docx: 'charmap' codec can't encode character '\u2212' in position 39: character maps to <undefined>
+
+--- Extracted from c:\Users\phant\Desktop\Angawatch\Angawatch_Template_Deck.pptx.pptx ---
+
+Slide 1:
+Power the Community 2026
+Kenya's first cognitive community
+By Ryan Nguitui  and Gitahi Githinji
+
+Kenya
+
+Slide 2:
+Table of Contents
+ANGAWATCH
+1
+2
+Problem
+Site & Community
+3
+Energy System
+4
+Cognitive Community
+5
+Financial Proof
+6
+Impact & Close
+7
+Our Performance 
+8
+WhatÆs Next for Us?
+April 2026
+
+Slide 3:
+KES 36,100/month
+April 2026
+Wanjiku Twota
+Her basics cost KES 36,100 before food, school, or savings
+Rent (3-room Matuu): KES 18,000 ù gets nothing at end of 25 years | Electricity (KPLC prepaid): KES 7,200 ù 15û25 outages per year
+Commute (boda + matatu): KES 6,600 ù 2 hours daily, each way | Cooking (retail LPG): KES 1,560 ù KES 1,300û1,500 per cylinder
+Housing in nearby residential area- Matuu
+
+Slide 4:
+ANGAWATCH
+April 2026
+What the people had to say
+ GRADE  7 TEACHER
+BODA BODA OPERATOR
+Salary - KES 65K gross 
+
+Salary - KES 38K net 
+DEPUTY PRINCIPAL
+Salary - KES 135K 
+"
+My husband and I make a decent combined income, but our expenses drain it quickly. Right now, we rent a 3-room place in a shared compound for KES 15,000 a month, but it doesn't even have piped hot water. Honestly, our biggest headache is the electricity. The KPLC tokens run out incredibly fast, and when there is load sheddingùwhich happens all the timeùthe food in our fridge just goes bad. Between the two of us, we also spend over KES 6,000 every month just taking matatus and bodas to work. When it comes to cooking, buying a full gas cylinder at once is a heavy upfront cost. Sometimes we have to use the jiko, but the smoke makes the children cough
+"
+"
+Riding a boda boda is hard work, and petrol prices are killing my business. I spend up to KES 8,000 a month just on fuel, and the price seems to go up every week, but there is no alternative. I am currently renting a single room for KES 4,000 with a shared latrine. I don't even have my own electricity meter; I have to buy tokens from a vendor who overcharges me at KES 35 per unit. I don't need a massive house right now, I just want a safe place of my own where the electricity actually works and doesn't cost a fortune
+"
+"
+I work in Yatta Sub-County, but I currently rent a house in Machakos town for KES 45,000 a month and commute daily. The land out here in Yatta is good, but who will teach my children if all the good teachers are in Nairobi or the big towns? I refuse to move my family 60km away from good schools and hospitals. Also, my job requires me to work late into the night marking exams and doing administrative work. I need the lights to work, and I need the fridge to keep my elderly mother's medication cold. I cannot afford to budget for a noisy diesel generator every single time the KPLC grid fails
+"
+Most answers were translated from Kiswahili
+What is your biggest monthly expense after rent, and how does it affect your family? How reliable is your electricity, and what happens when the power goes out? What challenges do you face with your daily commute or your transport business? If you could change one thing about your current living situation or housing, what would it be?  How do you manage the costs of cooking fuel for your home?
+Some of the questions we asked
+
+Slide 5:
++KSH 6M
+Current  housing costs 25% more  and energy, 
+100% than Angawatch  ù  Common Mwananchi
+struggles to pay that
+ for the 2,000 families
+April 2026
+
+Slide 6:
+ANGAWATCH
+April 2026
+We don't retrofit solar onto houses ù we build houses around solar
+Error reading pptx: 'charmap' codec can't encode character '\u2192' in position 34: character maps to <undefined>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Chart 08 — PM2.5 Reduction</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>body{margin:0;background:#fff;display:flex;align-items:center;justify-content:center;height:100vh;font-family:Calibri,sans-serif;}.wrap{width:900px;height:480px;}</style>
+</head>
+<body>
+<div class="wrap"><canvas id="c"></canvas></div>
+<script>
+const ctx=document.getElementById('c').getContext('2d');
+const labels=['Charcoal (current)','LPG Phase 1 (homes)','Biogas (institutions)','Solar Induction Phase 3'];
+const vals=[650,20,8,0.5];
+const colors=['#7F1D1D','#BA7517','#0E7490','#166534'];
+new Chart(ctx,{type:'bar',data:{
+  labels:labels,
+  datasets:[{label:'PM2.5 µg/m³ (during cooking)',data:vals,backgroundColor:colors,borderRadius:4,indexAxis:'y'}]},
+  options:{responsive:true,maintainAspectRatio:true,indexAxis:'y',
+    plugins:{
+      legend:{display:false},
+      tooltip:{callbacks:{label:ctx=>`${ctx.raw} µg/m³`}},
+      annotation:{annotations:{
+        who:{type:'line',xMin:15,xMax:15,borderColor:'#166534',borderWidth:2,borderDash:[6,4],
+          label:{content:'WHO Safe Limit: 15 µg/m³',display:true,position:'start',color:'#166534',font:{size:11,weight:'bold'},backgroundColor:'rgba(255,255,255,0.8)'}
+        }}}},
+    scales:{
+      x:{type:'logarithmic',title:{display:true,text:'PM2.5 µg/m³ (log scale)',font:{size:13},color:'#64748B'},
+        ticks:{font:{size:12},color:'#64748B'},grid:{color:'#E2E8F0'}},
+      y:{ticks:{font:{size:13},color:'#1E293B'},grid:{display:false}}}}});
+</script></body></html>

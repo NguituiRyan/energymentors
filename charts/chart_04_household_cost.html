@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Chart 04 — Household Cost Comparison</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>body{margin:0;background:#fff;display:flex;align-items:center;justify-content:center;height:100vh;font-family:Calibri,sans-serif;}.wrap{width:900px;height:480px;}</style>
+</head>
+<body>
+<div class="wrap"><canvas id="c"></canvas></div>
+<script>
+const ctx=document.getElementById('c').getContext('2d');
+const cats=['Housing/EMI','Electricity','Cooking','Water','Transport','School'];
+const angawatch=[40803,1350,1295,800,2200,2000];
+const nairobi=[55000,11500,1560,3000,7040,8000];
+new Chart(ctx,{type:'bar',data:{
+  labels:cats,
+  datasets:[
+    {label:'Angawatch (KES/month)',data:angawatch,backgroundColor:'#166534',borderRadius:4},
+    {label:'Nairobi Satellite (KES/month)',data:nairobi,backgroundColor:'#0D2B4E',borderRadius:4}]},
+  options:{responsive:true,maintainAspectRatio:true,
+    plugins:{legend:{labels:{font:{size:13},color:'#1E293B'}},
+      tooltip:{callbacks:{label:ctx=>`KES ${ctx.raw.toLocaleString()}/month`}}},
+    scales:{
+      x:{ticks:{font:{size:12},color:'#1E293B'},grid:{display:false}},
+      y:{title:{display:true,text:'KES / month',font:{size:13},color:'#64748B'},
+        ticks:{font:{size:12},color:'#64748B',callback:v=>`KES ${v.toLocaleString()}`},
+        grid:{color:'#E2E8F0'}}}}});
+</script></body></html>

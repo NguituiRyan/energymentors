@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Chart 07 — BCR Comparison</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>body{margin:0;background:#fff;display:flex;align-items:center;justify-content:center;height:100vh;font-family:Calibri,sans-serif;}.wrap{width:900px;height:480px;}</style>
+</head>
+<body>
+<div class="wrap"><canvas id="c"></canvas></div>
+<script>
+const ctx=document.getElementById('c').getContext('2d');
+new Chart(ctx,{type:'bar',data:{
+  labels:['M-Pesa SmartMeter\n(% Return on KES 2.5M)','IoT Flood System\n(BCR)','Biogas Plant\n(BCR)'],
+  datasets:[{
+    label:'Benefit-Cost Ratio / Return',
+    data:[2304,61.5,2.8],
+    backgroundColor:['#0D2B4E','#0E7490','#BA7517'],
+    borderRadius:4}]},
+  options:{responsive:true,maintainAspectRatio:true,
+    plugins:{legend:{display:false},
+      tooltip:{callbacks:{label:ctx=>{
+        if(ctx.dataIndex===0)return`${ctx.raw}% return on KES 2.5M investment`;
+        return`BCR: ${ctx.raw}x`;}}}},
+    scales:{
+      x:{ticks:{font:{size:13},color:'#1E293B'},grid:{display:false}},
+      y:{type:'logarithmic',title:{display:true,text:'BCR / % Return (log scale)',font:{size:13},color:'#64748B'},
+        ticks:{font:{size:12},color:'#64748B',callback:v=>v.toLocaleString()},
+        grid:{color:'#E2E8F0'}}}}});
+</script></body></html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Chart 05 — Capital Stack</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>body{margin:0;background:#fff;display:flex;align-items:center;justify-content:center;height:100vh;font-family:Calibri,sans-serif;}.wrap{width:700px;height:500px;}</style>
+</head>
+<body>
+<div class="wrap"><canvas id="c"></canvas></div>
+<script>
+const ctx=document.getElementById('c').getContext('2d');
+new Chart(ctx,{type:'doughnut',data:{
+  labels:['DFI (AfDB/IFC/AIIB)\nKES 8,037M','AHP Grant\nKES 1,680M','County Bond\nKES 1,000M','SACCO\nKES 800M','Carbon Forward\nKES 163M','Equity\nKES 532M'],
+  datasets:[{data:[8037,1680,1000,800,163,532],
+    backgroundColor:['#0D2B4E','#0E7490','#166534','#BA7517','#1A5C9E','#64748B'],
+    borderWidth:2,borderColor:'#fff',hoverOffset:8}]},
+  options:{responsive:true,maintainAspectRatio:true,cutout:'55%',
+    plugins:{
+      legend:{position:'right',labels:{font:{size:12},color:'#1E293B',padding:10}},
+      tooltip:{callbacks:{label:ctx=>`${ctx.label}: KES ${ctx.raw.toLocaleString()}M (${(ctx.raw/12212*100).toFixed(1)}%)`}}}}});
+</script></body></html>
